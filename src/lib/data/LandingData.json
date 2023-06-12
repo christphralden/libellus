@@ -1,0 +1,55 @@
+{
+    "coursesInfo": [
+      {
+        "skill": "Web Development",
+        "description": "Learn the fundamentals of web development, including HTML, CSS, and JavaScript. Gain practical skills to design and build interactive websites and web applications, allowing you to create engaging user experiences and launch your online presence.",
+        "bannerImage": "https://cdn.dribbble.com/users/3036385/screenshots/6694433/web_development.jpg"
+      },
+      {
+        "skill": "Data Science",
+        "description": "Discover the practical application of data science techniques and tools like Python, R, and machine learning algorithms. Acquire the skills to analyze large datasets, extract valuable insights, make data-driven decisions, and solve real-world problems across various industries.",
+        "bannerImage": "https://media.istockphoto.com/id/1325034866/vector/data-analysis-vector-illustration-with-young-woman-sitting-in-front-of-big-computer-monitor.jpg?s=612x612&w=0&k=20&c=n5-pe8pgPfPMcRpOL8bpy6mcx-LHrxLs2sYX1vJ9smM="
+      },
+      {
+        "skill": "Mobile App Development",
+        "description": "Immerse yourself in the world of mobile app development for iOS and Android platforms. Learn to build functional and user-friendly mobile applications that cater to the needs of millions of smartphone users worldwide, offering them convenient solutions and engaging experiences.",
+        "bannerImage": "https://static.vecteezy.com/system/resources/previews/002/209/482/original/mobile-app-development-illustration-free-vector.jpg"
+      },
+      {
+        "skill": "Artificial Intelligence",
+        "description": "Explore the practical uses of artificial intelligence and machine learning algorithms. Develop the ability to create intelligent systems that automate tasks, make predictions, and provide personalized recommendations, enabling you to contribute to advancements in various fields such as healthcare, finance, and automation.",
+        "bannerImage": "https://img.freepik.com/premium-vector/artificial-intelligence-concept-ai-machine-learning-analysis-information-digital-brain_501813-442.jpg?w=2000"
+      },
+      {
+        "skill": "Digital Marketing",
+        "description": "Master practical digital marketing strategies like search engine optimization (SEO), social media marketing, email marketing, and content creation. Acquire the skills to effectively promote products or services, increase online visibility, attract customers, and drive business growth in the digital era.",
+        "bannerImage": "https://99designs-blog.imgix.net/blog/wp-content/uploads/2019/03/What_is_digital_marketing_jpg_7ytL8TjA.jpg?auto=format&q=60&w=1280&h=750&fit=crop&crop=faces"
+      },
+      {
+        "skill": "Cybersecurity",
+        "description": "Learn practical cybersecurity techniques and methodologies to protect computer systems, networks, and sensitive data from unauthorized access and malicious activities. Acquire skills in network security, cryptography, ethical hacking, and security risk assessment.",
+        "bannerImage": "https://img.freepik.com/premium-vector/cyber-security-illustration-concept-with-characters_269730-111.jpg?w=2000"
+      },
+      {
+        "skill": "UI/UX Design",
+        "description": "Develop practical skills in user interface (UI) and user experience (UX) design. Learn to create visually appealing and intuitive interfaces, conduct user research, design wireframes and prototypes, and optimize user interactions to enhance the overall user experience.",
+        "bannerImage": "https://cdn.dribbble.com/users/856748/screenshots/4301147/dribbble_uiuxdesign.io.png"
+      },
+      {
+        "skill": "Software Development",
+        "description": "Master software development principles and programming languages such as Java, Python, or C++. Learn how to design, code, test, and debug software applications, equipping you with the skills to develop robust and efficient solutions for various platforms and purposes.",
+        "bannerImage": "https://cdn.dribbble.com/users/1340407/screenshots/5305272/software_development_illustration_for_competition-01_4x.jpg"
+      },
+      {
+        "skill": "Database Management",
+        "description": "Gain practical knowledge of database management systems such as MySQL, Oracle, or MongoDB. Learn how to design and optimize databases, write efficient queries, and ensure data integrity and security, enabling you to handle large-scale data storage and retrieval effectively.",
+        "bannerImage": "https://cdn.dribbble.com/users/1962791/screenshots/5534733/database-4.jpg"
+      },
+      {
+        "skill": "Cloud Computing",
+        "description": "Explore the practical aspects of cloud computing platforms like Amazon Web Services (AWS), Microsoft Azure, or Google Cloud. Learn to deploy, configure, and manage scalable and reliable cloud infrastructure, allowing you to leverage cloud services for storage, computation, and application hosting.",
+        "bannerImage": "https://img.freepik.com/premium-vector/cloud-computing-concept-with-people-scene-man-woman-processing-information-laptops-using-cloud-technology-data-storage-backup-vector-illustration-with-characters-flat-design-web_9209-9815.jpg"
+      }
+    ]
+  }
+  

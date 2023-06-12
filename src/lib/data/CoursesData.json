@@ -1,0 +1,3444 @@
+{
+    "courses": {
+      "c": [
+        {
+          "about": "C programming is a foundational language that forms the basis for many other programming languages. In this course, you'll dive into the fundamentals of C programming and gain a solid understanding of its syntax, data types, variables, operators, control structures, and functions. Whether you're a beginner or have some programming experience, this course will provide you with a strong foundation in C programming concepts. Through hands-on exercises and coding projects, you'll practice writing C code and develop your problem-solving skills. By the end of the course, you'll be able to write C programs to solve various tasks and have a solid understanding of the building blocks of programming.",
+          "description": "Learn the basics of C programming, including data types, variables, operators, control structures, and functions.",
+          "difficulty": "Beginner",
+          "id": "C001",
+          "lessons": 10,
+          "studentsAmount": "1,200+",
+          "tags": [
+            "Fundamentals",
+            "Syntax"
+          ],
+          "title": "C Programming Basics",
+          "topics": [
+            {
+              "lessonID": "C00101",
+              "title": "Introduction to C Programming"
+            },
+            {
+              "lessonID": "C00102",
+              "title": "Data Types and Variables"
+            },
+            {
+              "lessonID": "C00103",
+              "title": "Operators and Expressions"
+            },
+            {
+              "lessonID": "C00104",
+              "title": "Control Structures"
+            },
+            {
+              "lessonID": "C00105",
+              "title": "Functions"
+            },
+            {
+              "lessonID": "C00106",
+              "title": "Arrays and Strings"
+            },
+            {
+              "lessonID": "C00107",
+              "title": "Pointers"
+            },
+            {
+              "lessonID": "C00108",
+              "title": "Structures and Unions"
+            },
+            {
+              "lessonID": "C00109",
+              "title": "File Input/Output"
+            },
+            {
+              "lessonID": "C00110",
+              "title": "Debugging and Error Handling"
+            }
+          ]
+        },
+        {
+          "about": "Arrays and strings are fundamental data structures in C programming that allow you to store and manipulate multiple values efficiently. In this course, you'll dive deeper into arrays and strings and learn how to use them effectively in your C programs. You'll explore topics such as array declaration, initialization, accessing array elements, and performing operations on strings like concatenation, comparison, and substring extraction. By the end of this course, you'll have a solid understanding of how to work with arrays and strings in C, which are essential skills for building more complex programs and data structures.",
+          "description": "Understand how to use arrays and strings in C programming, including array declaration, initialization, accessing array elements, and string manipulation.",
+          "difficulty": "Beginner",
+          "id": "C002",
+          "lessons": 8,
+          "studentsAmount": "800+",
+          "tags": [
+            "Arrays",
+            "Strings"
+          ],
+          "title": "Arrays and Strings in C",
+          "topics": [
+            {
+              "lessonID": "C00201",
+              "title": "Introduction to Arrays"
+            },
+            {
+              "lessonID": "C00202",
+              "title": "Declaring and Initializing Arrays"
+            },
+            {
+              "lessonID": "C00203",
+              "title": "Accessing Array Elements"
+            },
+            {
+              "lessonID": "C00204",
+              "title": "Multidimensional Arrays"
+            },
+            {
+              "lessonID": "C00205",
+              "title": "Introduction to Strings"
+            },
+            {
+              "lessonID": "C00206",
+              "title": "Declaring and Initializing Strings"
+            },
+            {
+              "lessonID": "C00207",
+              "title": "String Manipulation"
+            },
+            {
+              "lessonID": "C00208",
+              "title": "Working with Character Arrays"
+            }
+          ]
+        },
+        {
+          "about": "Pointers are a powerful feature in C programming that allow you to work directly with memory addresses and manipulate data at a lower level. In this course, you'll explore the concept of pointers and learn how to use them effectively in your C programs. You'll understand how pointers work, how to declare and initialize pointers, and how to perform operations such as dereferencing and pointer arithmetic. You'll also learn about pointer relationships, arrays, and pointers to structures. By the end of this course, you'll have a solid understanding of pointers in C and how they can be used to optimize and manipulate data in memory.",
+          "description": "Learn about the concept of pointers in C programming and how to use them to manipulate data directly in memory.",
+          "difficulty": "Intermediate",
+          "id": "C003",
+          "lessons": 12,
+          "studentsAmount": "1,200+",
+          "tags": [
+            "Pointers",
+            "Memory"
+          ],
+          "title": "Pointers in C",
+          "topics": [
+            {
+              "lessonID": "C00301",
+              "title": "Introduction to Pointers"
+            },
+            {
+              "lessonID": "C00302",
+              "title": "Pointer Arithmetic"
+            },
+            {
+              "lessonID": "C00303",
+              "title": "Pointers and Functions"
+            },
+            {
+              "lessonID": "C00304",
+              "title": "Pointers and Arrays"
+            },
+            {
+              "lessonID": "C00305",
+              "title": "Pointers and Structures"
+            },
+            {
+              "lessonID": "C00306",
+              "title": "Dynamic Memory Allocation"
+            },
+            {
+              "lessonID": "C00307",
+              "title": "Null Pointers and Segmentation Faults"
+            },
+            {
+              "lessonID": "C00308",
+              "title": "Pointers to Pointers"
+            },
+            {
+              "lessonID": "C00309",
+              "title": "Function Pointers"
+            },
+            {
+              "lessonID": "C00310",
+              "title": "Pointers and Multidimensional Arrays"
+            },
+            {
+              "lessonID": "C00311",
+              "title": "Pointers and Linked Lists"
+            },
+            {
+              "lessonID": "C00312",
+              "title": "Advanced Pointer Topics"
+            }
+          ]
+        },
+        {
+          "about": "Dynamic memory allocation is an essential concept in C programming that allows you to allocate memory at runtime. In this course, you'll dive into dynamic memory allocation techniques using functions like malloc, calloc, and realloc. You'll learn how to allocate memory for arrays, structures, and strings dynamically. Additionally, you'll understand how to deallocate memory to prevent memory leaks. Throughout the course, you'll practice managing memory efficiently and handling common memory allocation scenarios. By the end, you'll have a solid understanding of dynamic memory allocation in C and be able to effectively allocate and deallocate memory based on your program's requirements.",
+          "description": "Learn how to allocate and deallocate memory dynamically in C programming using functions such as malloc, calloc, and realloc.",
+          "difficulty": "Intermediate",
+          "id": "C004",
+          "lessons": 7,
+          "studentsAmount": "800+",
+          "tags": [
+            "Memory Allocation",
+            "Pointers"
+          ],
+          "title": "Dynamic Memory Allocation in C",
+          "topics": [
+            {
+              "lessonID": "C00401",
+              "title": "Introduction to Dynamic Memory Allocation"
+            },
+            {
+              "lessonID": "C00402",
+              "title": "Malloc and Calloc Functions"
+            },
+            {
+              "lessonID": "C00403",
+              "title": "Realloc Function"
+            },
+            {
+              "lessonID": "C00404",
+              "title": "Memory Leak and Memory Corruption"
+            },
+            {
+              "lessonID": "C00405",
+              "title": "Dynamic Memory Allocation and Pointers"
+            },
+            {
+              "lessonID": "C00406",
+              "title": "Dynamic Memory Allocation and Strings"
+            },
+            {
+              "lessonID": "C00407",
+              "title": "Dynamic Data Structures"
+            }
+          ]
+        },
+        {
+          "about": "Structures and unions are powerful features in C programming that allow you to group related data elements together. In this course, you'll explore the concept of structures and unions, their syntax, and how to work with them effectively. You'll learn how to declare and initialize structures, access structure elements, and use structures to create complex data types. Additionally, you'll understand unions and their ability to share memory space among different data types. Through hands-on exercises and examples, you'll gain practical experience in utilizing structures and unions to organize and manipulate data in your C programs. By the end of the course, you'll have a solid understanding of structures and unions and be able to leverage their power in your C programming projects.",
+          "description": "Learn how to use structures and unions in C programming, including declaration, initialization, accessing structure elements, and typecasting.",
+          "difficulty": "Intermediate",
+          "id": "C005",
+          "lessons": 8,
+          "studentsAmount": "700+",
+          "tags": [
+            "Structures",
+            "Unions"
+          ],
+          "title": "Structures and Unions in C",
+          "topics": [
+            {
+              "lessonID": "C00501",
+              "title": "Introduction to Structures"
+            },
+            {
+              "lessonID": "C00502",
+              "title": "Declaring and Initializing Structures"
+            },
+            {
+              "lessonID": "C00503",
+              "title": "Accessing Structure Elements"
+            },
+            {
+              "lessonID": "C00504",
+              "title": "Nested Structures"
+            },
+            {
+              "lessonID": "C00505",
+              "title": "Introduction to Unions"
+            },
+            {
+              "lessonID": "C00506",
+              "title": "Declaring and Initializing Unions"
+            },
+            {
+              "lessonID": "C00507",
+              "title": "Accessing Union Elements"
+            },
+            {
+              "lessonID": "C00508",
+              "title": "Structures vs. Unions"
+            }
+          ]
+        },
+        {
+          "about": "File input/output (I/O) is an essential aspect of programming, allowing you to interact with external files for data storage and retrieval. In this course, you'll dive into the world of file I/O in C programming. You'll learn how to open files, read data from them, write data to them, and close files properly. Understanding file streams and their associated functions, you'll gain the knowledge to manipulate files effectively. You'll explore different modes of file access, including read, write, and append, and learn how to handle errors during file I/O operations. Through practical examples and exercises, you'll develop the skills to work with files seamlessly in your C programs. By the end of the course, you'll have a solid understanding of file input/output in C and be able to leverage it to handle data persistence and manipulation in your projects.",
+          "description": "Understand how to perform file input/output operations in C programming, including opening, closing, reading, and writing files.",
+          "difficulty": "Intermediate",
+          "id": "C006",
+          "lessons": 6,
+          "studentsAmount": "450+",
+          "tags": [
+            "File I/O",
+            "Streams"
+          ],
+          "title": "File Input/Output in C",
+          "topics": [
+            {
+              "lessonID": "C00601",
+              "title": "Introduction to File Input/Output"
+            },
+            {
+              "lessonID": "C00602",
+              "title": "Opening and Closing Files"
+            },
+            {
+              "lessonID": "C00603",
+              "title": "Reading and Writing Characters"
+            },
+            {
+              "lessonID": "C00604",
+              "title": "Reading and Writing Strings"
+            },
+            {
+              "lessonID": "C00605",
+              "title": "Reading and Writing Binary Data"
+            },
+            {
+              "lessonID": "C00606",
+              "title": "Error Handling and File Positioning"
+            }
+          ]
+        },
+        {
+          "about": "Welcome to the course on Recursion in C! In this course, you will dive into the fascinating world of recursion and learn how to implement recursive functions in C programming. Recursion is a powerful technique that allows you to solve complex problems by breaking them down into smaller, more manageable subproblems. By understanding the concept of a base case and recursive case, you will gain the ability to design elegant and efficient recursive algorithms. Through practical examples and hands-on exercises, you will develop a deep understanding of recursion and its applications in C programming. Get ready to enhance your problem-solving skills and take your programming abilities to the next level!",
+          "description": "Learn how to implement recursive functions in C programming, including base case, recursive case, and stack overflow.",
+          "difficulty": "Intermediate",
+          "id": "C007",
+          "lessons": 5,
+          "studentAmount": "1800+",
+          "tags": [
+            "Recursion",
+            "Functions"
+          ],
+          "title": "Recursion in C",
+          "topics": [
+            {
+              "lessonID": "C00701",
+              "title": "Introduction to Recursion"
+            },
+            {
+              "lessonID": "C00702",
+              "title": "Recursive Functions"
+            },
+            {
+              "lessonID": "C00703",
+              "title": "Base Case and Recursive Case"
+            },
+            {
+              "lessonID": "C00704",
+              "title": "Recursion vs Iteration"
+            },
+            {
+              "lessonID": "C00705",
+              "title": "Handling Stack Overflow"
+            }
+          ]
+        },
+        {
+          "about": "Welcome to the world of Advanced Data Structures in C! In this course, you'll explore the fascinating realm of trees, graphs, and hash tables and master their implementation in C programming. Gain the skills to solve complex problems with elegance and efficiency. Unleash your creativity as you craft intelligent algorithms to handle large data sets. Join us on this exciting journey to push the boundaries of what's possible in C programming. Let's dive in!",
+          "description": "Learn about advanced data structures such as trees, graphs, and hash tables, and how to implement them in C programming.",
+          "difficulty": "Advanced",
+          "id": "C008",
+          "lessons": 10,
+          "studentAmount": "5000+",
+          "tags": [
+            "Data Structures",
+            "Algorithms"
+          ],
+          "title": "Advanced Data Structures in C",
+          "topics": [
+            {
+              "lessonID": "C00801",
+              "title": "Introduction to Advanced Data Structures"
+            },
+            {
+              "lessonID": "C00802",
+              "title": "Binary Trees and Binary Search Trees"
+            },
+            {
+              "lessonID": "C00803",
+              "title": "AVL Trees and Red-Black Trees"
+            },
+            {
+              "lessonID": "C00804",
+              "title": "B-Trees and B+ Trees"
+            },
+            {
+              "lessonID": "C00805",
+              "title": "Tries and Suffix Trees"
+            },
+            {
+              "lessonID": "C00806",
+              "title": "Heaps and Priority Queues"
+            },
+            {
+              "lessonID": "C00807",
+              "title": "Graphs and Graph Algorithms"
+            },
+            {
+              "lessonID": "C00808",
+              "title": "Hash Tables and Hash Functions"
+            },
+            {
+              "lessonID": "C00809",
+              "title": "Collision Resolution Techniques"
+            },
+            {
+              "lessonID": "C00810",
+              "title": "Advanced Hashing Techniques"
+            }
+          ]
+        },
+        {
+          "about": "Embark on a journey into the realm of Concurrency in C, where the symphony of threads and the dance of synchronization await you. In this course, tailored to the bold and curious, you'll unlock the secrets of writing concurrent programs that harness the power of parallelism. Through a tapestry of threads, synchronized actions, and mutual exclusion techniques, you'll gain the ability to orchestrate harmonious interactions among multiple tasks. Discover the art of striking a delicate balance between efficiency and correctness as you navigate the intricate landscape of concurrency. Get ready to craft robust and responsive programs that embrace the true essence of multitasking. Join this adventure and unleash your creativity in the world of Concurrency in C. Are you prepared to synchronize your steps and unleash the power of parallel programming? Let's dive in!",
+          "description": "Understand how to write concurrent programs in C using threads, synchronization, and mutual exclusion techniques.",
+          "difficulty": "Advanced",
+          "id": "C009",
+          "lessons": 9,
+          "tags": [
+            "Concurrency",
+            "Multithreading"
+          ],
+          "title": "Concurrency in C",
+          "topics": [
+            {
+              "lessonID": "C00901",
+              "title": "Introduction to Concurrency"
+            },
+            {
+              "lessonID": "C00902",
+              "title": "Threads in C"
+            },
+            {
+              "lessonID": "C00903",
+              "title": "Synchronization and Mutual Exclusion"
+            },
+            {
+              "lessonID": "C00904",
+              "title": "Deadlocks and Livelocks"
+            },
+            {
+              "lessonID": "C00905",
+              "title": "Race Conditions and Critical Sections"
+            },
+            {
+              "lessonID": "C00906",
+              "title": "Semaphores and Monitors"
+            },
+            {
+              "lessonID": "C00907",
+              "title": "Message Passing and Sockets"
+            },
+            {
+              "lessonID": "C00908",
+              "title": "Concurrency Debugging and Testing"
+            },
+            {
+              "lessonID": "C00909",
+              "title": "Advanced Concurrency Topics"
+            }
+          ]
+        },
+        {
+          "about": "Welcome to the comprehensive course on Socket Programming in C! Join us on an enlightening journey into the realm of network application development, where you'll gain the skills to create powerful and reliable connections using the time-tested language of C. Through meticulous exploration and hands-on exercises, you'll unlock the secrets of socket programming, mastering the art of socket creation, binding, and connecting. Whether you're building client-server architectures, crafting real-time communication systems, or exploring distributed computing paradigms, this course equips you with the essential knowledge to navigate the intricate world of networking. With practical examples and expert guidance, you'll gain the confidence to tackle complex challenges and design efficient network applications. Prepare to embark on an extraordinary expedition into Socket Programming in C and unleash the potential of networked communication. Are you ready to connect your programming prowess with the world of networks? Let's begin!",
+          "description": "Learn how to create network applications using socket programming in C, including socket creation, binding, and connecting.",
+          "difficulty": "Advanced",
+          "id": "C010",
+          "lessons": 8,
+          "studentAmount": "2500+",
+          "tags": [
+            "Networking",
+            "Sockets"
+          ],
+          "title": "Socket Programming in C",
+          "topics": [
+            {
+              "lessonID": "C01001",
+              "title": "Introduction to Socket Programming"
+            },
+            {
+              "lessonID": "C01002",
+              "title": "Socket Address Structures"
+            },
+            {
+              "lessonID": "C01003",
+              "title": "Creating Sockets"
+            },
+            {
+              "lessonID": "C01004",
+              "title": "Binding and Listening"
+            },
+            {
+              "lessonID": "C01005",
+              "title": "Connecting to a Server"
+            },
+            {
+              "lessonID": "C01006",
+              "title": "Sending and Receiving Data"
+            },
+            {
+              "lessonID": "C01007",
+              "title": "Blocking and Non-Blocking Sockets"
+            },
+            {
+              "lessonID": "C01008",
+              "title": "Advanced Socket Topics"
+            }
+          ]
+        },
+        {
+          "about": "Immerse yourself in the realm of OpenGL Programming in C, where the fusion of art and technology gives rise to stunning visual experiences. In this academically enriched course, you'll unravel the intricacies of creating 2D and 3D graphics using the powerful OpenGL framework and the versatile C programming language. Through a systematic exploration of basic OpenGL functions, rendering techniques, and shading principles, you'll acquire a deep understanding of the underlying principles that govern computer graphics. With hands-on projects and captivating exercises, you'll hone your skills in transforming abstract concepts into vibrant visual representations. Join us on this intellectual odyssey as we navigate the realms of light, texture, and perspective, and delve into the realm of immersive virtual worlds. Are you ready to unleash your creative potential and master the art of OpenGL Programming in C? Let's embark on this captivating journey together!",
+          "description": "Understand how to create 2D and 3D graphics using OpenGL programming in C, including basic OpenGL functions, rendering, and shading.",
+          "difficulty": "Advanced",
+          "id": "C011",
+          "lessons": 12,
+          "studentAmount": "1200+",
+          "tags": [
+            "Graphics",
+            "OpenGL"
+          ],
+          "title": "OpenGL Programming in C",
+          "topics": [
+            {
+              "lessonID": "C01101",
+              "title": "Introduction to OpenGL"
+            },
+            {
+              "lessonID": "C01102",
+              "title": "Graphics Pipeline"
+            },
+            {
+              "lessonID": "C01103",
+              "title": "OpenGL Shading Language"
+            },
+            {
+              "lessonID": "C01104",
+              "title": "Rendering Techniques"
+            },
+            {
+              "lessonID": "C01105",
+              "title": "Texture Mapping"
+            },
+            {
+              "lessonID": "C01106",
+              "title": "Lighting and Shadows"
+            },
+            {
+              "lessonID": "C01107",
+              "title": "Framebuffers and Renderbuffers"
+            },
+            {
+              "lessonID": "C01108",
+              "title": "Advanced Rendering Techniques"
+            },
+            {
+              "lessonID": "C01109",
+              "title": "Creating 3D Objects"
+            },
+            {
+              "lessonID": "C01110",
+              "title": "Camera Control"
+            },
+            {
+              "lessonID": "C01111",
+              "title": "Animation and Interactivity"
+            },
+            {
+              "lessonID": "C01112",
+              "title": "Optimization and Performance"
+            }
+          ]
+        },
+        {
+          "about": "Welcome to the world of Compiler Design in C, where the art of transforming code takes center stage. In this advanced-level course, you'll delve into the intricate process of designing and implementing a compiler using the versatile C programming language. From lexical analysis and parsing to semantic analysis, code generation, and optimization, you'll gain a comprehensive understanding of each stage involved in turning high-level code into executable programs. Through a blend of theoretical knowledge and practical exercises, you'll develop the skills to dissect complex code structures, analyze their semantics, and generate efficient machine code. Join us on this intellectual journey as we explore the inner workings of programming languages and unleash the power of compiler design. Are you ready to unravel the magic behind code transformation and shape the future of programming? Let's dive into the world of Compiler Design in C!",
+          "description": "Learn how to design and implement a compiler in C programming, including lexical analysis, parsing, semantic analysis, code generation, and optimization.",
+          "difficulty": "Advanced",
+          "id": "C012",
+          "lessons": 7,
+          "studentAmount": "800+",
+          "tags": [
+            "Compiler Design",
+            "Programming Languages"
+          ],
+          "title": "Compiler Design in C",
+          "topics": [
+            {
+              "lessonID": "C01201",
+              "title": "Introduction to Compiler Design"
+            },
+            {
+              "lessonID": "C01202",
+              "title": "Lexical Analysis"
+            },
+            {
+              "lessonID": "C01203",
+              "title": "Syntax Analysis and Parsing"
+            },
+            {
+              "lessonID": "C01204",
+              "title": "Semantic Analysis"
+            },
+            {
+              "lessonID": "C01205",
+              "title": "Intermediate Code Generation"
+            },
+            {
+              "lessonID": "C01206",
+              "title": "Code Optimization"
+            },
+            {
+              "lessonID": "C01207",
+              "title": "Code Generation"
+            }
+          ]
+        },
+        {
+          "about": "Welcome to the world of Embedded Systems Programming in C, where the synergy of software and hardware unlocks endless possibilities. In this advanced-level course, you'll embark on a transformative journey to master the art of programming embedded systems using the versatile C programming language. From hardware interfaces to interrupts and timers, you'll delve into the intricacies of designing robust and efficient code that interacts seamlessly with the physical world. Through a combination of theoretical concepts and hands-on projects, you'll acquire the skills to harness the full potential of microcontrollers and build intelligent systems that respond to real-world stimuli. Join us on this enlightening expedition as we navigate the intersection of software and hardware, and empower ourselves to shape the future of technology. Are you ready to unleash your creativity and engineer groundbreaking embedded systems? Let's dive into the world of Embedded Systems Programming in C!",
+          "description": "Understand how to program embedded systems using C programming, including hardware interfaces, interrupts, and timers.",
+          "difficulty": "Advanced",
+          "id": "C013",
+          "lessons": 12,
+          "studentAmount": "1500+",
+          "tags": [
+            "Embedded Systems",
+            "Hardware"
+          ],
+          "title": "Embedded Systems Programming in C",
+          "topics": [
+            {
+              "lessonID": "C01301",
+              "title": "Introduction to Embedded Systems Programming"
+            },
+            {
+              "lessonID": "C01302",
+              "title": "Embedded Systems Architecture and Components"
+            },
+            {
+              "lessonID": "C01303",
+              "title": "Programming Microcontrollers in C"
+            },
+            {
+              "lessonID": "C01304",
+              "title": "Hardware Interfacing with C"
+            },
+            {
+              "lessonID": "C01305",
+              "title": "Interrupts and Timers in Embedded Systems"
+            },
+            {
+              "lessonID": "C01306",
+              "title": "Real-time Operating Systems for Embedded Systems"
+            },
+            {
+              "lessonID": "C01307",
+              "title": "Embedded Systems Networking"
+            },
+            {
+              "lessonID": "C01308",
+              "title": "Power Management in Embedded Systems"
+            },
+            {
+              "lessonID": "C01309",
+              "title": "Debugging and Testing Embedded Systems Programs"
+            },
+            {
+              "lessonID": "C01310",
+              "title": "Security in Embedded Systems Programming"
+            },
+            {
+              "lessonID": "C01311",
+              "title": "Designing Embedded Systems with C"
+            },
+            {
+              "lessonID": "C01312",
+              "title": "Optimizing Embedded Systems Performance"
+            }
+          ]
+        },
+        {
+          "about": "Welcome to the captivating world of Data Structures and Algorithms in C! In this intermediate-level course, you'll embark on an exciting journey to master the fundamental building blocks of efficient and elegant software. Through a comprehensive exploration of arrays, linked lists, trees, graphs, sorting, and searching algorithms, you'll develop a deep understanding of how to organize, manipulate, and retrieve data with precision and speed. By leveraging the power of the C programming language, you'll acquire the skills to design and implement complex algorithms that solve real-world problems. With practical examples and interactive exercises, you'll sharpen your problem-solving abilities and enhance your programming proficiency. Join us on this enlightening quest as we unravel the secrets of data structures and algorithms, and unlock the door to a universe of limitless possibilities. Are you ready to optimize your code and unleash your potential as a programmer? Let's dive into the world of Data Structures and Algorithms in C!",
+          "description": "Learn about data structures and algorithms using C programming, including arrays, linked lists, trees, graphs, sorting, and searching.",
+          "difficulty": "Intermediate",
+          "id": "C014",
+          "lessons": 10,
+          "studentAmount": "3000+",
+          "tags": [
+            "Data Structures",
+            "Algorithms"
+          ],
+          "title": "Data Structures and Algorithms in C",
+          "topics": [
+            {
+              "lessonID": "C01401",
+              "title": "Introduction to Data Structures and Algorithms"
+            },
+            {
+              "lessonID": "C01402",
+              "title": "Arrays and Matrices"
+            },
+            {
+              "lessonID": "C01403",
+              "title": "Linked Lists"
+            },
+            {
+              "lessonID": "C01404",
+              "title": "Stacks and Queues"
+            },
+            {
+              "lessonID": "C01405",
+              "title": "Trees"
+            },
+            {
+              "lessonID": "C01406",
+              "title": "Graphs"
+            },
+            {
+              "lessonID": "C01407",
+              "title": "Sorting Algorithms"
+            },
+            {
+              "lessonID": "C01408",
+              "title": "Searching Algorithms"
+            },
+            {
+              "lessonID": "C01409",
+              "title": "Dynamic Programming"
+            },
+            {
+              "lessonID": "C01410",
+              "title": "Algorithmic Analysis"
+            }
+          ]
+        },
+        {
+          "about": "Welcome to the exhilarating world of Parallel Programming in C, where the power of concurrency and high-performance computing awaits you. In this advanced-level course, you'll embark on a transformative journey to master the art of writing parallel programs using the versatile C programming language. By harnessing the capabilities of OpenMP, MPI, and CUDA, you'll unlock the potential to execute multiple tasks simultaneously, conquer massive computational challenges, and achieve exceptional performance. Through a blend of theoretical concepts, practical examples, and hands-on projects, you'll develop the skills to design efficient parallel algorithms, optimize resource utilization, and harness the power of distributed and GPU computing. Join us on this thrilling expedition as we explore the frontiers of parallelism, where speed and scalability reign supreme. Are you ready to dive into the world of Parallel Programming in C and unlock the true potential of your applications? Let's begin this extraordinary adventure!",
+          "description": "Understand how to write parallel programs in C using OpenMP, MPI, and CUDA.",
+          "difficulty": "Advanced",
+          "id": "C015",
+          "lessons": 11,
+          "studentAmount": "2000+",
+          "tags": [
+            "Parallel Programming",
+            "High Performance Computing"
+          ],
+          "title": "Parallel Programming in C",
+          "topics": [
+            {
+              "lessonID": "C01501",
+              "title": "Introduction to Parallel Computing"
+            },
+            {
+              "lessonID": "C01502",
+              "title": "OpenMP Basics"
+            },
+            {
+              "lessonID": "C01503",
+              "title": "OpenMP Synchronization"
+            },
+            {
+              "lessonID": "C01504",
+              "title": "OpenMP Performance"
+            },
+            {
+              "lessonID": "C01505",
+              "title": "Introduction to MPI"
+            },
+            {
+              "lessonID": "C01506",
+              "title": "MPI Point-to-Point Communication"
+            },
+            {
+              "lessonID": "C01507",
+              "title": "MPI Collective Communication"
+            },
+            {
+              "lessonID": "C01508",
+              "title": "MPI Performance"
+            },
+            {
+              "lessonID": "C01509",
+              "title": "Introduction to CUDA"
+            },
+            {
+              "lessonID": "C01510",
+              "title": "CUDA Memory Management"
+            },
+            {
+              "lessonID": "C01511",
+              "title": "CUDA Performance"
+            }
+          ]
+        }
+      ],
+      "java": [
+        {
+          "about": "Welcome to the captivating world of Java Programming for Beginners! This course is your gateway to the exciting realm of Java, where you'll uncover the art and science of writing elegant and efficient code. Through a meticulously crafted curriculum, you'll embark on an engaging journey to master the fundamental building blocks of Java. From understanding essential data types and control structures to delving deep into the principles of object-oriented programming, you'll acquire the skills to design and develop robust applications. With practical examples, interactive exercises, and a supportive learning environment, you'll gain hands-on experience to confidently apply your newfound knowledge. Join our vibrant community of learners and ignite your passion for programming with Java. With over 10,000 students already enrolled, you'll be part of a dynamic cohort of aspiring programmers. Are you ready to unleash your creativity and become proficient in Java? Let's begin this extraordinary adventure together!",
+          "description": "Learn Java programming fundamentals, including data types, control structures, and object-oriented programming concepts.",
+          "difficulty": "Beginner",
+          "id": "JAVA001",
+          "lessons": 10,
+          "studentAmount": "10,000+",
+          "tags": [
+            "Fundamentals",
+            "Object-Oriented Programming",
+            "Syntax"
+          ],
+          "title": "Java Programming for Beginners",
+          "topics": [
+            {
+              "lessonID": "JAVA00101",
+              "title": "Introduction to Java Programming"
+            },
+            {
+              "lessonID": "JAVA00102",
+              "title": "Data Types and Variables"
+            },
+            {
+              "lessonID": "JAVA00103",
+              "title": "Operators and Expressions"
+            },
+            {
+              "lessonID": "JAVA00104",
+              "title": "Control Structures"
+            },
+            {
+              "lessonID": "JAVA00105",
+              "title": "Arrays"
+            },
+            {
+              "lessonID": "JAVA00106",
+              "title": "Object-Oriented Programming Concepts"
+            },
+            {
+              "lessonID": "JAVA00107",
+              "title": "Classes and Objects"
+            },
+            {
+              "lessonID": "JAVA00108",
+              "title": "Inheritance and Polymorphism"
+            },
+            {
+              "lessonID": "JAVA00109",
+              "title": "Exceptions and Error Handling"
+            },
+            {
+              "lessonID": "JAVA00110",
+              "title": "File Handling and I/O"
+            }
+          ]
+        },
+        {
+          "about": "Welcome to our Java Intermediate Programming course! Whether you're an aspiring developer or looking to enhance your Java skills, this course is designed to take your programming journey to the next level. In this course, you'll dive deep into the world of intermediate Java programming, where you'll master key concepts such as inheritance, polymorphism, and exception handling. Through a combination of comprehensive theory, practical examples, and hands-on projects, you'll gain a solid understanding of how to leverage these advanced features to build robust and scalable Java applications. Join our vibrant community of 10,000+ students, interact with experienced instructors, and collaborate with fellow learners to enhance your Java skills. Get ready to unlock new possibilities with Java Intermediate Programming!",
+          "description": "Learn intermediate Java programming concepts, including inheritance, polymorphism, and exception handling.",
+          "difficulty": "Intermediate",
+          "id": "JAVA002",
+          "lessons": 12,
+          "studentAmount": "10,000+",
+          "tags": [
+            "Inheritance",
+            "Polymorphism",
+            "Exception Handling"
+          ],
+          "title": "Java Intermediate Programming",
+          "topics": [
+            {
+              "lessonID": "JAVA00201",
+              "title": "Inheritance and Polymorphism"
+            },
+            {
+              "lessonID": "JAVA00202",
+              "title": "Abstract Classes and Interfaces"
+            },
+            {
+              "lessonID": "JAVA00203",
+              "title": "Exception Handling"
+            },
+            {
+              "lessonID": "JAVA00204",
+              "title": "Collections Framework"
+            },
+            {
+              "lessonID": "JAVA00205",
+              "title": "Generics and Type Erasure"
+            },
+            {
+              "lessonID": "JAVA00206",
+              "title": "Input and Output Streams"
+            },
+            {
+              "lessonID": "JAVA00207",
+              "title": "Multithreading and Concurrency"
+            },
+            {
+              "lessonID": "JAVA00208",
+              "title": "Lambda Expressions"
+            },
+            {
+              "lessonID": "JAVA00209",
+              "title": "Module System"
+            },
+            {
+              "lessonID": "JAVA00210",
+              "title": "Networking with Sockets"
+            },
+            {
+              "lessonID": "JAVA00211",
+              "title": "Annotations"
+            },
+            {
+              "lessonID": "JAVA00212",
+              "title": "Project: Build a Java Application"
+            }
+          ]
+        },
+        {
+          "about": "Welcome to our Advanced Java Programming course! Are you ready to take your Java skills to new heights? In this course, we'll delve into the advanced concepts that will empower you to develop high-performance and feature-rich Java applications. From mastering the intricacies of multithreading to harnessing the power of networking and diving into the world of GUI programming, you'll gain the knowledge and skills needed to create sophisticated Java applications that impress and delight users. Join our community of 5,000+ enthusiastic learners, interact with seasoned instructors, and collaborate with fellow students as you embark on this exciting journey. With our comprehensive curriculum and hands-on projects, you'll be well-equipped to tackle real-world Java programming challenges. Get ready to push the boundaries of Java programming with Advanced Java Programming!",
+          "description": "Learn advanced Java programming concepts, including multithreading, networking, and GUI programming.",
+          "difficulty": "Advanced",
+          "id": "JAVA003",
+          "lessons": 15,
+          "studentAmount": "5,000+",
+          "tags": [
+            "Multithreading",
+            "Networking",
+            "GUI Programming"
+          ],
+          "title": "Advanced Java Programming",
+          "topics": [
+            {
+              "lessonID": "JAVA00301",
+              "title": "Introduction to Multithreading"
+            },
+            {
+              "lessonID": "JAVA00302",
+              "title": "Synchronization and Locks"
+            },
+            {
+              "lessonID": "JAVA00303",
+              "title": "Java Concurrency Utilities"
+            },
+            {
+              "lessonID": "JAVA00304",
+              "title": "Networking Basics"
+            },
+            {
+              "lessonID": "JAVA00305",
+              "title": "Socket Programming"
+            },
+            {
+              "lessonID": "JAVA00306",
+              "title": "RMI and CORBA"
+            },
+            {
+              "lessonID": "JAVA00307",
+              "title": "Introduction to JavaFX"
+            },
+            {
+              "lessonID": "JAVA00308",
+              "title": "FXML and Scene Builder"
+            },
+            {
+              "lessonID": "JAVA00309",
+              "title": "Advanced Controls and Layouts"
+            },
+            {
+              "lessonID": "JAVA00310",
+              "title": "Event Handling and Animation"
+            },
+            {
+              "lessonID": "JAVA00311",
+              "title": "Introduction to Java 2D and 3D Graphics"
+            },
+            {
+              "lessonID": "JAVA00312",
+              "title": "Java Sound and Java Media Framework"
+            },
+            {
+              "lessonID": "JAVA00313",
+              "title": "Java Web Start and Java Web Services"
+            },
+            {
+              "lessonID": "JAVA00314",
+              "title": "JavaBeans and Custom Components"
+            },
+            {
+              "lessonID": "JAVA00315",
+              "title": "Deployment and Best Practices"
+            }
+          ]
+        },
+        {
+          "about": "Welcome to the fascinating world of Data Structures and Algorithms in Java! In this course, we'll explore the fundamental building blocks of efficient programming. You'll gain a deep understanding of various data structures such as linked lists, trees, and arrays, and learn how to leverage them to solve complex problems. Dive into sorting algorithms like bubble sort, insertion sort, and merge sort, and discover searching algorithms such as linear search and binary search. Through engaging lectures, coding exercises, and real-world examples, you'll develop the skills needed to optimize your code and improve its performance. Join our vibrant community of 1,800+ learners and embark on this exciting journey to enhance your problem-solving abilities. Whether you're preparing for coding interviews or looking to strengthen your programming skills, Data Structures and Algorithms in Java will equip you with the tools you need to excel. Get ready to unlock the power of Java in tackling challenging programming problems!",
+          "description": "Learn about common data structures and algorithms in Java, including linked lists, trees, sorting algorithms, and searching algorithms.",
+          "difficulty": "Intermediate",
+          "id": "JAVA004",
+          "lessons": 14,
+          "studentAmount": "1,800+",
+          "tags": [
+            "Data Structures",
+            "Algorithms",
+            "Linked Lists",
+            "Trees",
+            "Sorting Algorithms",
+            "Searching Algorithms"
+          ],
+          "title": "Data Structures and Algorithms in Java",
+          "topics": [
+            {
+              "lessonID": "JAVA00401",
+              "title": "Introduction to Data Structures"
+            },
+            {
+              "lessonID": "JAVA00402",
+              "title": "Arrays"
+            },
+            {
+              "lessonID": "JAVA00403",
+              "title": "Linked Lists"
+            },
+            {
+              "lessonID": "JAVA00404",
+              "title": "Stacks and Queues"
+            },
+            {
+              "lessonID": "JAVA00405",
+              "title": "Trees"
+            },
+            {
+              "lessonID": "JAVA00406",
+              "title": "Graphs"
+            },
+            {
+              "lessonID": "JAVA00407",
+              "title": "Sorting Algorithms"
+            },
+            {
+              "lessonID": "JAVA00408",
+              "title": "Searching Algorithms"
+            },
+            {
+              "lessonID": "JAVA00409",
+              "title": "Recursion"
+            },
+            {
+              "lessonID": "JAVA00410",
+              "title": "Dynamic Programming"
+            },
+            {
+              "lessonID": "JAVA00411",
+              "title": "Hash Tables"
+            },
+            {
+              "lessonID": "JAVA00412",
+              "title": "Heaps and Priority Queues"
+            },
+            {
+              "lessonID": "JAVA00413",
+              "title": "Bit Manipulation"
+            },
+            {
+              "lessonID": "JAVA00414",
+              "title": "Advanced Topics"
+            }
+          ]
+        },
+        {
+          "about": "Welcome to the exciting world of Java Web Development! In this course, you'll dive into the realm of building dynamic and interactive web applications using Java technologies. Discover the power of JSP (JavaServer Pages) and learn how to create dynamic web pages that can seamlessly interact with server-side code. Dive into the world of Servlets and gain hands-on experience in developing server-side components that handle user requests and produce dynamic responses. Explore the Spring framework, a powerful tool for building enterprise-grade Java applications, and leverage its features to enhance your web development projects. Throughout this course, you'll work on real-world projects, apply best practices, and gain valuable insights into the world of Java web development. Join our thriving community of 2,500+ students and embark on this enriching journey to master the art of Java web development. Whether you're an aspiring web developer or looking to enhance your Java skills, this course will equip you with the knowledge and expertise to create robust and scalable web applications.",
+          "description": "Learn to build web applications using Java technologies, including JSP, Servlets, and Spring.",
+          "difficulty": "Intermediate",
+          "id": "JAVA005",
+          "lessons": 12,
+          "studentAmount": "2,500+",
+          "tags": [
+            "Web Development",
+            "JSP",
+            "Servlets",
+            "Spring"
+          ],
+          "title": "Java Web Development",
+          "topics": [
+            {
+              "lessonID": "JAVA00501",
+              "title": "Introduction to Web Development with Java"
+            },
+            {
+              "lessonID": "JAVA00502",
+              "title": "Java Server Pages (JSP)"
+            },
+            {
+              "lessonID": "JAVA00503",
+              "title": "Servlets"
+            },
+            {
+              "lessonID": "JAVA00504",
+              "title": "Spring Framework"
+            },
+            {
+              "lessonID": "JAVA00505",
+              "title": "MVC Architecture"
+            },
+            {
+              "lessonID": "JAVA00506",
+              "title": "Security and Authentication in Web Applications"
+            },
+            {
+              "lessonID": "JAVA00507",
+              "title": "Data Persistence and ORM with Hibernate"
+            },
+            {
+              "lessonID": "JAVA00508",
+              "title": "RESTful Web Services"
+            },
+            {
+              "lessonID": "JAVA00509",
+              "title": "Building a Full-Stack Web Application"
+            },
+            {
+              "lessonID": "JAVA00510",
+              "title": "Deployment and Scaling of Web Applications"
+            },
+            {
+              "lessonID": "JAVA00511",
+              "title": "Testing and Debugging in Web Development"
+            },
+            {
+              "lessonID": "JAVA00512",
+              "title": "Advanced Topics in Java Web Development"
+            }
+          ]
+        },
+        {
+          "about": "Welcome to the world of Java Enterprise Development! In this comprehensive course, you'll acquire the skills and knowledge required to build robust and scalable enterprise applications using Java EE technologies. Explore the power of Enterprise JavaBeans (EJB) and learn how to design and implement distributed and transactional components that form the backbone of enterprise applications. Dive into the world of Java Persistence API (JPA) and master the techniques of object-relational mapping, allowing you to seamlessly interact with databases and handle complex data models. Discover Contexts and Dependency Injection (CDI) and leverage its capabilities to manage dependencies and enhance modularity in your enterprise applications. Throughout this course, you'll work on hands-on projects, gain insights into industry best practices, and develop a deep understanding of Java enterprise development. Join our thriving community of 1,800+ students and embark on this transformative journey to become an expert in building enterprise applications with Java EE.",
+          "description": "Learn to build enterprise applications using Java EE technologies, including EJB, JPA, and CDI.",
+          "difficulty": "Advanced",
+          "id": "JAVA006",
+          "lessons": 16,
+          "studentAmount": "1,800+",
+          "tags": [
+            "Enterprise Development",
+            "Java EE",
+            "EJB",
+            "JPA",
+            "CDI"
+          ],
+          "title": "Java Enterprise Development",
+          "topics": [
+            {
+              "lessonID": "JAVA00601",
+              "title": "Introduction to Java Enterprise Development"
+            },
+            {
+              "lessonID": "JAVA00602",
+              "title": "Java EE Architecture"
+            },
+            {
+              "lessonID": "JAVA00603",
+              "title": "Java Persistence API (JPA)"
+            },
+            {
+              "lessonID": "JAVA00604",
+              "title": "Java Transaction API (JTA)"
+            },
+            {
+              "lessonID": "JAVA00605",
+              "title": "Enterprise JavaBeans (EJB)"
+            },
+            {
+              "lessonID": "JAVA00606",
+              "title": "Contexts and Dependency Injection (CDI)"
+            },
+            {
+              "lessonID": "JAVA00607",
+              "title": "Java Server Pages (JSP)"
+            },
+            {
+              "lessonID": "JAVA00608",
+              "title": "Java Servlets"
+            },
+            {
+              "lessonID": "JAVA00609",
+              "title": "Java Message Service (JMS)"
+            },
+            {
+              "lessonID": "JAVA00610",
+              "title": "Java Naming and Directory Interface (JNDI)"
+            },
+            {
+              "lessonID": "JAVA00611",
+              "title": "Web Services in Java"
+            },
+            {
+              "lessonID": "JAVA00612",
+              "title": "Security in Java EE"
+            },
+            {
+              "lessonID": "JAVA00613",
+              "title": "Java EE Design Patterns"
+            },
+            {
+              "lessonID": "JAVA00614",
+              "title": "Testing in Java EE"
+            },
+            {
+              "lessonID": "JAVA00615",
+              "title": "Performance Tuning in Java EE"
+            },
+            {
+              "lessonID": "JAVA00616",
+              "title": "Deployment and Configuration in Java EE"
+            }
+          ]
+        },
+        {
+          "about": "Embark on an exciting journey into the world of Java Mobile App Development! In this course, you'll discover the power of Java technologies for building mobile applications. Dive into Android app development and learn how to leverage the capabilities of the Android platform to create engaging and interactive mobile apps. Explore Java ME (Micro Edition) and uncover its potential for developing applications for resource-constrained devices. Throughout this course, you'll work on practical projects, gaining hands-on experience in building mobile apps that run smoothly on various devices. Join our community of 500+ students and unlock the immense potential of Java for mobile app development. Get ready to make your mark in the fast-paced and ever-evolving world of mobile technology!",
+          "description": "Learn to build mobile applications using Java technologies, including Android app development and Java ME.",
+          "difficulty": "Intermediate",
+          "id": "JAVA007",
+          "lessons": 10,
+          "studentAmount": "500+",
+          "tags": [
+            "Mobile Development",
+            "Android",
+            "Java ME"
+          ],
+          "title": "Java Mobile App Development",
+          "topics": [
+            {
+              "lessonID": "JAVA00701",
+              "title": "Introduction to Mobile App Development"
+            },
+            {
+              "lessonID": "JAVA00702",
+              "title": "Java for Mobile App Development"
+            },
+            {
+              "lessonID": "JAVA00703",
+              "title": "Android App Development"
+            },
+            {
+              "lessonID": "JAVA00704",
+              "title": "Android User Interface Design"
+            },
+            {
+              "lessonID": "JAVA00705",
+              "title": "Android App Architecture"
+            },
+            {
+              "lessonID": "JAVA00706",
+              "title": "Data Storage for Mobile Apps"
+            },
+            {
+              "lessonID": "JAVA00707",
+              "title": "Java ME"
+            },
+            {
+              "lessonID": "JAVA00708",
+              "title": "Building Apps for Java ME"
+            },
+            {
+              "lessonID": "JAVA00709",
+              "title": "Mobile App Testing and Deployment"
+            },
+            {
+              "lessonID": "JAVA00710",
+              "title": "Final Project"
+            }
+          ]
+        },
+        {
+          "about": "Immerse yourself in the captivating world of Java Game Development! Unleash your creativity and learn how to bring your game ideas to life using Java technologies. Dive into game engines and discover the powerful tools that will assist you in building interactive and engaging games. Delve into the realm of 2D and 3D graphics, exploring techniques to render visually stunning game worlds. Master input handling and create responsive gameplay experiences. Throughout this course, you'll work on hands-on projects, designing and implementing your own games from scratch. Join our community of 1800+ students and embark on an exciting journey to become a skilled Java game developer. Get ready to captivate players with your innovative game creations!",
+          "description": "Learn to build games using Java technologies, including game engines, 2D and 3D graphics, and input handling.",
+          "difficulty": "Intermediate",
+          "id": "JAVA008",
+          "lessons": 11,
+          "studentAmount": "1800+",
+          "tags": [
+            "Game Development",
+            "Game Engines",
+            "2D Graphics",
+            "3D Graphics",
+            "Input Handling"
+          ],
+          "title": "Java Game Development",
+          "topics": [
+            {
+              "lessonID": "JAVA00801",
+              "title": "Introduction to Game Development in Java"
+            },
+            {
+              "lessonID": "JAVA00802",
+              "title": "Game Engines and Frameworks in Java"
+            },
+            {
+              "lessonID": "JAVA00803",
+              "title": "2D Graphics in Java"
+            },
+            {
+              "lessonID": "JAVA00804",
+              "title": "3D Graphics in Java"
+            },
+            {
+              "lessonID": "JAVA00805",
+              "title": "Input Handling in Java Games"
+            },
+            {
+              "lessonID": "JAVA00806",
+              "title": "Collision Detection in Java Games"
+            },
+            {
+              "lessonID": "JAVA00807",
+              "title": "Game Loops and State Management in Java Games"
+            },
+            {
+              "lessonID": "JAVA00808",
+              "title": "Sound and Music in Java Games"
+            },
+            {
+              "lessonID": "JAVA00809",
+              "title": "Networking and Multiplayer in Java Games"
+            },
+            {
+              "lessonID": "JAVA00810",
+              "title": "Packaging and Distributing Java Games"
+            },
+            {
+              "lessonID": "JAVA00811",
+              "title": "Final Project: Build a Java Game"
+            }
+          ]
+        },
+        {
+          "about": "Embark on an exhilarating journey into the world of Java Game Development! Immerse yourself in the art of creating captivating and immersive games using Java technologies. Discover the power of game engines and harness their features to bring your ideas to life. Dive into the realm of 2D and 3D graphics, mastering the techniques to design visually stunning game worlds. Learn how to handle user input effectively, providing engaging and responsive gameplay experiences. Throughout this course, you'll work on hands-on projects, building your own games from scratch and honing your skills as a Java game developer. Join our vibrant community of 5000+ students and unlock the potential to create thrilling and unforgettable gaming experiences!",
+          "description": "Learn to build games using Java technologies, including game engines, 2D and 3D graphics, and input handling.",
+          "difficulty": "Intermediate",
+          "id": "JAVA009",
+          "lessons": 11,
+          "studentAmount": "5000+",
+          "tags": [
+            "Game Development",
+            "Game Engines",
+            "2D Graphics",
+            "3D Graphics",
+            "Input Handling"
+          ],
+          "title": "Java Game Development",
+          "topics": [
+            {
+              "lessonID": "JAVA00901",
+              "title": "Introduction to Game Development in Java"
+            },
+            {
+              "lessonID": "JAVA00902",
+              "title": "Game Engines and Frameworks in Java"
+            },
+            {
+              "lessonID": "JAVA00903",
+              "title": "2D Graphics in Java"
+            },
+            {
+              "lessonID": "JAVA00904",
+              "title": "3D Graphics in Java"
+            },
+            {
+              "lessonID": "JAVA00905",
+              "title": "Input Handling in Java Games"
+            },
+            {
+              "lessonID": "JAVA00906",
+              "title": "Collision Detection in Java Games"
+            },
+            {
+              "lessonID": "JAVA00907",
+              "title": "Game Loops and State Management in Java Games"
+            },
+            {
+              "lessonID": "JAVA00908",
+              "title": "Sound and Music in Java Games"
+            },
+            {
+              "lessonID": "JAVA00909",
+              "title": "Networking and Multiplayer in Java Games"
+            },
+            {
+              "lessonID": "JAVA00910",
+              "title": "Packaging and Distributing Java Games"
+            },
+            {
+              "lessonID": "JAVA00911",
+              "title": "Final Project: Build a Java Game"
+            }
+          ]
+        },
+        {
+          "about": "Welcome to the realm of Advanced Java Programming! This course is designed to propel your Java skills to new heights, equipping you with the expertise to tackle complex programming challenges. Delve into the intricacies of multithreading, unlocking the ability to build highly concurrent and efficient applications. Explore the fascinating world of networking, where you'll learn how to create robust client-server architectures and facilitate seamless communication between systems. Master the art of data structures, acquiring the knowledge to efficiently organize and manipulate vast amounts of information. With 1800+ students already part of this enriching journey, you'll join a community of like-minded Java enthusiasts and gain invaluable insights from experienced instructors. Are you ready to elevate your Java prowess and unleash your potential in the world of advanced programming?",
+          "description": "Take your Java programming skills to the next level with advanced concepts like multithreading, networking, and data structures.",
+          "difficulty": "Advanced",
+          "id": "JAVA010",
+          "lessons": 15,
+          "studentAmount": "1800+",
+          "tags": [
+            "Multithreading",
+            "Networking",
+            "Data Structures"
+          ],
+          "title": "Advanced Java Programming",
+          "topics": [
+            {
+              "lessonID": "JAVA01001",
+              "title": "Introduction to Multithreading"
+            },
+            {
+              "lessonID": "JAVA01002",
+              "title": "Synchronization and Deadlocks"
+            },
+            {
+              "lessonID": "JAVA01003",
+              "title": "Thread Pools and Executors"
+            },
+            {
+              "lessonID": "JAVA01004",
+              "title": "Networking Basics"
+            },
+            {
+              "lessonID": "JAVA01005",
+              "title": "TCP/IP and UDP"
+            },
+            {
+              "lessonID": "JAVA01006",
+              "title": "Java NIO and Non-blocking I/O"
+            },
+            {
+              "lessonID": "JAVA01007",
+              "title": "Collections Framework Overview"
+            },
+            {
+              "lessonID": "JAVA01008",
+              "title": "Lists and Sets"
+            },
+            {
+              "lessonID": "JAVA01009",
+              "title": "Maps and Queues"
+            },
+            {
+              "lessonID": "JAVA01010",
+              "title": "Generics and Type Safety"
+            },
+            {
+              "lessonID": "JAVA01011",
+              "title": "Data Structures: Stacks and Queues"
+            },
+            {
+              "lessonID": "JAVA01012",
+              "title": "Data Structures: Trees"
+            },
+            {
+              "lessonID": "JAVA01013",
+              "title": "Data Structures: Graphs"
+            },
+            {
+              "lessonID": "JAVA01014",
+              "title": "Sorting Algorithms"
+            },
+            {
+              "lessonID": "JAVA01015",
+              "title": "Searching Algorithms"
+            }
+          ]
+        },
+        {
+          "about": "Welcome to the world of Java Enterprise Development! This comprehensive course is tailored for those aspiring to build robust and scalable Java applications that meet the demands of the enterprise world. Through a deep dive into enterprise technologies like Spring and Hibernate, you'll gain the skills required to develop large-scale applications with confidence. Discover the power of the Spring Framework, enabling you to create flexible and modular architectures while leveraging dependency injection and aspect-oriented programming. Harness the capabilities of Hibernate, a renowned object-relational mapping framework, to interact seamlessly with databases and ensure data integrity. With 5000+ students already enrolled, you'll become part of a thriving community of Java developers, exchanging knowledge and experiences. Join us on this exciting journey of mastering Java Enterprise Development and unleash the full potential of your programming skills!",
+          "description": "Learn how to build large-scale Java applications that are scalable, maintainable, and secure using popular enterprise technologies like Spring and Hibernate.",
+          "difficulty": "Advanced",
+          "id": "JAVA011",
+          "lessons": 20,
+          "studentAmount": "5000+",
+          "tags": [
+            "Spring Framework",
+            "Hibernate",
+            "Enterprise Development"
+          ],
+          "title": "Java Enterprise Development",
+          "topics": [
+            {
+              "lessonID": "JAVA01101",
+              "title": "Introduction to Enterprise Development"
+            },
+            {
+              "lessonID": "JAVA01102",
+              "title": "Spring Framework Basics"
+            },
+            {
+              "lessonID": "JAVA01103",
+              "title": "Spring Framework Advanced Concepts"
+            },
+            {
+              "lessonID": "JAVA01104",
+              "title": "Hibernate Basics"
+            },
+            {
+              "lessonID": "JAVA01105",
+              "title": "Hibernate Advanced Concepts"
+            },
+            {
+              "lessonID": "JAVA01106",
+              "title": "Building Scalable Java Applications"
+            },
+            {
+              "lessonID": "JAVA01107",
+              "title": "Designing Maintainable Java Applications"
+            },
+            {
+              "lessonID": "JAVA01108",
+              "title": "Securing Java Applications"
+            },
+            {
+              "lessonID": "JAVA01109",
+              "title": "Introduction to Microservices Architecture"
+            },
+            {
+              "lessonID": "JAVA01110",
+              "title": "Building Microservices with Spring Boot"
+            },
+            {
+              "lessonID": "JAVA01111",
+              "title": "Microservices Communication with REST APIs"
+            },
+            {
+              "lessonID": "JAVA01112",
+              "title": "Managing Data in Microservices"
+            },
+            {
+              "lessonID": "JAVA01113",
+              "title": "Introduction to Cloud Computing"
+            },
+            {
+              "lessonID": "JAVA01114",
+              "title": "Deploying Java Applications to the Cloud"
+            },
+            {
+              "lessonID": "JAVA01115",
+              "title": "Scaling Java Applications in the Cloud"
+            },
+            {
+              "lessonID": "JAVA01116",
+              "title": "Managing Java Applications in the Cloud"
+            },
+            {
+              "lessonID": "JAVA01117",
+              "title": "Security in Cloud-based Java Applications"
+            },
+            {
+              "lessonID": "JAVA01118",
+              "title": "Building Reactive Java Applications"
+            },
+            {
+              "lessonID": "JAVA01119",
+              "title": "Reactive Microservices with Spring WebFlux"
+            },
+            {
+              "lessonID": "JAVA01120",
+              "title": "Advanced Reactive Programming with Project Reactor"
+            }
+          ]
+        },
+        {
+          "about": "Welcome to the fascinating realm of Java Web Services! In this course, you'll delve into the world of building web services using Java, enabling seamless communication and data exchange between applications. Gain a solid understanding of RESTful web services, mastering the principles of resource-based architecture and leveraging the power of HTTP methods. Explore the SOAP protocol, a widely used standard for exchanging structured information in web services, and learn how to develop SOAP-based web services in Java. With 1800+ students already enrolled, you'll join a vibrant community of learners who are passionate about creating scalable and interoperable web services. By the end of this course, you'll have the knowledge and skills to design, implement, and consume web services using Java, empowering you to build robust and modern web applications.",
+          "description": "Explore the world of web services with Java and learn how to build RESTful web services, SOAP-based web services, and more.",
+          "difficulty": "Intermediate",
+          "id": "JAVA012",
+          "lessons": 12,
+          "studentAmount": "1800+",
+          "tags": [
+            "RESTful Web Services",
+            "SOAP",
+            "Web Development"
+          ],
+          "title": "Java Web Services",
+          "topics": [
+            {
+              "lessonID": "JAVA01201",
+              "title": "Introduction to Web Services"
+            },
+            {
+              "lessonID": "JAVA01202",
+              "title": "Building a RESTful Web Service"
+            },
+            {
+              "lessonID": "JAVA01203",
+              "title": "RESTful Web Service with Spring Boot"
+            },
+            {
+              "lessonID": "JAVA01204",
+              "title": "Building a SOAP-based Web Service"
+            },
+            {
+              "lessonID": "JAVA01205",
+              "title": "SOAP Web Service with JAX-WS"
+            },
+            {
+              "lessonID": "JAVA01206",
+              "title": "Working with Web Service Clients"
+            },
+            {
+              "lessonID": "JAVA01207",
+              "title": "Web Services Security"
+            },
+            {
+              "lessonID": "JAVA01208",
+              "title": "RESTful Web Service Testing"
+            },
+            {
+              "lessonID": "JAVA01209",
+              "title": "RESTful Web Services with JAX-RS"
+            },
+            {
+              "lessonID": "JAVA01210",
+              "title": "Working with JSON in Java Web Services"
+            },
+            {
+              "lessonID": "JAVA01211",
+              "title": "Web Services Performance Tuning"
+            },
+            {
+              "lessonID": "JAVA01212",
+              "title": "Web Services Best Practices"
+            }
+          ]
+        },
+        {
+          "about": "Welcome to the exciting world of JavaFX Programming! In this course, you'll embark on a journey to master the art of creating captivating graphical user interfaces (GUIs) using JavaFX. JavaFX is a powerful framework that allows you to build visually appealing and interactive desktop applications with ease. Whether you're a seasoned Java developer or just starting your programming journey, this course will equip you with the skills to design and develop stunning GUIs that enhance user experience. With over 2500+ students already enrolled, you'll join a vibrant community of learners who are passionate about creating elegant and responsive desktop applications. By the end of this course, you'll have the confidence to unleash your creativity and build professional-quality JavaFX applications that will leave a lasting impression.",
+          "description": "Learn how to create graphical user interfaces (GUIs) using JavaFX, a powerful framework for building Java desktop applications.",
+          "difficulty": "Intermediate",
+          "id": "JAVA013",
+          "lessons": 10,
+          "studentAmount": "2500+",
+          "tags": [
+            "JavaFX",
+            "GUI Programming",
+            "Desktop Applications"
+          ],
+          "title": "JavaFX Programming",
+          "topics": [
+            {
+              "lessonID": "JAVA01301",
+              "title": "Introduction to JavaFX"
+            },
+            {
+              "lessonID": "JAVA01302",
+              "title": "Layouts and Controls"
+            },
+            {
+              "lessonID": "JAVA01303",
+              "title": "Event Handling"
+            },
+            {
+              "lessonID": "JAVA01304",
+              "title": "Working with Graphics"
+            },
+            {
+              "lessonID": "JAVA01305",
+              "title": "Working with Media"
+            },
+            {
+              "lessonID": "JAVA01306",
+              "title": "Working with CSS"
+            },
+            {
+              "lessonID": "JAVA01307",
+              "title": "FXML and Scene Builder"
+            },
+            {
+              "lessonID": "JAVA01308",
+              "title": "Custom Controls"
+            },
+            {
+              "lessonID": "JAVA01309",
+              "title": "Internationalization"
+            },
+            {
+              "lessonID": "JAVA01310",
+              "title": "Deployment"
+            }
+          ]
+        },
+        {
+          "about": "Are you ready to dive into the world of Android development? Join our Java for Android Development course and unlock the potential to build stunning mobile applications for the Android platform. Java is the language of choice for Android development, and in this course, we'll take you through the essentials of Java programming and guide you through the process of creating powerful Android apps. With the support of over 3000+ students already enrolled, you'll become part of a thriving community of aspiring Android developers. We'll teach you how to leverage popular Android development tools like Android Studio and Gradle, enabling you to write clean and efficient code. By the end of this course, you'll have the knowledge and skills to bring your app ideas to life and make an impact in the exciting world of Android development.",
+          "description": "Start building Android apps with Java, the language of choice for Android development, and learn how to use popular Android development tools like Android Studio and Gradle.",
+          "difficulty": "Intermediate",
+          "id": "JAVA014",
+          "lessons": 16,
+          "studentAmount": "3000+",
+          "tags": [
+            "Android Development",
+            "Mobile Apps",
+            "Gradle"
+          ],
+          "title": "Java for Android Development",
+          "topics": [
+            {
+              "lessonID": "JAVA01401",
+              "title": "Introduction to Android Development"
+            },
+            {
+              "lessonID": "JAVA01402",
+              "title": "Java Fundamentals for Android Development"
+            },
+            {
+              "lessonID": "JAVA01403",
+              "title": "User Interface Design with Android Studio"
+            },
+            {
+              "lessonID": "JAVA01404",
+              "title": "Android Layouts and Widgets"
+            },
+            {
+              "lessonID": "JAVA01405",
+              "title": "Handling User Input in Android"
+            },
+            {
+              "lessonID": "JAVA01406",
+              "title": "Working with Fragments in Android"
+            },
+            {
+              "lessonID": "JAVA01407",
+              "title": "Android Data Storage"
+            },
+            {
+              "lessonID": "JAVA01408",
+              "title": "Working with Databases in Android"
+            },
+            {
+              "lessonID": "JAVA01409",
+              "title": "Networking and Web Services in Android"
+            },
+            {
+              "lessonID": "JAVA01410",
+              "title": "Background Processing in Android"
+            },
+            {
+              "lessonID": "JAVA01411",
+              "title": "Android Debugging and Testing"
+            },
+            {
+              "lessonID": "JAVA01412",
+              "title": "Introduction to Gradle"
+            },
+            {
+              "lessonID": "JAVA01413",
+              "title": "Building and Running Android Apps with Gradle"
+            },
+            {
+              "lessonID": "JAVA01414",
+              "title": "Publishing Your Android App"
+            },
+            {
+              "lessonID": "JAVA01415",
+              "title": "Monetizing Your Android App"
+            },
+            {
+              "lessonID": "JAVA01416",
+              "title": "Android App Security Best Practices"
+            }
+          ]
+        },
+        {
+          "about": "Are you ready to embark on a journey into the world of web development with Java? Our Java for Web Development course is designed to equip you with the skills and knowledge to build dynamic and interactive web applications. With over 2500+ students already enrolled, you'll join a vibrant community of aspiring web developers. Throughout this course, you'll learn how to leverage the power of Java and popular web frameworks like Spring and Struts to create robust and scalable web applications. From handling databases to implementing user authentication and building RESTful APIs, you'll gain hands-on experience in building real-world web projects. By the end of the course, you'll have the expertise to develop professional web applications that meet the demands of the modern digital landscape.",
+          "description": "Learn how to build dynamic, database-driven web applications with Java and popular web frameworks like Spring and Struts.",
+          "difficulty": "Intermediate",
+          "id": "JAVA015",
+          "lessons": 18,
+          "studentAmount": "2500+",
+          "tags": [
+            "Web Development",
+            "Spring Framework",
+            "Struts"
+          ],
+          "title": "Java for Web Development",
+          "topics": [
+            {
+              "lessonID": "JAVA01501",
+              "title": "Introduction to Web Development with Java"
+            },
+            {
+              "lessonID": "JAVA01502",
+              "title": "Java Servlets"
+            },
+            {
+              "lessonID": "JAVA01503",
+              "title": "JavaServer Pages (JSP)"
+            },
+            {
+              "lessonID": "JAVA01504",
+              "title": "JavaServer Faces (JSF)"
+            },
+            {
+              "lessonID": "JAVA01505",
+              "title": "Introduction to Spring Framework"
+            },
+            {
+              "lessonID": "JAVA01506",
+              "title": "Spring Boot"
+            },
+            {
+              "lessonID": "JAVA01507",
+              "title": "Spring Data"
+            },
+            {
+              "lessonID": "JAVA01508",
+              "title": "Spring Security"
+            },
+            {
+              "lessonID": "JAVA01509",
+              "title": "Introduction to Struts"
+            },
+            {
+              "lessonID": "JAVA01510",
+              "title": "Building Web Applications with Struts"
+            },
+            {
+              "lessonID": "JAVA01511",
+              "title": "Struts Validation"
+            },
+            {
+              "lessonID": "JAVA01512",
+              "title": "Struts Tiles"
+            },
+            {
+              "lessonID": "JAVA01513",
+              "title": "Introduction to Hibernate"
+            },
+            {
+              "lessonID": "JAVA01514",
+              "title": "Hibernate Query Language (HQL)"
+            },
+            {
+              "lessonID": "JAVA01515",
+              "title": "Hibernate Mapping"
+            },
+            {
+              "lessonID": "JAVA01516",
+              "title": "Hibernate Annotations"
+            },
+            {
+              "lessonID": "JAVA01517",
+              "title": "Hibernate Caching"
+            },
+            {
+              "lessonID": "JAVA01518",
+              "title": "Hibernate Integration with Spring"
+            }
+          ]
+        },
+        {
+          "about": "Welcome to the Java Security Programming course, where we'll take your Java skills to the next level by focusing on application security. With over 1200+ students already enrolled, you'll join a community of developers dedicated to creating secure software. In today's digital landscape, the security of your applications is of utmost importance. Throughout this course, you'll learn essential techniques and practices to defend against common threats like SQL injection and cross-site scripting (XSS). We'll delve into secure authentication and authorization mechanisms, encryption techniques, and industry best practices to fortify your Java applications. By the end of this course, you'll have the expertise to develop secure Java applications that protect your users and their valuable data from potential vulnerabilities and attacks.",
+          "description": "Learn how to secure your Java applications against various types of threats, including SQL injection, cross-site scripting (XSS), and more.",
+          "difficulty": "Advanced",
+          "id": "JAVA016",
+          "lessons": 14,
+          "studentAmount": "1200+",
+          "tags": [
+            "Security",
+            "Threats",
+            "Web Applications"
+          ],
+          "title": "Java Security Programming",
+          "topics": [
+            {
+              "lessonID": "JAVA01601",
+              "title": "Introduction to Java Security"
+            },
+            {
+              "lessonID": "JAVA01602",
+              "title": "Threat Modeling and Risk Assessment"
+            },
+            {
+              "lessonID": "JAVA01603",
+              "title": "Authentication and Authorization"
+            },
+            {
+              "lessonID": "JAVA01604",
+              "title": "Access Control"
+            },
+            {
+              "lessonID": "JAVA01605",
+              "title": "Input Validation and Sanitization"
+            },
+            {
+              "lessonID": "JAVA01606",
+              "title": "Secure Coding Practices"
+            },
+            {
+              "lessonID": "JAVA01607",
+              "title": "SQL Injection and Database Security"
+            },
+            {
+              "lessonID": "JAVA01608",
+              "title": "Cross-Site Scripting (XSS) and Cross-Site Request Forgery (CSRF)"
+            },
+            {
+              "lessonID": "JAVA01609",
+              "title": "Session Management and Cookies"
+            },
+            {
+              "lessonID": "JAVA01610",
+              "title": "Cryptography and Key Management"
+            },
+            {
+              "lessonID": "JAVA01611",
+              "title": "Network Security and SSL/TLS"
+            },
+            {
+              "lessonID": "JAVA01612",
+              "title": "Securing Web Services"
+            },
+            {
+              "lessonID": "JAVA01613",
+              "title": "Secure Deployment and Operations"
+            },
+            {
+              "lessonID": "JAVA01614",
+              "title": "Security Testing and Code Review"
+            }
+          ]
+        },
+        {
+          "about": "This course is designed for intermediate-level Java developers who are interested in creating games using Java technologies. In this course, you will learn how to use game engines like LibGDX and Unity to create 2D and 3D games. You will also learn about game design principles, input handling, and graphics programming. By the end of this course, you will have the skills and knowledge to create your own Java-based games and bring your game ideas to life.",
+          "description": "Learn how to build games with Java, one of the most popular programming languages in the game development industry.",
+          "difficulty": "Intermediate",
+          "id": "JAVA017",
+          "lessons": 12,
+          "studentAmount": 500,
+          "tags": [
+            "Game Development",
+            "LibGDX",
+            "Unity"
+          ],
+          "title": "Java Game Development",
+          "topics": [
+            {
+              "lessonID": "JAVA01701",
+              "title": "Introduction to Game Development"
+            },
+            {
+              "lessonID": "JAVA01702",
+              "title": "Setting up a Game Development Environment"
+            },
+            {
+              "lessonID": "JAVA01703",
+              "title": "Game Loop and Rendering"
+            },
+            {
+              "lessonID": "JAVA01704",
+              "title": "Working with Images and Sprites"
+            },
+            {
+              "lessonID": "JAVA01705",
+              "title": "User Input and Interactions"
+            },
+            {
+              "lessonID": "JAVA01706",
+              "title": "Game Physics and Collision Detection"
+            },
+            {
+              "lessonID": "JAVA01707",
+              "title": "Implementing Game Logic"
+            },
+            {
+              "lessonID": "JAVA01708",
+              "title": "Audio in Games"
+            },
+            {
+              "lessonID": "JAVA01709",
+              "title": "Creating Game Assets"
+            },
+            {
+              "lessonID": "JAVA01710",
+              "title": "Distributing and Publishing Games"
+            },
+            {
+              "lessonID": "JAVA01711",
+              "title": "Using LibGDX Game Development Framework"
+            },
+            {
+              "lessonID": "JAVA01712",
+              "title": "Using Unity Game Development Engine"
+            }
+          ]
+        },
+        {
+          "about": "Welcome to the world of Java microservices development! In this advanced course, you will dive deep into the concepts and practices of building scalable and resilient microservices using Java. You will learn how to leverage the power of Spring Boot and Netflix OSS frameworks to design and implement microservices architectures. Through hands-on projects and real-world examples, you will understand the principles of service discovery, fault tolerance, and distributed systems. By the end of this course, you will have the expertise to develop robust and efficient microservices using Java, empowering you to build scalable and flexible applications in the modern software landscape.",
+          "description": "Explore the world of microservices with Java and learn how to build scalable and resilient microservices using popular Java technologies like Spring Boot and Netflix OSS.",
+          "difficulty": "Advanced",
+          "id": "JAVA018",
+          "lessons": 20,
+          "studentAmount": 200,
+          "tags": [
+            "Microservices",
+            "Spring Boot",
+            "Netflix OSS"
+          ],
+          "title": "Java Microservices Development",
+          "topics": [
+            {
+              "lessonID": "JAVA01801",
+              "title": "Introduction to Microservices"
+            },
+            {
+              "lessonID": "JAVA01802",
+              "title": "Building Microservices with Spring Boot"
+            },
+            {
+              "lessonID": "JAVA01803",
+              "title": "Implementing Service Discovery with Netflix Eureka"
+            },
+            {
+              "lessonID": "JAVA01804",
+              "title": "Building Resilient Microservices with Hystrix"
+            },
+            {
+              "lessonID": "JAVA01805",
+              "title": "Distributed Tracing with Spring Cloud Sleuth"
+            },
+            {
+              "lessonID": "JAVA01806",
+              "title": "API Gateway with Spring Cloud Gateway"
+            },
+            {
+              "lessonID": "JAVA01807",
+              "title": "Message-Driven Microservices with Apache Kafka"
+            },
+            {
+              "lessonID": "JAVA01808",
+              "title": "Microservices Testing Strategies"
+            },
+            {
+              "lessonID": "JAVA01809",
+              "title": "Deploying Microservices with Kubernetes"
+            },
+            {
+              "lessonID": "JAVA01810",
+              "title": "Securing Microservices with OAuth2 and JWT"
+            },
+            {
+              "lessonID": "JAVA01811",
+              "title": "Monitoring Microservices with Prometheus and Grafana"
+            },
+            {
+              "lessonID": "JAVA01812",
+              "title": "Building Serverless Microservices with AWS Lambda"
+            },
+            {
+              "lessonID": "JAVA01813",
+              "title": "Building Reactive Microservices with Spring WebFlux"
+            },
+            {
+              "lessonID": "JAVA01814",
+              "title": "Microservices Best Practices"
+            },
+            {
+              "lessonID": "JAVA01815",
+              "title": "Microservices Architecture Patterns"
+            },
+            {
+              "lessonID": "JAVA01816",
+              "title": "Building Microservices with Quarkus"
+            },
+            {
+              "lessonID": "JAVA01817",
+              "title": "Building Microservices with Micronaut"
+            },
+            {
+              "lessonID": "JAVA01818",
+              "title": "Building Microservices with Helidon"
+            },
+            {
+              "lessonID": "JAVA01819",
+              "title": "Building Microservices with Azure Functions"
+            },
+            {
+              "lessonID": "JAVA01820",
+              "title": "Building Microservices with Google Cloud Functions"
+            }
+          ]
+        },
+        {
+          "about": "Welcome to the world of advanced Java programming! In this course, we will take your Java skills to the next level. You will explore advanced topics such as multithreading, networking, and database connectivity. Dive deep into the world of design patterns and learn how to apply them effectively in your Java programs. Through practical examples and hands-on exercises, you will gain the expertise to write high-performance and scalable Java applications. Whether you want to enhance your career or tackle complex software projects, this course will equip you with the skills and knowledge to succeed. Join us on this journey to become an advanced Java programmer!",
+          "description": "This course dives deeper into Java programming concepts and design patterns, and covers advanced topics such as multithreading, networking, and database connectivity.",
+          "difficulty": "Advanced",
+          "id": "JAVA019",
+          "lessons": 15,
+          "studentAmount": 250,
+          "tags": [
+            "Multithreading",
+            "Networking",
+            "Database Connectivity",
+            "Design Patterns"
+          ],
+          "title": "Advanced Java Programming",
+          "topics": [
+            {
+              "lessonID": "JAVA01901",
+              "title": "Introduction to Multithreading"
+            },
+            {
+              "lessonID": "JAVA01902",
+              "title": "Synchronization and Locking"
+            },
+            {
+              "lessonID": "JAVA01903",
+              "title": "Thread Pools and Executors"
+            },
+            {
+              "lessonID": "JAVA01904",
+              "title": "Networking with Java"
+            },
+            {
+              "lessonID": "JAVA01905",
+              "title": "HTTP and HTTPS protocols"
+            },
+            {
+              "lessonID": "JAVA01906",
+              "title": "Working with Databases in Java"
+            },
+            {
+              "lessonID": "JAVA01907",
+              "title": "Introduction to Design Patterns"
+            },
+            {
+              "lessonID": "JAVA01908",
+              "title": "Creational Design Patterns"
+            },
+            {
+              "lessonID": "JAVA01909",
+              "title": "Structural Design Patterns"
+            },
+            {
+              "lessonID": "JAVA01910",
+              "title": "Behavioral Design Patterns"
+            },
+            {
+              "lessonID": "JAVA01911",
+              "title": "Advanced I/O in Java"
+            },
+            {
+              "lessonID": "JAVA01912",
+              "title": "Java Security"
+            },
+            {
+              "lessonID": "JAVA01913",
+              "title": "Debugging and Profiling Java Applications"
+            },
+            {
+              "lessonID": "JAVA01914",
+              "title": "Performance Tuning Java Applications"
+            },
+            {
+              "lessonID": "JAVA01915",
+              "title": "Java 9 and Beyond"
+            }
+          ]
+        },
+        {
+          "about": "Welcome to the world of advanced Java web development! In this course, you will master the skills required to build dynamic and robust web applications using Java. Explore the power of popular web frameworks like Spring and Hibernate, and learn how to leverage their features to create scalable and maintainable applications. Dive deep into building RESTful web services, handling user authentication and authorization, and integrating with databases for data persistence. Through a combination of theoretical concepts and hands-on projects, you will gain the expertise to develop enterprise-grade web applications. Join us on this journey and take your Java web development skills to the next level!",
+          "description": "This course teaches you how to build dynamic web applications using Java and popular web frameworks like Spring and Hibernate. You will learn how to build RESTful web services, handle user authentication and authorization, and interact with databases.",
+          "difficulty": "Advanced",
+          "id": "JAVA020",
+          "lessons": 20,
+          "studentAmount": 500,
+          "tags": [
+            "Web Development",
+            "Spring",
+            "Hibernate",
+            "RESTful Web Services",
+            "Authentication",
+            "Authorization",
+            "Databases"
+          ],
+          "title": "Java Web Development",
+          "topics": [
+            {
+              "lessonID": "JAVA02001",
+              "title": "Introduction to Web Development with Java"
+            },
+            {
+              "lessonID": "JAVA02002",
+              "title": "Getting Started with Spring Framework"
+            },
+            {
+              "lessonID": "JAVA02003",
+              "title": "Building RESTful Web Services with Spring"
+            },
+            {
+              "lessonID": "JAVA02004",
+              "title": "Handling User Authentication and Authorization"
+            },
+            {
+              "lessonID": "JAVA02005",
+              "title": "Interacting with Databases Using Hibernate"
+            },
+            {
+              "lessonID": "JAVA02006",
+              "title": "Building Dynamic Web Applications with Spring MVC"
+            },
+            {
+              "lessonID": "JAVA02007",
+              "title": "Securing Web Applications with Spring Security"
+            },
+            {
+              "lessonID": "JAVA02008",
+              "title": "Working with Thymeleaf Templates"
+            },
+            {
+              "lessonID": "JAVA02009",
+              "title": "Building Web Applications with AngularJS and Spring RESTful Services"
+            },
+            {
+              "lessonID": "JAVA02010",
+              "title": "Working with JSON and XML Data"
+            },
+            {
+              "lessonID": "JAVA02011",
+              "title": "Building a Single-Page Application with React and Spring Boot"
+            },
+            {
+              "lessonID": "JAVA02012",
+              "title": "Working with WebSocket and STOMP"
+            },
+            {
+              "lessonID": "JAVA02013",
+              "title": "Deploying Web Applications with Docker"
+            },
+            {
+              "lessonID": "JAVA02014",
+              "title": "Optimizing Web Applications for Performance"
+            },
+            {
+              "lessonID": "JAVA02015",
+              "title": "Managing Web Application Security"
+            },
+            {
+              "lessonID": "JAVA02016",
+              "title": "Introduction to Microservices Architecture"
+            },
+            {
+              "lessonID": "JAVA02017",
+              "title": "Building Microservices with Spring Boot"
+            },
+            {
+              "lessonID": "JAVA02018",
+              "title": "Building Microservices with Netflix OSS"
+            },
+            {
+              "lessonID": "JAVA02019",
+              "title": "Testing and Debugging Microservices"
+            },
+            {
+              "lessonID": "JAVA02020",
+              "title": "Managing Microservices with Kubernetes"
+            }
+          ]
+        }
+      ],
+      "python": [
+        {
+          "about": "In Python Basics, you will embark on an exciting journey to master the fundamental concepts and techniques of Python programming. As a beginner, this course is tailored to your needs, providing a gentle introduction to the language. Through a hands-on approach, you will learn about data types, control flow, and functions, enabling you to create your own programs with confidence. Whether you dream of building web applications, automating tasks, or diving into data analysis, Python Basics will equip you with the skills necessary to turn your aspirations into reality.",
+          "description": "Learn the fundamentals of Python programming, including data types, control flow, functions, and more.",
+          "difficulty": "Beginner",
+          "id": "PY001",
+          "lessons": 10,
+          "studentsAmount": 1000,
+          "tags": [
+            "Fundamentals",
+            "Syntax"
+          ],
+          "title": "Python Basics",
+          "topics": [
+            {
+              "lessonID": "PY00101",
+              "title": "Input/Output in Python"
+            },
+            {
+              "lessonID": "PY00102",
+              "title": "Conditional Statements in Python"
+            },
+            {
+              "lessonID": "PY00103",
+              "title": "Loops in Python"
+            },
+            {
+              "lessonID": "PY00104",
+              "title": "Functions in Python"
+            },
+            {
+              "lessonID": "PY00105",
+              "title": "Lists in Python"
+            },
+            {
+              "lessonID": "PY00106",
+              "title": "Dictionaries in Python"
+            },
+            {
+              "lessonID": "PY00107",
+              "title": "Tuples in Python"
+            },
+            {
+              "lessonID": "PY00108",
+              "title": "Sets in Python"
+            },
+            {
+              "lessonID": "PY00109",
+              "title": "File Handling in Python"
+            },
+            {
+              "lessonID": "PY00110",
+              "title": "Modules and Packages in Python"
+            }
+          ]
+        },
+        {
+          "about": "In this course, you will delve into the world of object-oriented programming in Python and discover its real-world applications. By mastering OOP principles and design patterns, you'll be equipped with the skills to develop scalable software solutions, build modular programs, and enhance code reusability. Whether you're looking to advance your career as a Python developer or broaden your programming knowledge, this course will empower you to create efficient and well-structured code that meets industry standards.",
+          "description": "Learn how to use Python's object-oriented features to create reusable and maintainable code.",
+          "difficulty": "Intermediate",
+          "id": "PY002",
+          "lessons": 8,
+          "studentsAmount": "5000+",
+          "tags": [
+            "OOP",
+            "Design Patterns"
+          ],
+          "title": "Object-Oriented Programming in Python",
+          "topics": [
+            {
+              "lessonID": "PY00201",
+              "title": "Introduction to Object-Oriented Programming"
+            },
+            {
+              "lessonID": "PY00202",
+              "title": "Classes and Objects in Python"
+            },
+            {
+              "lessonID": "PY00203",
+              "title": "Inheritance and Polymorphism in Python"
+            },
+            {
+              "lessonID": "PY00204",
+              "title": "Encapsulation in Python"
+            },
+            {
+              "lessonID": "PY00205",
+              "title": "Abstract Classes and Interfaces in Python"
+            },
+            {
+              "lessonID": "PY00206",
+              "title": "Design Patterns in Python"
+            },
+            {
+              "lessonID": "PY00207",
+              "title": "Exception Handling in Python"
+            },
+            {
+              "lessonID": "PY00208",
+              "title": "Unit Testing in Python"
+            }
+          ]
+        },
+        {
+          "about": "Are you interested in the exciting field of data science? This course is your gateway to mastering Python for data science. With a strong focus on machine learning and data visualization, you'll gain the skills to analyze and interpret complex datasets, make predictions, and uncover valuable insights. Whether you're a beginner or an experienced programmer, this course will equip you with the tools and techniques needed to manipulate data, build statistical models, and create visually compelling visualizations. Join us on this data science journey and unlock endless possibilities with Python!",
+          "description": "Learn Python for Data Science with a focus on machine learning and data visualization.",
+          "difficulty": "Intermediate",
+          "id": "PY003",
+          "lessons": 12,
+          "studentsAmount": "10,000+",
+          "tags": [
+            "Data Science",
+            "Machine Learning",
+            "Visualization"
+          ],
+          "title": "Python for Data Science",
+          "topics": [
+            {
+              "lessonID": "PY00301",
+              "title": "Introduction to Data Science with Python"
+            },
+            {
+              "lessonID": "PY00302",
+              "title": "Data Manipulation with Pandas"
+            },
+            {
+              "lessonID": "PY00303",
+              "title": "Data Visualization with Matplotlib"
+            },
+            {
+              "lessonID": "PY00304",
+              "title": "Data Visualization with Seaborn"
+            },
+            {
+              "lessonID": "PY00305",
+              "title": "Data Cleaning with Python"
+            },
+            {
+              "lessonID": "PY00306",
+              "title": "Data Preprocessing for Machine Learning"
+            },
+            {
+              "lessonID": "PY00307",
+              "title": "Supervised Learning with Scikit-Learn"
+            },
+            {
+              "lessonID": "PY00308",
+              "title": "Unsupervised Learning with Scikit-Learn"
+            },
+            {
+              "lessonID": "PY00309",
+              "title": "Model Evaluation and Selection"
+            },
+            {
+              "lessonID": "PY00310",
+              "title": "Regression Analysis with Python"
+            },
+            {
+              "lessonID": "PY00311",
+              "title": "Classification with Python"
+            },
+            {
+              "lessonID": "PY00312",
+              "title": "Clustering with Python"
+            }
+          ]
+        },
+        {
+          "about": "Ready to dive into web development using Python? This course is designed to help you build dynamic and interactive web applications using Python and two popular web frameworks, Flask and Django. You'll learn how to create web APIs, handle user authentication and authorization, interact with databases, and design responsive user interfaces. Whether you're interested in developing simple websites or complex web applications, this course will provide you with the essential skills and knowledge to bring your ideas to life. Join us and embark on an exciting journey to become a proficient Python web developer!",
+          "description": "Build web applications using Python and popular web frameworks like Flask and Django.",
+          "difficulty": "Intermediate",
+          "id": "PY004",
+          "lessons": 10,
+          "studentsAmount": "5,000+",
+          "tags": [
+            "Web Development",
+            "Flask",
+            "Django"
+          ],
+          "title": "Python for Web Development",
+          "topics": [
+            {
+              "lessonID": "PY00401",
+              "title": "Introduction to Web Development with Python"
+            },
+            {
+              "lessonID": "PY00402",
+              "title": "Setting up Flask and Django"
+            },
+            {
+              "lessonID": "PY00403",
+              "title": "Routing and Controllers in Flask"
+            },
+            {
+              "lessonID": "PY00404",
+              "title": "Template Engines in Flask"
+            },
+            {
+              "lessonID": "PY00405",
+              "title": "Database Integration in Flask"
+            },
+            {
+              "lessonID": "PY00406",
+              "title": "MVC Architecture with Django"
+            },
+            {
+              "lessonID": "PY00407",
+              "title": "Database Integration in Django"
+            },
+            {
+              "lessonID": "PY00408",
+              "title": "Forms and Validation in Django"
+            },
+            {
+              "lessonID": "PY00409",
+              "title": "Authentication and Authorization in Django"
+            },
+            {
+              "lessonID": "PY00410",
+              "title": "Deployment and Best Practices"
+            }
+          ]
+        },
+        {
+          "about": "Are you tired of performing repetitive tasks manually? Python can be your ultimate automation tool! In this course, you'll discover how to leverage Python's capabilities to automate various tasks and streamline your workflows. You'll learn about file manipulation, web scraping, working with APIs, scheduling tasks, and more. Whether you want to automate data processing, perform system administration tasks, or simplify your daily activities, this course will equip you with the skills and techniques needed to become an efficient Python automation developer. Join us and unlock the power of automation with Python!",
+          "description": "Automate repetitive tasks and streamline your workflows using Python.",
+          "difficulty": "Intermediate",
+          "id": "PY005",
+          "lessons": 8,
+          "studentsAmount": "2,500+",
+          "tags": [
+            "Automation",
+            "Scripting"
+          ],
+          "title": "Python for Automation",
+          "topics": [
+            {
+              "lessonID": "PY00501",
+              "title": "Introduction to Automation and Scripting in Python"
+            },
+            {
+              "lessonID": "PY00502",
+              "title": "Working with Files and Directories in Python"
+            },
+            {
+              "lessonID": "PY00503",
+              "title": "Web Scraping with Python"
+            },
+            {
+              "lessonID": "PY00504",
+              "title": "Automating Email and PDF Manipulation with Python"
+            },
+            {
+              "lessonID": "PY00505",
+              "title": "Data Scraping and Cleaning with Python"
+            },
+            {
+              "lessonID": "PY00506",
+              "title": "Using Python to Automate APIs"
+            },
+            {
+              "lessonID": "PY00507",
+              "title": "Deploying Python Automation Projects"
+            },
+            {
+              "lessonID": "PY00508",
+              "title": "Creating Custom Automation Scripts in Python"
+            }
+          ]
+        },
+        {
+          "about": "Are you a network engineer looking to enhance your productivity and streamline network management? Python is a powerful tool that can help you automate repetitive network tasks and efficiently manage network devices. In this course, you'll dive into the world of network automation with Python. You'll learn how to interact with network devices programmatically, automate configuration changes, gather network information, and perform network monitoring tasks. With the knowledge and skills gained from this course, you'll be able to take your network engineering skills to the next level and become a more efficient and effective network professional. Join us and embark on your journey to becoming a Python-powered network engineer!",
+          "description": "Learn how to use Python to automate network tasks and manage network devices.",
+          "difficulty": "Intermediate",
+          "id": "PY006",
+          "lessons": 10,
+          "studentsAmount": "1,800+",
+          "tags": [
+            "Networking",
+            "Automation"
+          ],
+          "title": "Python for Network Engineers",
+          "topics": [
+            {
+              "lessonID": "PY00601",
+              "title": "Introduction to Network Automation with Python"
+            },
+            {
+              "lessonID": "PY00602",
+              "title": "Managing Network Devices with Python"
+            },
+            {
+              "lessonID": "PY00603",
+              "title": "Automating Network Configuration with Python"
+            },
+            {
+              "lessonID": "PY00604",
+              "title": "Parsing Network Data with Python"
+            },
+            {
+              "lessonID": "PY00605",
+              "title": "Using Python for Network Monitoring and Analysis"
+            },
+            {
+              "lessonID": "PY00606",
+              "title": "Working with Network APIs in Python"
+            },
+            {
+              "lessonID": "PY00607",
+              "title": "Network Security Automation with Python"
+            },
+            {
+              "lessonID": "PY00608",
+              "title": "Debugging and Troubleshooting Network Automation Scripts with Python"
+            },
+            {
+              "lessonID": "PY00609",
+              "title": "Testing Network Automation Scripts with Python"
+            },
+            {
+              "lessonID": "PY00610",
+              "title": "Deploying Network Automation Projects with Python"
+            }
+          ]
+        },
+        {
+          "about": "Are you interested in leveraging the power of Python for financial analysis and modeling? This course is designed to equip you with the necessary skills to analyze financial data and make informed decisions using Python. You'll learn how to retrieve financial data from various sources, perform statistical analysis, visualize financial trends, and build financial models. Whether you're a finance professional, investor, or simply interested in the world of finance, this course will provide you with valuable tools and techniques to enhance your financial analysis capabilities. Join us on this exciting journey and unlock the potential of Python for finance!",
+          "description": "Learn how to use Python for financial analysis and modeling.",
+          "difficulty": "Intermediate",
+          "id": "PY007",
+          "lessons": 8,
+          "studentsAmount": "2,500+",
+          "tags": [
+            "Finance",
+            "Data Analysis"
+          ],
+          "title": "Python for Finance",
+          "topics": [
+            {
+              "lessonID": "PY00701",
+              "title": "Introduction to Python for Finance"
+            },
+            {
+              "lessonID": "PY00702",
+              "title": "Data Analysis with Python"
+            },
+            {
+              "lessonID": "PY00703",
+              "title": "Financial Modeling with Python"
+            },
+            {
+              "lessonID": "PY00704",
+              "title": "Time Series Analysis with Python"
+            },
+            {
+              "lessonID": "PY00705",
+              "title": "Portfolio Optimization with Python"
+            },
+            {
+              "lessonID": "PY00706",
+              "title": "Options Trading Strategies with Python"
+            },
+            {
+              "lessonID": "PY00707",
+              "title": "Risk Management with Python"
+            },
+            {
+              "lessonID": "PY00708",
+              "title": "Deploying Python Finance Projects"
+            }
+          ]
+        },
+        {
+          "about": "Are you ready to take your Python skills to the next level? This course is designed to introduce you to fundamental data structures and algorithms and teach you how to implement them in Python. You'll explore various data structures such as arrays, linked lists, stacks, queues, trees, and graphs, and learn how to apply algorithms like sorting, searching, and graph traversal. Through hands-on coding exercises and real-world examples, you'll gain a deep understanding of how data structures and algorithms work and how to analyze their time and space complexity. Whether you're preparing for coding interviews or aiming to become a more efficient programmer, this course will provide you with the essential knowledge and skills. Join us and embark on an exciting journey into the world of data structures and algorithms in Python!",
+          "description": "Learn how to implement common data structures and algorithms in Python.",
+          "difficulty": "Intermediate",
+          "id": "PY008",
+          "lessons": 12,
+          "studentsAmount": "3,000+",
+          "tags": [
+            "Algorithms",
+            "Data Structures"
+          ],
+          "title": "Data Structures and Algorithms in Python",
+          "topics": [
+            {
+              "lessonID": "PY00801",
+              "title": "Introduction to Data Structures and Algorithms"
+            },
+            {
+              "lessonID": "PY00802",
+              "title": "Arrays and Linked Lists"
+            },
+            {
+              "lessonID": "PY00803",
+              "title": "Stacks and Queues"
+            },
+            {
+              "lessonID": "PY00804",
+              "title": "Recursion and Backtracking"
+            },
+            {
+              "lessonID": "PY00805",
+              "title": "Sorting Algorithms"
+            },
+            {
+              "lessonID": "PY00806",
+              "title": "Searching Algorithms"
+            },
+            {
+              "lessonID": "PY00807",
+              "title": "Tree Data Structures"
+            },
+            {
+              "lessonID": "PY00808",
+              "title": "Graph Data Structures"
+            },
+            {
+              "lessonID": "PY00809",
+              "title": "Dynamic Programming"
+            },
+            {
+              "lessonID": "PY00810",
+              "title": "Big O Notation"
+            },
+            {
+              "lessonID": "PY00811",
+              "title": "Common Algorithms and Data Structures Interview Questions"
+            },
+            {
+              "lessonID": "PY00812",
+              "title": "Applying Data Structures and Algorithms in Real-World Projects"
+            }
+          ]
+        },
+        {
+          "about": "Are you interested in creating visually appealing and interactive applications? This course will teach you how to develop graphical user interfaces (GUIs) using Python and popular libraries like Tkinter and PyQt. You'll learn how to design and customize windows, buttons, menus, and other GUI elements, and how to handle user input and events. Through hands-on projects and exercises, you'll gain practical experience in building various types of applications, such as desktop tools, games, and data visualization tools. Whether you're a beginner or an experienced Python developer, this course will equip you with the skills to create professional-looking GUIs and enhance the user experience of your Python applications. Join us and start building engaging and interactive interfaces with Python!",
+          "description": "Build graphical user interfaces (GUIs) using Python and libraries like Tkinter and PyQt.",
+          "difficulty": "Intermediate",
+          "id": "PY009",
+          "lessons": 10,
+          "studentsAmount": "2,500+",
+          "tags": [
+            "GUI Programming",
+            "Tkinter",
+            "PyQt"
+          ],
+          "title": "Python GUI Programming",
+          "topics": [
+            {
+              "lessonID": "PY00901",
+              "title": "Introduction to GUI Programming with Python"
+            },
+            {
+              "lessonID": "PY00902",
+              "title": "Creating Windows and Dialogs with Tkinter"
+            },
+            {
+              "lessonID": "PY00903",
+              "title": "Designing User Interfaces with PyQt Designer"
+            },
+            {
+              "lessonID": "PY00904",
+              "title": "Programming GUIs with PyQt"
+            },
+            {
+              "lessonID": "PY00905",
+              "title": "Advanced GUI Programming Techniques with Python"
+            },
+            {
+              "lessonID": "PY00906",
+              "title": "Data Visualization with Matplotlib"
+            },
+            {
+              "lessonID": "PY00907",
+              "title": "Working with Databases in GUI Applications"
+            },
+            {
+              "lessonID": "PY00908",
+              "title": "Creating Custom Widgets with Tkinter and PyQt"
+            },
+            {
+              "lessonID": "PY00909",
+              "title": "Debugging and Testing GUI Applications"
+            },
+            {
+              "lessonID": "PY00910",
+              "title": "Packaging and Distributing GUI Applications"
+            }
+          ]
+        },
+        {
+          "about": "Do you want to gather data from websites quickly and efficiently? This course will teach you the fundamentals of web scraping using Python. You'll learn how to extract data from web pages, scrape structured data from HTML using libraries like BeautifulSoup, and automate the process with tools like Scrapy. You'll explore various techniques for handling different types of web content, such as static pages, dynamic pages, and APIs. Through practical examples and real-world projects, you'll gain hands-on experience in web scraping and data extraction. By the end of the course, you'll have the skills to build your own web scrapers and collect valuable data for analysis, research, or other purposes. Join us and unlock the power of Python for web scraping!",
+          "description": "Learn how to extract data from websites using Python and libraries like BeautifulSoup and Scrapy.",
+          "difficulty": "Intermediate",
+          "id": "PY010",
+          "lessons": 8,
+          "studentsAmount": "1,800+",
+          "tags": [
+            "Web Scraping",
+            "Data Extraction"
+          ],
+          "title": "Python Web Scraping",
+          "topics": [
+            {
+              "lessonID": "PY01001",
+              "title": "Introduction to Web Scraping with Python"
+            },
+            {
+              "lessonID": "PY01002",
+              "title": "Understanding HTML and CSS"
+            },
+            {
+              "lessonID": "PY01003",
+              "title": "Scraping Data with BeautifulSoup"
+            },
+            {
+              "lessonID": "PY01004",
+              "title": "Scraping Data with Scrapy"
+            },
+            {
+              "lessonID": "PY01005",
+              "title": "Scraping Dynamic Web Pages"
+            },
+            {
+              "lessonID": "PY01006",
+              "title": "Handling Data with Pandas"
+            },
+            {
+              "lessonID": "PY01007",
+              "title": "Storing Data with SQLite"
+            },
+            {
+              "lessonID": "PY01008",
+              "title": "Putting it All Together: A Web Scraping Project"
+            }
+          ]
+        },
+        {
+          "about": "Are you ready to take your Python skills to the next level? In this advanced Python course, we dive deep into topics that will elevate your programming expertise. We'll explore advanced concepts such as metaclasses, decorators, and concurrency. You'll learn how to create classes with metaclasses to customize the behavior of your objects, use decorators to modify the functionality of functions and classes, and leverage concurrency to write efficient and responsive Python code. Through hands-on examples and challenging exercises, you'll gain a deeper understanding of Python's powerful features and how to apply them effectively in your projects. Whether you're building complex applications, optimizing performance, or exploring the inner workings of Python, this course will equip you with the knowledge and skills to tackle advanced Python programming challenges. Join us on this exciting journey of mastering advanced Python topics!",
+          "description": "Explore advanced topics in Python programming, including metaclasses, decorators, and concurrency.",
+          "difficulty": "Advanced",
+          "id": "PY011",
+          "lessons": 10,
+          "studentsAmount": "1,200+",
+          "tags": [
+            "Metaclasses",
+            "Decorators",
+            "Concurrency"
+          ],
+          "title": "Advanced Python Topics",
+          "topics": [
+            {
+              "lessonID": "PY01101",
+              "title": "Introduction to Metaclasses"
+            },
+            {
+              "lessonID": "PY01102",
+              "title": "Advanced Decorators"
+            },
+            {
+              "lessonID": "PY01103",
+              "title": "Concurrency with Threads and Processes"
+            },
+            {
+              "lessonID": "PY01104",
+              "title": "Asynchronous Programming with asyncio"
+            },
+            {
+              "lessonID": "PY01105",
+              "title": "Advanced OOP Concepts in Python"
+            },
+            {
+              "lessonID": "PY01106",
+              "title": "Functional Programming in Python"
+            },
+            {
+              "lessonID": "PY01107",
+              "title": "Advanced Python Data Structures"
+            },
+            {
+              "lessonID": "PY01108",
+              "title": "Python for Scientific Computing"
+            },
+            {
+              "lessonID": "PY01109",
+              "title": "Python for Machine Learning"
+            },
+            {
+              "lessonID": "PY01110",
+              "title": "Python for Web Development"
+            }
+          ]
+        },
+        {
+          "about": "Are you interested in diving into the fascinating world of machine learning? This course is designed to teach you how to use Python and popular machine learning libraries like scikit-learn and TensorFlow to build and train powerful machine learning models. Whether you're new to the field or already have some experience, this course will provide you with the necessary knowledge and skills to tackle real-world machine learning problems. From understanding the fundamentals of machine learning to implementing advanced algorithms, you'll learn how to preprocess data, select and evaluate models, and optimize their performance. You'll also gain insights into different types of machine learning tasks such as classification, regression, and clustering. Through hands-on projects and practical exercises, you'll get to apply your newly acquired skills to real datasets and gain confidence in your ability to solve complex machine learning problems. Join us on this exciting journey to become proficient in using Python for machine learning!",
+          "description": "Learn how to use Python and popular machine learning libraries like scikit-learn and TensorFlow to build and train machine learning models.",
+          "difficulty": "Intermediate",
+          "id": "PY012",
+          "lessons": 12,
+          "studentsAmount": "2,500+",
+          "tags": [
+            "Machine Learning",
+            "Data Science"
+          ],
+          "title": "Python for Machine Learning",
+          "topics": [
+            {
+              "lessonID": "PY01201",
+              "title": "Introduction to Machine Learning"
+            },
+            {
+              "lessonID": "PY01202",
+              "title": "Data Preprocessing for Machine Learning"
+            },
+            {
+              "lessonID": "PY01203",
+              "title": "Regression Analysis with Python"
+            },
+            {
+              "lessonID": "PY01204",
+              "title": "Classification with Python"
+            },
+            {
+              "lessonID": "PY01205",
+              "title": "Clustering with Python"
+            },
+            {
+              "lessonID": "PY01206",
+              "title": "Neural Networks and Deep Learning with Python"
+            },
+            {
+              "lessonID": "PY01207",
+              "title": "Machine Learning Pipelines with scikit-learn"
+            },
+            {
+              "lessonID": "PY01208",
+              "title": "Natural Language Processing with Python"
+            },
+            {
+              "lessonID": "PY01209",
+              "title": "Recommendation Engines with Python"
+            },
+            {
+              "lessonID": "PY01210",
+              "title": "Deploying Machine Learning Models"
+            },
+            {
+              "lessonID": "PY01211",
+              "title": "Advanced Topics in Machine Learning"
+            },
+            {
+              "lessonID": "PY01212",
+              "title": "Case Studies and Applications"
+            }
+          ]
+        },
+        {
+          "about": "In today's digital age, the ability to process and understand human language is of utmost importance. This course focuses on using Python for natural language processing (NLP), enabling you to harness the power of language for various applications. Through this course, you'll gain a solid understanding of the principles and techniques used in NLP. You'll learn how to preprocess text data, perform text classification, and conduct sentiment analysis using Python and popular NLP libraries like NLTK and spaCy. By the end of this course, you'll be equipped with the knowledge and skills to build your own NLP applications and extract valuable insights from text data. Join us on this journey to unlock the potential of Python for natural language processing!",
+          "description": "Learn how to use Python for natural language processing tasks like text classification and sentiment analysis.",
+          "difficulty": "Intermediate",
+          "id": "PY013",
+          "lessons": 12,
+          "studentsAmount": "1,800+",
+          "tags": [
+            "NLP",
+            "Text Classification",
+            "Sentiment Analysis"
+          ],
+          "title": "Python for Natural Language Processing",
+          "topics": [
+            {
+              "lessonID": "PY01301",
+              "title": "Introduction to Natural Language Processing"
+            },
+            {
+              "lessonID": "PY01302",
+              "title": "Working with Text Data in Python"
+            },
+            {
+              "lessonID": "PY01303",
+              "title": "Preprocessing Text Data with NLTK"
+            },
+            {
+              "lessonID": "PY01304",
+              "title": "Text Classification with Naive Bayes"
+            },
+            {
+              "lessonID": "PY01305",
+              "title": "Text Classification with Support Vector Machines"
+            },
+            {
+              "lessonID": "PY01306",
+              "title": "Sentiment Analysis with NLTK"
+            },
+            {
+              "lessonID": "PY01307",
+              "title": "Sentiment Analysis with TextBlob"
+            },
+            {
+              "lessonID": "PY01308",
+              "title": "Topic Modeling with LDA"
+            },
+            {
+              "lessonID": "PY01309",
+              "title": "Named Entity Recognition with spaCy"
+            },
+            {
+              "lessonID": "PY01310",
+              "title": "Building a Chatbot with Python and NLTK"
+            },
+            {
+              "lessonID": "PY01311",
+              "title": "Deploying NLP Models with Flask"
+            },
+            {
+              "lessonID": "PY01312",
+              "title": "Advanced NLP Topics"
+            }
+          ]
+        },
+        {
+          "about": "Are you ready to take your machine learning skills to the next level? This advanced Python course is designed to delve deeper into the world of machine learning and equip you with the knowledge and techniques needed to tackle complex problems. You'll explore advanced topics such as deep learning, where you'll learn to build and train neural networks using libraries like TensorFlow and Keras. Additionally, you'll dive into reinforcement learning, a field that combines machine learning and decision-making processes. Through hands-on projects and real-world examples, you'll gain practical experience in applying advanced machine learning algorithms to solve challenging problems. By the end of this course, you'll be equipped with the skills and confidence to take on advanced machine learning projects and make a significant impact in the field. Join us on this exciting journey into the realm of advanced machine learning with Python!",
+          "description": "Explore advanced machine learning techniques in Python, including deep learning and reinforcement learning.",
+          "difficulty": "Advanced",
+          "id": "PY014",
+          "lessons": 15,
+          "studentsAmount": "2,500+",
+          "tags": [
+            "Machine Learning",
+            "Deep Learning",
+            "Reinforcement Learning"
+          ],
+          "title": "Python for Machine Learning",
+          "topics": [
+            {
+              "lessonID": "PY01401",
+              "title": "Introduction to Machine Learning"
+            },
+            {
+              "lessonID": "PY01402",
+              "title": "Supervised Learning: Regression"
+            },
+            {
+              "lessonID": "PY01403",
+              "title": "Supervised Learning: Classification"
+            },
+            {
+              "lessonID": "PY01404",
+              "title": "Unsupervised Learning: Clustering"
+            },
+            {
+              "lessonID": "PY01405",
+              "title": "Unsupervised Learning: Dimensionality Reduction"
+            },
+            {
+              "lessonID": "PY01406",
+              "title": "Deep Learning with Neural Networks"
+            },
+            {
+              "lessonID": "PY01407",
+              "title": "Convolutional Neural Networks for Image Classification"
+            },
+            {
+              "lessonID": "PY01408",
+              "title": "Recurrent Neural Networks for Time Series Analysis"
+            },
+            {
+              "lessonID": "PY01409",
+              "title": "Generative Adversarial Networks for Image Generation"
+            },
+            {
+              "lessonID": "PY01410",
+              "title": "Reinforcement Learning with Q-Learning"
+            },
+            {
+              "lessonID": "PY01411",
+              "title": "Reinforcement Learning with Deep Q-Networks"
+            },
+            {
+              "lessonID": "PY01412",
+              "title": "Natural Language Processing with Deep Learning"
+            },
+            {
+              "lessonID": "PY01413",
+              "title": "Transfer Learning for Machine Learning"
+            },
+            {
+              "lessonID": "PY01414",
+              "title": "Building Machine Learning Pipelines"
+            },
+            {
+              "lessonID": "PY01415",
+              "title": "Deploying Machine Learning Models"
+            }
+          ]
+        },
+        {
+          "about": "Are you ready to dive deep into the fascinating world of deep learning? This course is designed to provide you with a comprehensive understanding of deep learning concepts and equip you with the skills to build and train neural networks using Python. You'll learn how to leverage popular deep learning frameworks such as TensorFlow and PyTorch to implement various architectures and solve real-world problems. From convolutional neural networks for image recognition to recurrent neural networks for natural language processing, you'll explore a wide range of deep learning applications. Throughout the course, you'll work on hands-on projects and gain practical experience in designing, training, and evaluating deep neural networks. By the end, you'll have a solid foundation in deep learning and be ready to apply this powerful technology to your own projects. Join us on this exciting journey into the world of deep learning with Python!",
+          "description": "Learn how to use Python and popular deep learning frameworks like TensorFlow and PyTorch to build neural networks.",
+          "difficulty": "Advanced",
+          "id": "PY015",
+          "lessons": 18,
+          "studentsAmount": "1,800+",
+          "tags": [
+            "Deep Learning",
+            "Neural Networks",
+            "TensorFlow",
+            "PyTorch"
+          ],
+          "title": "Python for Deep Learning",
+          "topics": [
+            {
+              "lessonID": "PY01501",
+              "title": "Introduction to Deep Learning"
+            },
+            {
+              "lessonID": "PY01502",
+              "title": "Working with Data in Deep Learning"
+            },
+            {
+              "lessonID": "PY01503",
+              "title": "Building and Training a Neural Network with TensorFlow"
+            },
+            {
+              "lessonID": "PY01504",
+              "title": "Advanced Neural Network Architectures with TensorFlow"
+            },
+            {
+              "lessonID": "PY01505",
+              "title": "Convolutional Neural Networks with TensorFlow"
+            },
+            {
+              "lessonID": "PY01506",
+              "title": "Recurrent Neural Networks with TensorFlow"
+            },
+            {
+              "lessonID": "PY01507",
+              "title": "Autoencoders with TensorFlow"
+            },
+            {
+              "lessonID": "PY01508",
+              "title": "Generative Adversarial Networks with TensorFlow"
+            },
+            {
+              "lessonID": "PY01509",
+              "title": "Building and Training a Neural Network with PyTorch"
+            },
+            {
+              "lessonID": "PY01510",
+              "title": "Advanced Neural Network Architectures with PyTorch"
+            },
+            {
+              "lessonID": "PY01511",
+              "title": "Convolutional Neural Networks with PyTorch"
+            },
+            {
+              "lessonID": "PY01512",
+              "title": "Recurrent Neural Networks with PyTorch"
+            },
+            {
+              "lessonID": "PY01513",
+              "title": "Autoencoders with PyTorch"
+            },
+            {
+              "lessonID": "PY01514",
+              "title": "Generative Adversarial Networks with PyTorch"
+            },
+            {
+              "lessonID": "PY01515",
+              "title": "Transfer Learning with Deep Learning"
+            },
+            {
+              "lessonID": "PY01516",
+              "title": "Deployment and Productionizing of Deep Learning Models"
+            },
+            {
+              "lessonID": "PY01517",
+              "title": "Advanced Deep Learning Topics"
+            },
+            {
+              "lessonID": "PY01518",
+              "title": "Project: Build a Deep Learning Model from Scratch"
+            }
+          ]
+        },
+        {
+          "about": "Unlock the power of computer vision with Python! This course will take you on a journey into the exciting field of computer vision, where you'll learn how to analyze and manipulate images and videos using Python and the popular OpenCV library. From basic image processing techniques like filtering and transformations to advanced topics such as object detection and tracking, you'll gain a deep understanding of computer vision algorithms and their applications. Throughout the course, you'll work on hands-on projects that will challenge you to apply your knowledge to real-world scenarios. By the end, you'll be able to develop computer vision applications that can extract meaningful information from visual data. Whether you're interested in robotics, autonomous vehicles, or image recognition, this course will equip you with the skills to tackle complex computer vision tasks using Python.",
+          "description": "Learn how to use Python and libraries like OpenCV to analyze and manipulate images and videos.",
+          "difficulty": "Advanced",
+          "id": "PY016",
+          "lessons": 14,
+          "studentsAmount": "1,200+",
+          "tags": [
+            "Computer Vision",
+            "Image Processing",
+            "OpenCV"
+          ],
+          "title": "Python for Computer Vision",
+          "topics": [
+            {
+              "lessonID": "PY01601",
+              "title": "Introduction to Computer Vision"
+            },
+            {
+              "lessonID": "PY01602",
+              "title": "Image Processing with OpenCV"
+            },
+            {
+              "lessonID": "PY01603",
+              "title": "Image Filtering and Transformation with OpenCV"
+            },
+            {
+              "lessonID": "PY01604",
+              "title": "Object Detection with OpenCV"
+            },
+            {
+              "lessonID": "PY01605",
+              "title": "Face Recognition with OpenCV"
+            },
+            {
+              "lessonID": "PY01606",
+              "title": "Image Segmentation with OpenCV"
+            },
+            {
+              "lessonID": "PY01607",
+              "title": "Feature Detection and Matching with OpenCV"
+            },
+            {
+              "lessonID": "PY01608",
+              "title": "Motion Analysis and Tracking with OpenCV"
+            },
+            {
+              "lessonID": "PY01609",
+              "title": "Camera Calibration with OpenCV"
+            },
+            {
+              "lessonID": "PY01610",
+              "title": "3D Reconstruction with OpenCV"
+            },
+            {
+              "lessonID": "PY01611",
+              "title": "Video Processing and Analysis with OpenCV"
+            },
+            {
+              "lessonID": "PY01612",
+              "title": "Object Tracking with OpenCV"
+            },
+            {
+              "lessonID": "PY01613",
+              "title": "Deep Learning for Computer Vision with TensorFlow and Keras"
+            },
+            {
+              "lessonID": "PY01614",
+              "title": "Advanced Topics in Computer Vision"
+            }
+          ]
+        },
+        {
+          "about": "Take your natural language processing skills to the next level with Python! In this course, you'll delve into the fascinating field of natural language generation (NLG) and learn how to generate human-like text using Python. You'll explore state-of-the-art techniques like GPT-3 (Generative Pre-trained Transformer 3) and LSTM (Long Short-Term Memory) neural networks to create text that can mimic human speech patterns, generate stories, write code snippets, and much more. Throughout the course, you'll work on hands-on projects that will allow you to apply NLG techniques to real-world scenarios. By the end, you'll have a solid understanding of NLG algorithms and the ability to generate high-quality text in various domains. Whether you're interested in chatbots, content generation, or creative writing, this course will equip you with the skills to excel in the exciting field of natural language generation using Python.",
+          "description": "Learn how to use Python to generate human-like text using techniques like GPT-3 and LSTM.",
+          "difficulty": "Advanced",
+          "id": "PY017",
+          "lessons": 20,
+          "studentsAmount": "900+",
+          "tags": [
+            "NLP",
+            "Text Generation",
+            "GPT-3",
+            "LSTM"
+          ],
+          "title": "Python for Natural Language Generation",
+          "topics": [
+            {
+              "lessonID": "PY01701",
+              "title": "Introduction to Natural Language Generation"
+            },
+            {
+              "lessonID": "PY01702",
+              "title": "Working with Text Data in Python"
+            },
+            {
+              "lessonID": "PY01703",
+              "title": "Introduction to Neural Networks"
+            },
+            {
+              "lessonID": "PY01704",
+              "title": "Recurrent Neural Networks (RNNs)"
+            },
+            {
+              "lessonID": "PY01705",
+              "title": "Long Short-Term Memory (LSTM) Networks"
+            },
+            {
+              "lessonID": "PY01706",
+              "title": "Introduction to Generative Models"
+            },
+            {
+              "lessonID": "PY01707",
+              "title": "Language Models and Text Generation"
+            },
+            {
+              "lessonID": "PY01708",
+              "title": "Training a Language Model with PyTorch"
+            },
+            {
+              "lessonID": "PY01709",
+              "title": "Fine-Tuning a Pretrained Language Model"
+            },
+            {
+              "lessonID": "PY01710",
+              "title": "GPT-3 and Advanced Language Models"
+            },
+            {
+              "lessonID": "PY01711",
+              "title": "Evaluation Metrics for Text Generation"
+            },
+            {
+              "lessonID": "PY01712",
+              "title": "Generating Text with LSTM Networks"
+            },
+            {
+              "lessonID": "PY01713",
+              "title": "Generating Text with GANs"
+            },
+            {
+              "lessonID": "PY01714",
+              "title": "Generating Image Captions with CNNs and RNNs"
+            },
+            {
+              "lessonID": "PY01715",
+              "title": "Generating Music with LSTM Networks"
+            },
+            {
+              "lessonID": "PY01716",
+              "title": "Generating Art with GANs"
+            },
+            {
+              "lessonID": "PY01717",
+              "title": "Generating Code with GPT-3 and Other Techniques"
+            },
+            {
+              "lessonID": "PY01718",
+              "title": "Ethical Considerations for Text Generation"
+            },
+            {
+              "lessonID": "PY01719",
+              "title": "Applications of Natural Language Generation"
+            },
+            {
+              "lessonID": "PY01720",
+              "title": "Deploying NLP Models with Flask"
+            }
+          ]
+        },
+        {
+          "about": "In the era of big data, Python has emerged as a powerful tool for processing and analyzing large datasets. In this course, you'll dive deep into the world of big data and learn how to harness the full potential of Python for data processing at scale. You'll explore popular big data processing frameworks like Apache Spark and Dask and understand how they integrate with Python to provide efficient and distributed data processing capabilities. Through hands-on exercises and projects, you'll gain practical experience in working with massive datasets, performing complex data transformations, and running advanced analytics using Python. Whether you're dealing with structured or unstructured data, this course will equip you with the skills to handle big data challenges and unlock valuable insights from your datasets using Python.",
+          "description": "Learn how to use Python to process and analyze large datasets using tools like Apache Spark and Dask.",
+          "difficulty": "Advanced",
+          "id": "PY018",
+          "lessons": 16,
+          "studentsAmount": "800+",
+          "tags": [
+            "Big Data",
+            "Data Processing",
+            "Apache Spark",
+            "Dask"
+          ],
+          "title": "Python for Big Data",
+          "topics": [
+            {
+              "lessonID": "PY01801",
+              "title": "Introduction to Big Data Processing"
+            },
+            {
+              "lessonID": "PY01802",
+              "title": "Working with Large Datasets in Python"
+            },
+            {
+              "lessonID": "PY01803",
+              "title": "Introduction to Distributed Computing"
+            },
+            {
+              "lessonID": "PY01804",
+              "title": "Introduction to Apache Spark"
+            },
+            {
+              "lessonID": "PY01805",
+              "title": "Working with Spark RDDs"
+            },
+            {
+              "lessonID": "PY01806",
+              "title": "Working with Spark DataFrames"
+            },
+            {
+              "lessonID": "PY01807",
+              "title": "Spark SQL and Data Analysis"
+            },
+            {
+              "lessonID": "PY01808",
+              "title": "Introduction to Dask"
+            },
+            {
+              "lessonID": "PY01809",
+              "title": "Working with Dask Arrays and DataFrames"
+            },
+            {
+              "lessonID": "PY01810",
+              "title": "Dask and Distributed Computing"
+            },
+            {
+              "lessonID": "PY01811",
+              "title": "Processing Big Data with Pandas"
+            },
+            {
+              "lessonID": "PY01812",
+              "title": "Processing Big Data with NumPy"
+            },
+            {
+              "lessonID": "PY01813",
+              "title": "Machine Learning with Big Data"
+            },
+            {
+              "lessonID": "PY01814",
+              "title": "Big Data Visualization"
+            },
+            {
+              "lessonID": "PY01815",
+              "title": "Big Data Streaming"
+            },
+            {
+              "lessonID": "PY01816",
+              "title": "Deploying Big Data Applications"
+            }
+          ]
+        },
+        {
+          "about": "DevOps practices have become essential for modern software development, and Python is a versatile language that plays a crucial role in this domain. In this course, you'll explore how Python can empower your DevOps workflows and enable efficient automation, infrastructure management, and application deployment. You'll learn how to leverage Python libraries and frameworks to create robust pipelines, provision and configure infrastructure resources, and monitor and troubleshoot applications. Through real-world examples and hands-on projects, you'll gain practical skills in using Python for continuous integration and delivery (CI/CD), configuration management, and cloud orchestration. By the end of the course, you'll be equipped with the knowledge and tools to streamline your DevOps processes, improve collaboration between development and operations teams, and enhance the reliability and scalability of your software deployments.",
+          "description": "Learn how to use Python to automate and manage infrastructure, build pipelines, and deploy applications.",
+          "difficulty": "Advanced",
+          "id": "PY019",
+          "lessons": 13,
+          "studentsAmount": "600+",
+          "tags": [
+            "DevOps",
+            "Automation",
+            "Deployment"
+          ],
+          "title": "Python for DevOps",
+          "topics": [
+            {
+              "lessonID": "PY01901",
+              "title": "Introduction to DevOps and Automation"
+            },
+            {
+              "lessonID": "PY01902",
+              "title": "Using Python for Infrastructure Management"
+            },
+            {
+              "lessonID": "PY01903",
+              "title": "Configuration Management with Ansible"
+            },
+            {
+              "lessonID": "PY01904",
+              "title": "Building and Managing Containers with Docker"
+            },
+            {
+              "lessonID": "PY01905",
+              "title": "Managing Kubernetes with Python"
+            },
+            {
+              "lessonID": "PY01906",
+              "title": "Building CI/CD Pipelines with Jenkins"
+            },
+            {
+              "lessonID": "PY01907",
+              "title": "Building CI/CD Pipelines with GitLab CI/CD"
+            },
+            {
+              "lessonID": "PY01908",
+              "title": "Building CI/CD Pipelines with Travis CI"
+            },
+            {
+              "lessonID": "PY01909",
+              "title": "Managing Infrastructure as Code with Terraform"
+            },
+            {
+              "lessonID": "PY01910",
+              "title": "Deploying Applications with Fabric"
+            },
+            {
+              "lessonID": "PY01911",
+              "title": "Managing Serverless Applications with AWS Lambda"
+            },
+            {
+              "lessonID": "PY01912",
+              "title": "Managing Cloud Resources with Boto3"
+            },
+            {
+              "lessonID": "PY01913",
+              "title": "Best Practices for Python DevOps"
+            }
+          ]
+        }
+      ]
+    }
+  }

@@ -1,0 +1,104 @@
+{
+    "sliders": [
+      {
+        "id": "1",
+        "title": "The Complete Web Developer Course",
+        "description": "Learn how to build modern web applications from scratch using HTML, CSS, and JavaScript. This course is for beginners.",
+        "bannerImage": "https://www.elegantthemes.com/blog/wp-content/uploads/2018/12/top11.png",
+        "tags": ["Web Development", "HTML", "CSS", "JavaScript"],
+        "difficulty": "Beginner",
+        "lesson": 30
+      },
+      {
+        "id": "2",
+        "title": "Python for Data Science",
+        "description": "Learn how to use Python to analyze and visualize data in this beginner-friendly course. No prior programming experience required!",
+        "bannerImage": "https://marvel-b1-cdn.bc0a.com/f00000000100045/www.elmhurst.edu/wp-content/uploads/2019/04/future-of-data-science-illustration-1.jpg",
+        "tags": ["Data Science", "Python"],
+        "difficulty": "Beginner",
+        "lesson": 20
+      },
+      {
+        "id": "3",
+        "title": "iOS App Development with Swift",
+        "description": "Build your first iOS app with Swift and Xcode in this hands-on course. Perfect for beginners and those new to Swift!",
+        "bannerImage": "https://www.classcentral.com/report/wp-content/uploads/2022/08/BCG-Swift-Featured-Banner.png",
+        "tags": ["iOS App Development", "Swift"],
+        "difficulty": "Intermediate",
+        "lesson": 25
+      },
+      {
+        "id": "4",
+        "title": "React Native: Build Mobile Apps for iOS and Android",
+        "description": "Learn how to build cross-platform mobile apps using React Native. This course is for beginners and those new to React Native.",
+        "bannerImage": "https://bamai.uma.ac.id/wp-content/uploads/2021/11/react-native-featured-image2.png",
+        "tags": ["React Native", "Mobile App Development"],
+        "difficulty": "Intermediate",
+        "lesson": 35
+      },
+      {
+        "id": "5",
+        "title": "JavaScript Programming: Master the Fundamentals",
+        "description": "Take your JavaScript skills to the next level with this comprehensive course. Perfect for those with some programming experience.",
+        "bannerImage": "https://www.searchenginejournal.com/wp-content/uploads/2022/05/javascript-seo-6286cc9ae2da3-sej-1280x720.png",
+        "tags": ["JavaScript", "Programming"],
+        "difficulty": "Intermediate",
+        "lesson": 40
+      },
+      {
+        "id": "6",
+        "title": "C++ Programming: From Beginner to Expert",
+        "description": "Learn the ins and outs of C++ programming with this in-depth course. Perfect for those looking to advance their programming skills.",
+        "bannerImage": "https://miro.medium.com/v2/resize:fit:1024/1*-MDzVCy15lQRWXWKWiVx8g.jpeg",
+        "tags": ["C++", "Programming"],
+        "difficulty": "Beginner",
+        "lesson": 50
+      },
+      {
+        "id": "7",
+        "main": "Java",
+        "title": "Java Programming: The Complete Guide",
+        "description": "Master the Java programming language with this comprehensive course. Perfect for intermediate and advanced programmers.",
+        "bannerImage": "https://www.digitalmarketingcoursesinpune.com/wp-content/uploads/2018/03/JAVA-Training-Banner.jpg",
+        "tags": ["Java", "Programming"],
+        "difficulty": "Intermediate",
+        "lesson": 62
+      },
+      {
+        "id": "8",
+        "main": "Data Science",
+        "title": "Advanced Data Science with R",
+        "description": "Take your data analysis skills to the next level with this advanced course in R programming. Perfect for those with some experience in data science.",
+        "bannerImage": "https://www.technotification.com/wp-content/uploads/2018/06/R-prograamming-for-data-science.jpg",
+        "tags": ["Data Science", "R Programming"],
+        "difficulty": "Advanced",
+        "lesson": 33
+      },
+      {
+        "id": "9",
+        "main": "Node.js",
+        "title": "Full-Stack Web Development with Node.js and React",
+        "description": "Build scalable web applications from scratch with Node.js and React. Perfect for intermediate and advanced web developers.",
+        "bannerImage": "https://www.cmarix.com/blog/wp-content/uploads/2022/10/What-are-the-Benefits-of-Using-Node.js-and-React-for-Web-App-Development.png",
+        "tags": [
+          "Node.js",
+          "React",
+          "Web Development",
+          "Full-Stack"
+        ],
+        "difficulty": "Advanced",
+        "lesson": 72
+      },
+      {
+        "id": "10",
+        "main": "Machine Learning",
+        "title": "Machine Learning with Python",
+        "description": "Discover the power of machine learning with Python in this intermediate-level course. Perfect for those with some programming experience.",
+        "bannerImage": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTtFXWao9sbX4P__SCJhLChXRdTkVur0sJTnQp5K0MtVR7U0-l3j5Yrpx41U2YSh4N671c-Wn7dJ68xim8cGAiexDI3IOdEV_vHpMsWdsZxSYU3TUpAzNEIVOOOV3O-wxa4caTUT2VwVTTy-R6GlGji1H4lhewb9WC5nmRCzN8Ofe7yF1NW6ArPI7Q/s1600/Tensorflow-septmber-update-social%20%281%29.png",
+        "tags": ["Python", "AI", "Machine Learning"],
+        "difficulty": "Advanced",
+        "lesson": 55
+      }
+    ]
+  }
+  
