@@ -2,6 +2,7 @@
     "courses": {
       "c": [
         {
+          "category":"c",
           "about": "C programming is a foundational language that forms the basis for many other programming languages. In this course, you'll dive into the fundamentals of C programming and gain a solid understanding of its syntax, data types, variables, operators, control structures, and functions. Whether you're a beginner or have some programming experience, this course will provide you with a strong foundation in C programming concepts. Through hands-on exercises and coding projects, you'll practice writing C code and develop your problem-solving skills. By the end of the course, you'll be able to write C programs to solve various tasks and have a solid understanding of the building blocks of programming.",
           "description": "Learn the basics of C programming, including data types, variables, operators, control structures, and functions.",
           "difficulty": "Beginner",
@@ -57,6 +58,7 @@
           ]
         },
         {
+          "category":"c",
           "about": "Arrays and strings are fundamental data structures in C programming that allow you to store and manipulate multiple values efficiently. In this course, you'll dive deeper into arrays and strings and learn how to use them effectively in your C programs. You'll explore topics such as array declaration, initialization, accessing array elements, and performing operations on strings like concatenation, comparison, and substring extraction. By the end of this course, you'll have a solid understanding of how to work with arrays and strings in C, which are essential skills for building more complex programs and data structures.",
           "description": "Understand how to use arrays and strings in C programming, including array declaration, initialization, accessing array elements, and string manipulation.",
           "difficulty": "Beginner",
@@ -104,6 +106,8 @@
           ]
         },
         {
+          "category":"c",
+          
           "about": "Pointers are a powerful feature in C programming that allow you to work directly with memory addresses and manipulate data at a lower level. In this course, you'll explore the concept of pointers and learn how to use them effectively in your C programs. You'll understand how pointers work, how to declare and initialize pointers, and how to perform operations such as dereferencing and pointer arithmetic. You'll also learn about pointer relationships, arrays, and pointers to structures. By the end of this course, you'll have a solid understanding of pointers in C and how they can be used to optimize and manipulate data in memory.",
           "description": "Learn about the concept of pointers in C programming and how to use them to manipulate data directly in memory.",
           "difficulty": "Intermediate",
@@ -167,6 +171,8 @@
           ]
         },
         {
+          "category":"c",
+          
           "about": "Dynamic memory allocation is an essential concept in C programming that allows you to allocate memory at runtime. In this course, you'll dive into dynamic memory allocation techniques using functions like malloc, calloc, and realloc. You'll learn how to allocate memory for arrays, structures, and strings dynamically. Additionally, you'll understand how to deallocate memory to prevent memory leaks. Throughout the course, you'll practice managing memory efficiently and handling common memory allocation scenarios. By the end, you'll have a solid understanding of dynamic memory allocation in C and be able to effectively allocate and deallocate memory based on your program's requirements.",
           "description": "Learn how to allocate and deallocate memory dynamically in C programming using functions such as malloc, calloc, and realloc.",
           "difficulty": "Intermediate",
@@ -210,6 +216,8 @@
           ]
         },
         {
+          "category":"c",
+          
           "about": "Structures and unions are powerful features in C programming that allow you to group related data elements together. In this course, you'll explore the concept of structures and unions, their syntax, and how to work with them effectively. You'll learn how to declare and initialize structures, access structure elements, and use structures to create complex data types. Additionally, you'll understand unions and their ability to share memory space among different data types. Through hands-on exercises and examples, you'll gain practical experience in utilizing structures and unions to organize and manipulate data in your C programs. By the end of the course, you'll have a solid understanding of structures and unions and be able to leverage their power in your C programming projects.",
           "description": "Learn how to use structures and unions in C programming, including declaration, initialization, accessing structure elements, and typecasting.",
           "difficulty": "Intermediate",
@@ -257,6 +265,8 @@
           ]
         },
         {
+          "category":"c",
+          
           "about": "File input/output (I/O) is an essential aspect of programming, allowing you to interact with external files for data storage and retrieval. In this course, you'll dive into the world of file I/O in C programming. You'll learn how to open files, read data from them, write data to them, and close files properly. Understanding file streams and their associated functions, you'll gain the knowledge to manipulate files effectively. You'll explore different modes of file access, including read, write, and append, and learn how to handle errors during file I/O operations. Through practical examples and exercises, you'll develop the skills to work with files seamlessly in your C programs. By the end of the course, you'll have a solid understanding of file input/output in C and be able to leverage it to handle data persistence and manipulation in your projects.",
           "description": "Understand how to perform file input/output operations in C programming, including opening, closing, reading, and writing files.",
           "difficulty": "Intermediate",
@@ -296,6 +306,8 @@
           ]
         },
         {
+          "category":"c",
+          
           "about": "Welcome to the course on Recursion in C! In this course, you will dive into the fascinating world of recursion and learn how to implement recursive functions in C programming. Recursion is a powerful technique that allows you to solve complex problems by breaking them down into smaller, more manageable subproblems. By understanding the concept of a base case and recursive case, you will gain the ability to design elegant and efficient recursive algorithms. Through practical examples and hands-on exercises, you will develop a deep understanding of recursion and its applications in C programming. Get ready to enhance your problem-solving skills and take your programming abilities to the next level!",
           "description": "Learn how to implement recursive functions in C programming, including base case, recursive case, and stack overflow.",
           "difficulty": "Intermediate",
@@ -331,6 +343,8 @@
           ]
         },
         {
+          "category":"c",
+          
           "about": "Welcome to the world of Advanced Data Structures in C! In this course, you'll explore the fascinating realm of trees, graphs, and hash tables and master their implementation in C programming. Gain the skills to solve complex problems with elegance and efficiency. Unleash your creativity as you craft intelligent algorithms to handle large data sets. Join us on this exciting journey to push the boundaries of what's possible in C programming. Let's dive in!",
           "description": "Learn about advanced data structures such as trees, graphs, and hash tables, and how to implement them in C programming.",
           "difficulty": "Advanced",
@@ -386,6 +400,8 @@
           ]
         },
         {
+          "category":"c",
+          
           "about": "Embark on a journey into the realm of Concurrency in C, where the symphony of threads and the dance of synchronization await you. In this course, tailored to the bold and curious, you'll unlock the secrets of writing concurrent programs that harness the power of parallelism. Through a tapestry of threads, synchronized actions, and mutual exclusion techniques, you'll gain the ability to orchestrate harmonious interactions among multiple tasks. Discover the art of striking a delicate balance between efficiency and correctness as you navigate the intricate landscape of concurrency. Get ready to craft robust and responsive programs that embrace the true essence of multitasking. Join this adventure and unleash your creativity in the world of Concurrency in C. Are you prepared to synchronize your steps and unleash the power of parallel programming? Let's dive in!",
           "description": "Understand how to write concurrent programs in C using threads, synchronization, and mutual exclusion techniques.",
           "difficulty": "Advanced",
@@ -436,6 +452,8 @@
           ]
         },
         {
+          "category":"c",
+          
           "about": "Welcome to the comprehensive course on Socket Programming in C! Join us on an enlightening journey into the realm of network application development, where you'll gain the skills to create powerful and reliable connections using the time-tested language of C. Through meticulous exploration and hands-on exercises, you'll unlock the secrets of socket programming, mastering the art of socket creation, binding, and connecting. Whether you're building client-server architectures, crafting real-time communication systems, or exploring distributed computing paradigms, this course equips you with the essential knowledge to navigate the intricate world of networking. With practical examples and expert guidance, you'll gain the confidence to tackle complex challenges and design efficient network applications. Prepare to embark on an extraordinary expedition into Socket Programming in C and unleash the potential of networked communication. Are you ready to connect your programming prowess with the world of networks? Let's begin!",
           "description": "Learn how to create network applications using socket programming in C, including socket creation, binding, and connecting.",
           "difficulty": "Advanced",
@@ -483,6 +501,8 @@
           ]
         },
         {
+          "category":"c",
+          
           "about": "Immerse yourself in the realm of OpenGL Programming in C, where the fusion of art and technology gives rise to stunning visual experiences. In this academically enriched course, you'll unravel the intricacies of creating 2D and 3D graphics using the powerful OpenGL framework and the versatile C programming language. Through a systematic exploration of basic OpenGL functions, rendering techniques, and shading principles, you'll acquire a deep understanding of the underlying principles that govern computer graphics. With hands-on projects and captivating exercises, you'll hone your skills in transforming abstract concepts into vibrant visual representations. Join us on this intellectual odyssey as we navigate the realms of light, texture, and perspective, and delve into the realm of immersive virtual worlds. Are you ready to unleash your creative potential and master the art of OpenGL Programming in C? Let's embark on this captivating journey together!",
           "description": "Understand how to create 2D and 3D graphics using OpenGL programming in C, including basic OpenGL functions, rendering, and shading.",
           "difficulty": "Advanced",
@@ -546,6 +566,8 @@
           ]
         },
         {
+          "category":"c",
+          
           "about": "Welcome to the world of Compiler Design in C, where the art of transforming code takes center stage. In this advanced-level course, you'll delve into the intricate process of designing and implementing a compiler using the versatile C programming language. From lexical analysis and parsing to semantic analysis, code generation, and optimization, you'll gain a comprehensive understanding of each stage involved in turning high-level code into executable programs. Through a blend of theoretical knowledge and practical exercises, you'll develop the skills to dissect complex code structures, analyze their semantics, and generate efficient machine code. Join us on this intellectual journey as we explore the inner workings of programming languages and unleash the power of compiler design. Are you ready to unravel the magic behind code transformation and shape the future of programming? Let's dive into the world of Compiler Design in C!",
           "description": "Learn how to design and implement a compiler in C programming, including lexical analysis, parsing, semantic analysis, code generation, and optimization.",
           "difficulty": "Advanced",
@@ -589,6 +611,8 @@
           ]
         },
         {
+          "category":"c",
+          
           "about": "Welcome to the world of Embedded Systems Programming in C, where the synergy of software and hardware unlocks endless possibilities. In this advanced-level course, you'll embark on a transformative journey to master the art of programming embedded systems using the versatile C programming language. From hardware interfaces to interrupts and timers, you'll delve into the intricacies of designing robust and efficient code that interacts seamlessly with the physical world. Through a combination of theoretical concepts and hands-on projects, you'll acquire the skills to harness the full potential of microcontrollers and build intelligent systems that respond to real-world stimuli. Join us on this enlightening expedition as we navigate the intersection of software and hardware, and empower ourselves to shape the future of technology. Are you ready to unleash your creativity and engineer groundbreaking embedded systems? Let's dive into the world of Embedded Systems Programming in C!",
           "description": "Understand how to program embedded systems using C programming, including hardware interfaces, interrupts, and timers.",
           "difficulty": "Advanced",
@@ -652,6 +676,8 @@
           ]
         },
         {
+          "category":"c",
+          
           "about": "Welcome to the captivating world of Data Structures and Algorithms in C! In this intermediate-level course, you'll embark on an exciting journey to master the fundamental building blocks of efficient and elegant software. Through a comprehensive exploration of arrays, linked lists, trees, graphs, sorting, and searching algorithms, you'll develop a deep understanding of how to organize, manipulate, and retrieve data with precision and speed. By leveraging the power of the C programming language, you'll acquire the skills to design and implement complex algorithms that solve real-world problems. With practical examples and interactive exercises, you'll sharpen your problem-solving abilities and enhance your programming proficiency. Join us on this enlightening quest as we unravel the secrets of data structures and algorithms, and unlock the door to a universe of limitless possibilities. Are you ready to optimize your code and unleash your potential as a programmer? Let's dive into the world of Data Structures and Algorithms in C!",
           "description": "Learn about data structures and algorithms using C programming, including arrays, linked lists, trees, graphs, sorting, and searching.",
           "difficulty": "Intermediate",
@@ -707,6 +733,8 @@
           ]
         },
         {
+          "category":"c",
+          
           "about": "Welcome to the exhilarating world of Parallel Programming in C, where the power of concurrency and high-performance computing awaits you. In this advanced-level course, you'll embark on a transformative journey to master the art of writing parallel programs using the versatile C programming language. By harnessing the capabilities of OpenMP, MPI, and CUDA, you'll unlock the potential to execute multiple tasks simultaneously, conquer massive computational challenges, and achieve exceptional performance. Through a blend of theoretical concepts, practical examples, and hands-on projects, you'll develop the skills to design efficient parallel algorithms, optimize resource utilization, and harness the power of distributed and GPU computing. Join us on this thrilling expedition as we explore the frontiers of parallelism, where speed and scalability reign supreme. Are you ready to dive into the world of Parallel Programming in C and unlock the true potential of your applications? Let's begin this extraordinary adventure!",
           "description": "Understand how to write parallel programs in C using OpenMP, MPI, and CUDA.",
           "difficulty": "Advanced",
@@ -768,6 +796,8 @@
       ],
       "java": [
         {
+          "category":"java",
+          
           "about": "Welcome to the captivating world of Java Programming for Beginners! This course is your gateway to the exciting realm of Java, where you'll uncover the art and science of writing elegant and efficient code. Through a meticulously crafted curriculum, you'll embark on an engaging journey to master the fundamental building blocks of Java. From understanding essential data types and control structures to delving deep into the principles of object-oriented programming, you'll acquire the skills to design and develop robust applications. With practical examples, interactive exercises, and a supportive learning environment, you'll gain hands-on experience to confidently apply your newfound knowledge. Join our vibrant community of learners and ignite your passion for programming with Java. With over 10,000 students already enrolled, you'll be part of a dynamic cohort of aspiring programmers. Are you ready to unleash your creativity and become proficient in Java? Let's begin this extraordinary adventure together!",
           "description": "Learn Java programming fundamentals, including data types, control structures, and object-oriented programming concepts.",
           "difficulty": "Beginner",
@@ -824,6 +854,8 @@
           ]
         },
         {
+          "category":"java",
+          
           "about": "Welcome to our Java Intermediate Programming course! Whether you're an aspiring developer or looking to enhance your Java skills, this course is designed to take your programming journey to the next level. In this course, you'll dive deep into the world of intermediate Java programming, where you'll master key concepts such as inheritance, polymorphism, and exception handling. Through a combination of comprehensive theory, practical examples, and hands-on projects, you'll gain a solid understanding of how to leverage these advanced features to build robust and scalable Java applications. Join our vibrant community of 10,000+ students, interact with experienced instructors, and collaborate with fellow learners to enhance your Java skills. Get ready to unlock new possibilities with Java Intermediate Programming!",
           "description": "Learn intermediate Java programming concepts, including inheritance, polymorphism, and exception handling.",
           "difficulty": "Intermediate",
@@ -888,6 +920,8 @@
           ]
         },
         {
+          "category":"java",
+          
           "about": "Welcome to our Advanced Java Programming course! Are you ready to take your Java skills to new heights? In this course, we'll delve into the advanced concepts that will empower you to develop high-performance and feature-rich Java applications. From mastering the intricacies of multithreading to harnessing the power of networking and diving into the world of GUI programming, you'll gain the knowledge and skills needed to create sophisticated Java applications that impress and delight users. Join our community of 5,000+ enthusiastic learners, interact with seasoned instructors, and collaborate with fellow students as you embark on this exciting journey. With our comprehensive curriculum and hands-on projects, you'll be well-equipped to tackle real-world Java programming challenges. Get ready to push the boundaries of Java programming with Advanced Java Programming!",
           "description": "Learn advanced Java programming concepts, including multithreading, networking, and GUI programming.",
           "difficulty": "Advanced",
@@ -964,6 +998,8 @@
           ]
         },
         {
+          "category":"java",
+          
           "about": "Welcome to the fascinating world of Data Structures and Algorithms in Java! In this course, we'll explore the fundamental building blocks of efficient programming. You'll gain a deep understanding of various data structures such as linked lists, trees, and arrays, and learn how to leverage them to solve complex problems. Dive into sorting algorithms like bubble sort, insertion sort, and merge sort, and discover searching algorithms such as linear search and binary search. Through engaging lectures, coding exercises, and real-world examples, you'll develop the skills needed to optimize your code and improve its performance. Join our vibrant community of 1,800+ learners and embark on this exciting journey to enhance your problem-solving abilities. Whether you're preparing for coding interviews or looking to strengthen your programming skills, Data Structures and Algorithms in Java will equip you with the tools you need to excel. Get ready to unlock the power of Java in tackling challenging programming problems!",
           "description": "Learn about common data structures and algorithms in Java, including linked lists, trees, sorting algorithms, and searching algorithms.",
           "difficulty": "Intermediate",
@@ -1039,6 +1075,8 @@
           ]
         },
         {
+          "category":"java",
+          
           "about": "Welcome to the exciting world of Java Web Development! In this course, you'll dive into the realm of building dynamic and interactive web applications using Java technologies. Discover the power of JSP (JavaServer Pages) and learn how to create dynamic web pages that can seamlessly interact with server-side code. Dive into the world of Servlets and gain hands-on experience in developing server-side components that handle user requests and produce dynamic responses. Explore the Spring framework, a powerful tool for building enterprise-grade Java applications, and leverage its features to enhance your web development projects. Throughout this course, you'll work on real-world projects, apply best practices, and gain valuable insights into the world of Java web development. Join our thriving community of 2,500+ students and embark on this enriching journey to master the art of Java web development. Whether you're an aspiring web developer or looking to enhance your Java skills, this course will equip you with the knowledge and expertise to create robust and scalable web applications.",
           "description": "Learn to build web applications using Java technologies, including JSP, Servlets, and Spring.",
           "difficulty": "Intermediate",
@@ -1104,6 +1142,8 @@
           ]
         },
         {
+          "category":"java",
+          
           "about": "Welcome to the world of Java Enterprise Development! In this comprehensive course, you'll acquire the skills and knowledge required to build robust and scalable enterprise applications using Java EE technologies. Explore the power of Enterprise JavaBeans (EJB) and learn how to design and implement distributed and transactional components that form the backbone of enterprise applications. Dive into the world of Java Persistence API (JPA) and master the techniques of object-relational mapping, allowing you to seamlessly interact with databases and handle complex data models. Discover Contexts and Dependency Injection (CDI) and leverage its capabilities to manage dependencies and enhance modularity in your enterprise applications. Throughout this course, you'll work on hands-on projects, gain insights into industry best practices, and develop a deep understanding of Java enterprise development. Join our thriving community of 1,800+ students and embark on this transformative journey to become an expert in building enterprise applications with Java EE.",
           "description": "Learn to build enterprise applications using Java EE technologies, including EJB, JPA, and CDI.",
           "difficulty": "Advanced",
@@ -1186,6 +1226,8 @@
           ]
         },
         {
+          "category":"java",
+          
           "about": "Embark on an exciting journey into the world of Java Mobile App Development! In this course, you'll discover the power of Java technologies for building mobile applications. Dive into Android app development and learn how to leverage the capabilities of the Android platform to create engaging and interactive mobile apps. Explore Java ME (Micro Edition) and uncover its potential for developing applications for resource-constrained devices. Throughout this course, you'll work on practical projects, gaining hands-on experience in building mobile apps that run smoothly on various devices. Join our community of 500+ students and unlock the immense potential of Java for mobile app development. Get ready to make your mark in the fast-paced and ever-evolving world of mobile technology!",
           "description": "Learn to build mobile applications using Java technologies, including Android app development and Java ME.",
           "difficulty": "Intermediate",
@@ -1242,6 +1284,8 @@
           ]
         },
         {
+          "category":"java",
+          
           "about": "Immerse yourself in the captivating world of Java Game Development! Unleash your creativity and learn how to bring your game ideas to life using Java technologies. Dive into game engines and discover the powerful tools that will assist you in building interactive and engaging games. Delve into the realm of 2D and 3D graphics, exploring techniques to render visually stunning game worlds. Master input handling and create responsive gameplay experiences. Throughout this course, you'll work on hands-on projects, designing and implementing your own games from scratch. Join our community of 1800+ students and embark on an exciting journey to become a skilled Java game developer. Get ready to captivate players with your innovative game creations!",
           "description": "Learn to build games using Java technologies, including game engines, 2D and 3D graphics, and input handling.",
           "difficulty": "Intermediate",
@@ -1304,6 +1348,8 @@
           ]
         },
         {
+          "category":"java",
+          
           "about": "Embark on an exhilarating journey into the world of Java Game Development! Immerse yourself in the art of creating captivating and immersive games using Java technologies. Discover the power of game engines and harness their features to bring your ideas to life. Dive into the realm of 2D and 3D graphics, mastering the techniques to design visually stunning game worlds. Learn how to handle user input effectively, providing engaging and responsive gameplay experiences. Throughout this course, you'll work on hands-on projects, building your own games from scratch and honing your skills as a Java game developer. Join our vibrant community of 5000+ students and unlock the potential to create thrilling and unforgettable gaming experiences!",
           "description": "Learn to build games using Java technologies, including game engines, 2D and 3D graphics, and input handling.",
           "difficulty": "Intermediate",
@@ -1366,6 +1412,8 @@
           ]
         },
         {
+          "category":"java",
+          
           "about": "Welcome to the realm of Advanced Java Programming! This course is designed to propel your Java skills to new heights, equipping you with the expertise to tackle complex programming challenges. Delve into the intricacies of multithreading, unlocking the ability to build highly concurrent and efficient applications. Explore the fascinating world of networking, where you'll learn how to create robust client-server architectures and facilitate seamless communication between systems. Master the art of data structures, acquiring the knowledge to efficiently organize and manipulate vast amounts of information. With 1800+ students already part of this enriching journey, you'll join a community of like-minded Java enthusiasts and gain invaluable insights from experienced instructors. Are you ready to elevate your Java prowess and unleash your potential in the world of advanced programming?",
           "description": "Take your Java programming skills to the next level with advanced concepts like multithreading, networking, and data structures.",
           "difficulty": "Advanced",
@@ -1442,6 +1490,8 @@
           ]
         },
         {
+          "category":"java",
+          
           "about": "Welcome to the world of Java Enterprise Development! This comprehensive course is tailored for those aspiring to build robust and scalable Java applications that meet the demands of the enterprise world. Through a deep dive into enterprise technologies like Spring and Hibernate, you'll gain the skills required to develop large-scale applications with confidence. Discover the power of the Spring Framework, enabling you to create flexible and modular architectures while leveraging dependency injection and aspect-oriented programming. Harness the capabilities of Hibernate, a renowned object-relational mapping framework, to interact seamlessly with databases and ensure data integrity. With 5000+ students already enrolled, you'll become part of a thriving community of Java developers, exchanging knowledge and experiences. Join us on this exciting journey of mastering Java Enterprise Development and unleash the full potential of your programming skills!",
           "description": "Learn how to build large-scale Java applications that are scalable, maintainable, and secure using popular enterprise technologies like Spring and Hibernate.",
           "difficulty": "Advanced",
@@ -1538,6 +1588,8 @@
           ]
         },
         {
+          "category":"java",
+          
           "about": "Welcome to the fascinating realm of Java Web Services! In this course, you'll delve into the world of building web services using Java, enabling seamless communication and data exchange between applications. Gain a solid understanding of RESTful web services, mastering the principles of resource-based architecture and leveraging the power of HTTP methods. Explore the SOAP protocol, a widely used standard for exchanging structured information in web services, and learn how to develop SOAP-based web services in Java. With 1800+ students already enrolled, you'll join a vibrant community of learners who are passionate about creating scalable and interoperable web services. By the end of this course, you'll have the knowledge and skills to design, implement, and consume web services using Java, empowering you to build robust and modern web applications.",
           "description": "Explore the world of web services with Java and learn how to build RESTful web services, SOAP-based web services, and more.",
           "difficulty": "Intermediate",
@@ -1602,6 +1654,8 @@
           ]
         },
         {
+          "category":"java",
+          
           "about": "Welcome to the exciting world of JavaFX Programming! In this course, you'll embark on a journey to master the art of creating captivating graphical user interfaces (GUIs) using JavaFX. JavaFX is a powerful framework that allows you to build visually appealing and interactive desktop applications with ease. Whether you're a seasoned Java developer or just starting your programming journey, this course will equip you with the skills to design and develop stunning GUIs that enhance user experience. With over 2500+ students already enrolled, you'll join a vibrant community of learners who are passionate about creating elegant and responsive desktop applications. By the end of this course, you'll have the confidence to unleash your creativity and build professional-quality JavaFX applications that will leave a lasting impression.",
           "description": "Learn how to create graphical user interfaces (GUIs) using JavaFX, a powerful framework for building Java desktop applications.",
           "difficulty": "Intermediate",
@@ -1658,6 +1712,8 @@
           ]
         },
         {
+          "category":"java",
+          
           "about": "Are you ready to dive into the world of Android development? Join our Java for Android Development course and unlock the potential to build stunning mobile applications for the Android platform. Java is the language of choice for Android development, and in this course, we'll take you through the essentials of Java programming and guide you through the process of creating powerful Android apps. With the support of over 3000+ students already enrolled, you'll become part of a thriving community of aspiring Android developers. We'll teach you how to leverage popular Android development tools like Android Studio and Gradle, enabling you to write clean and efficient code. By the end of this course, you'll have the knowledge and skills to bring your app ideas to life and make an impact in the exciting world of Android development.",
           "description": "Start building Android apps with Java, the language of choice for Android development, and learn how to use popular Android development tools like Android Studio and Gradle.",
           "difficulty": "Intermediate",
@@ -1738,6 +1794,8 @@
           ]
         },
         {
+          "category":"java",
+          
           "about": "Are you ready to embark on a journey into the world of web development with Java? Our Java for Web Development course is designed to equip you with the skills and knowledge to build dynamic and interactive web applications. With over 2500+ students already enrolled, you'll join a vibrant community of aspiring web developers. Throughout this course, you'll learn how to leverage the power of Java and popular web frameworks like Spring and Struts to create robust and scalable web applications. From handling databases to implementing user authentication and building RESTful APIs, you'll gain hands-on experience in building real-world web projects. By the end of the course, you'll have the expertise to develop professional web applications that meet the demands of the modern digital landscape.",
           "description": "Learn how to build dynamic, database-driven web applications with Java and popular web frameworks like Spring and Struts.",
           "difficulty": "Intermediate",
@@ -1826,6 +1884,8 @@
           ]
         },
         {
+          "category":"java",
+          
           "about": "Welcome to the Java Security Programming course, where we'll take your Java skills to the next level by focusing on application security. With over 1200+ students already enrolled, you'll join a community of developers dedicated to creating secure software. In today's digital landscape, the security of your applications is of utmost importance. Throughout this course, you'll learn essential techniques and practices to defend against common threats like SQL injection and cross-site scripting (XSS). We'll delve into secure authentication and authorization mechanisms, encryption techniques, and industry best practices to fortify your Java applications. By the end of this course, you'll have the expertise to develop secure Java applications that protect your users and their valuable data from potential vulnerabilities and attacks.",
           "description": "Learn how to secure your Java applications against various types of threats, including SQL injection, cross-site scripting (XSS), and more.",
           "difficulty": "Advanced",
@@ -1898,6 +1958,8 @@
           ]
         },
         {
+          "category":"java",
+          
           "about": "This course is designed for intermediate-level Java developers who are interested in creating games using Java technologies. In this course, you will learn how to use game engines like LibGDX and Unity to create 2D and 3D games. You will also learn about game design principles, input handling, and graphics programming. By the end of this course, you will have the skills and knowledge to create your own Java-based games and bring your game ideas to life.",
           "description": "Learn how to build games with Java, one of the most popular programming languages in the game development industry.",
           "difficulty": "Intermediate",
@@ -1962,6 +2024,8 @@
           ]
         },
         {
+          "category":"java",
+          
           "about": "Welcome to the world of Java microservices development! In this advanced course, you will dive deep into the concepts and practices of building scalable and resilient microservices using Java. You will learn how to leverage the power of Spring Boot and Netflix OSS frameworks to design and implement microservices architectures. Through hands-on projects and real-world examples, you will understand the principles of service discovery, fault tolerance, and distributed systems. By the end of this course, you will have the expertise to develop robust and efficient microservices using Java, empowering you to build scalable and flexible applications in the modern software landscape.",
           "description": "Explore the world of microservices with Java and learn how to build scalable and resilient microservices using popular Java technologies like Spring Boot and Netflix OSS.",
           "difficulty": "Advanced",
@@ -2058,6 +2122,8 @@
           ]
         },
         {
+          "category":"java",
+          
           "about": "Welcome to the world of advanced Java programming! In this course, we will take your Java skills to the next level. You will explore advanced topics such as multithreading, networking, and database connectivity. Dive deep into the world of design patterns and learn how to apply them effectively in your Java programs. Through practical examples and hands-on exercises, you will gain the expertise to write high-performance and scalable Java applications. Whether you want to enhance your career or tackle complex software projects, this course will equip you with the skills and knowledge to succeed. Join us on this journey to become an advanced Java programmer!",
           "description": "This course dives deeper into Java programming concepts and design patterns, and covers advanced topics such as multithreading, networking, and database connectivity.",
           "difficulty": "Advanced",
@@ -2135,6 +2201,8 @@
           ]
         },
         {
+          "category":"java",
+          
           "about": "Welcome to the world of advanced Java web development! In this course, you will master the skills required to build dynamic and robust web applications using Java. Explore the power of popular web frameworks like Spring and Hibernate, and learn how to leverage their features to create scalable and maintainable applications. Dive deep into building RESTful web services, handling user authentication and authorization, and integrating with databases for data persistence. Through a combination of theoretical concepts and hands-on projects, you will gain the expertise to develop enterprise-grade web applications. Join us on this journey and take your Java web development skills to the next level!",
           "description": "This course teaches you how to build dynamic web applications using Java and popular web frameworks like Spring and Hibernate. You will learn how to build RESTful web services, handle user authentication and authorization, and interact with databases.",
           "difficulty": "Advanced",
@@ -2237,6 +2305,8 @@
       ],
       "python": [
         {
+          "category":"python",
+          
           "about": "In Python Basics, you will embark on an exciting journey to master the fundamental concepts and techniques of Python programming. As a beginner, this course is tailored to your needs, providing a gentle introduction to the language. Through a hands-on approach, you will learn about data types, control flow, and functions, enabling you to create your own programs with confidence. Whether you dream of building web applications, automating tasks, or diving into data analysis, Python Basics will equip you with the skills necessary to turn your aspirations into reality.",
           "description": "Learn the fundamentals of Python programming, including data types, control flow, functions, and more.",
           "difficulty": "Beginner",
@@ -2292,6 +2362,7 @@
           ]
         },
         {
+          "category":"python",
           "about": "In this course, you will delve into the world of object-oriented programming in Python and discover its real-world applications. By mastering OOP principles and design patterns, you'll be equipped with the skills to develop scalable software solutions, build modular programs, and enhance code reusability. Whether you're looking to advance your career as a Python developer or broaden your programming knowledge, this course will empower you to create efficient and well-structured code that meets industry standards.",
           "description": "Learn how to use Python's object-oriented features to create reusable and maintainable code.",
           "difficulty": "Intermediate",
@@ -2339,6 +2410,8 @@
           ]
         },
         {
+          "category":"python",
+          
           "about": "Are you interested in the exciting field of data science? This course is your gateway to mastering Python for data science. With a strong focus on machine learning and data visualization, you'll gain the skills to analyze and interpret complex datasets, make predictions, and uncover valuable insights. Whether you're a beginner or an experienced programmer, this course will equip you with the tools and techniques needed to manipulate data, build statistical models, and create visually compelling visualizations. Join us on this data science journey and unlock endless possibilities with Python!",
           "description": "Learn Python for Data Science with a focus on machine learning and data visualization.",
           "difficulty": "Intermediate",
@@ -2403,6 +2476,8 @@
           ]
         },
         {
+          "category":"python",
+          
           "about": "Ready to dive into web development using Python? This course is designed to help you build dynamic and interactive web applications using Python and two popular web frameworks, Flask and Django. You'll learn how to create web APIs, handle user authentication and authorization, interact with databases, and design responsive user interfaces. Whether you're interested in developing simple websites or complex web applications, this course will provide you with the essential skills and knowledge to bring your ideas to life. Join us and embark on an exciting journey to become a proficient Python web developer!",
           "description": "Build web applications using Python and popular web frameworks like Flask and Django.",
           "difficulty": "Intermediate",
@@ -2459,6 +2534,8 @@
           ]
         },
         {
+          "category":"python",
+          
           "about": "Are you tired of performing repetitive tasks manually? Python can be your ultimate automation tool! In this course, you'll discover how to leverage Python's capabilities to automate various tasks and streamline your workflows. You'll learn about file manipulation, web scraping, working with APIs, scheduling tasks, and more. Whether you want to automate data processing, perform system administration tasks, or simplify your daily activities, this course will equip you with the skills and techniques needed to become an efficient Python automation developer. Join us and unlock the power of automation with Python!",
           "description": "Automate repetitive tasks and streamline your workflows using Python.",
           "difficulty": "Intermediate",
@@ -2506,6 +2583,8 @@
           ]
         },
         {
+          "category":"python",
+          
           "about": "Are you a network engineer looking to enhance your productivity and streamline network management? Python is a powerful tool that can help you automate repetitive network tasks and efficiently manage network devices. In this course, you'll dive into the world of network automation with Python. You'll learn how to interact with network devices programmatically, automate configuration changes, gather network information, and perform network monitoring tasks. With the knowledge and skills gained from this course, you'll be able to take your network engineering skills to the next level and become a more efficient and effective network professional. Join us and embark on your journey to becoming a Python-powered network engineer!",
           "description": "Learn how to use Python to automate network tasks and manage network devices.",
           "difficulty": "Intermediate",
@@ -2561,6 +2640,8 @@
           ]
         },
         {
+          "category":"python",
+          
           "about": "Are you interested in leveraging the power of Python for financial analysis and modeling? This course is designed to equip you with the necessary skills to analyze financial data and make informed decisions using Python. You'll learn how to retrieve financial data from various sources, perform statistical analysis, visualize financial trends, and build financial models. Whether you're a finance professional, investor, or simply interested in the world of finance, this course will provide you with valuable tools and techniques to enhance your financial analysis capabilities. Join us on this exciting journey and unlock the potential of Python for finance!",
           "description": "Learn how to use Python for financial analysis and modeling.",
           "difficulty": "Intermediate",
@@ -2608,6 +2689,8 @@
           ]
         },
         {
+          "category":"python",
+          
           "about": "Are you ready to take your Python skills to the next level? This course is designed to introduce you to fundamental data structures and algorithms and teach you how to implement them in Python. You'll explore various data structures such as arrays, linked lists, stacks, queues, trees, and graphs, and learn how to apply algorithms like sorting, searching, and graph traversal. Through hands-on coding exercises and real-world examples, you'll gain a deep understanding of how data structures and algorithms work and how to analyze their time and space complexity. Whether you're preparing for coding interviews or aiming to become a more efficient programmer, this course will provide you with the essential knowledge and skills. Join us and embark on an exciting journey into the world of data structures and algorithms in Python!",
           "description": "Learn how to implement common data structures and algorithms in Python.",
           "difficulty": "Intermediate",
@@ -2671,6 +2754,8 @@
           ]
         },
         {
+          "category":"python",
+          
           "about": "Are you interested in creating visually appealing and interactive applications? This course will teach you how to develop graphical user interfaces (GUIs) using Python and popular libraries like Tkinter and PyQt. You'll learn how to design and customize windows, buttons, menus, and other GUI elements, and how to handle user input and events. Through hands-on projects and exercises, you'll gain practical experience in building various types of applications, such as desktop tools, games, and data visualization tools. Whether you're a beginner or an experienced Python developer, this course will equip you with the skills to create professional-looking GUIs and enhance the user experience of your Python applications. Join us and start building engaging and interactive interfaces with Python!",
           "description": "Build graphical user interfaces (GUIs) using Python and libraries like Tkinter and PyQt.",
           "difficulty": "Intermediate",
@@ -2727,6 +2812,8 @@
           ]
         },
         {
+          "category":"python",
+          
           "about": "Do you want to gather data from websites quickly and efficiently? This course will teach you the fundamentals of web scraping using Python. You'll learn how to extract data from web pages, scrape structured data from HTML using libraries like BeautifulSoup, and automate the process with tools like Scrapy. You'll explore various techniques for handling different types of web content, such as static pages, dynamic pages, and APIs. Through practical examples and real-world projects, you'll gain hands-on experience in web scraping and data extraction. By the end of the course, you'll have the skills to build your own web scrapers and collect valuable data for analysis, research, or other purposes. Join us and unlock the power of Python for web scraping!",
           "description": "Learn how to extract data from websites using Python and libraries like BeautifulSoup and Scrapy.",
           "difficulty": "Intermediate",
@@ -2774,6 +2861,8 @@
           ]
         },
         {
+          "category":"python",
+          
           "about": "Are you ready to take your Python skills to the next level? In this advanced Python course, we dive deep into topics that will elevate your programming expertise. We'll explore advanced concepts such as metaclasses, decorators, and concurrency. You'll learn how to create classes with metaclasses to customize the behavior of your objects, use decorators to modify the functionality of functions and classes, and leverage concurrency to write efficient and responsive Python code. Through hands-on examples and challenging exercises, you'll gain a deeper understanding of Python's powerful features and how to apply them effectively in your projects. Whether you're building complex applications, optimizing performance, or exploring the inner workings of Python, this course will equip you with the knowledge and skills to tackle advanced Python programming challenges. Join us on this exciting journey of mastering advanced Python topics!",
           "description": "Explore advanced topics in Python programming, including metaclasses, decorators, and concurrency.",
           "difficulty": "Advanced",
@@ -2830,6 +2919,8 @@
           ]
         },
         {
+          "category":"python",
+          
           "about": "Are you interested in diving into the fascinating world of machine learning? This course is designed to teach you how to use Python and popular machine learning libraries like scikit-learn and TensorFlow to build and train powerful machine learning models. Whether you're new to the field or already have some experience, this course will provide you with the necessary knowledge and skills to tackle real-world machine learning problems. From understanding the fundamentals of machine learning to implementing advanced algorithms, you'll learn how to preprocess data, select and evaluate models, and optimize their performance. You'll also gain insights into different types of machine learning tasks such as classification, regression, and clustering. Through hands-on projects and practical exercises, you'll get to apply your newly acquired skills to real datasets and gain confidence in your ability to solve complex machine learning problems. Join us on this exciting journey to become proficient in using Python for machine learning!",
           "description": "Learn how to use Python and popular machine learning libraries like scikit-learn and TensorFlow to build and train machine learning models.",
           "difficulty": "Intermediate",
@@ -2893,6 +2984,8 @@
           ]
         },
         {
+          "category":"python",
+          
           "about": "In today's digital age, the ability to process and understand human language is of utmost importance. This course focuses on using Python for natural language processing (NLP), enabling you to harness the power of language for various applications. Through this course, you'll gain a solid understanding of the principles and techniques used in NLP. You'll learn how to preprocess text data, perform text classification, and conduct sentiment analysis using Python and popular NLP libraries like NLTK and spaCy. By the end of this course, you'll be equipped with the knowledge and skills to build your own NLP applications and extract valuable insights from text data. Join us on this journey to unlock the potential of Python for natural language processing!",
           "description": "Learn how to use Python for natural language processing tasks like text classification and sentiment analysis.",
           "difficulty": "Intermediate",
@@ -2957,6 +3050,8 @@
           ]
         },
         {
+          "category":"python",
+          
           "about": "Are you ready to take your machine learning skills to the next level? This advanced Python course is designed to delve deeper into the world of machine learning and equip you with the knowledge and techniques needed to tackle complex problems. You'll explore advanced topics such as deep learning, where you'll learn to build and train neural networks using libraries like TensorFlow and Keras. Additionally, you'll dive into reinforcement learning, a field that combines machine learning and decision-making processes. Through hands-on projects and real-world examples, you'll gain practical experience in applying advanced machine learning algorithms to solve challenging problems. By the end of this course, you'll be equipped with the skills and confidence to take on advanced machine learning projects and make a significant impact in the field. Join us on this exciting journey into the realm of advanced machine learning with Python!",
           "description": "Explore advanced machine learning techniques in Python, including deep learning and reinforcement learning.",
           "difficulty": "Advanced",
@@ -3033,6 +3128,8 @@
           ]
         },
         {
+          "category":"python",
+          
           "about": "Are you ready to dive deep into the fascinating world of deep learning? This course is designed to provide you with a comprehensive understanding of deep learning concepts and equip you with the skills to build and train neural networks using Python. You'll learn how to leverage popular deep learning frameworks such as TensorFlow and PyTorch to implement various architectures and solve real-world problems. From convolutional neural networks for image recognition to recurrent neural networks for natural language processing, you'll explore a wide range of deep learning applications. Throughout the course, you'll work on hands-on projects and gain practical experience in designing, training, and evaluating deep neural networks. By the end, you'll have a solid foundation in deep learning and be ready to apply this powerful technology to your own projects. Join us on this exciting journey into the world of deep learning with Python!",
           "description": "Learn how to use Python and popular deep learning frameworks like TensorFlow and PyTorch to build neural networks.",
           "difficulty": "Advanced",
@@ -3122,6 +3219,8 @@
           ]
         },
         {
+          "category":"python",
+          
           "about": "Unlock the power of computer vision with Python! This course will take you on a journey into the exciting field of computer vision, where you'll learn how to analyze and manipulate images and videos using Python and the popular OpenCV library. From basic image processing techniques like filtering and transformations to advanced topics such as object detection and tracking, you'll gain a deep understanding of computer vision algorithms and their applications. Throughout the course, you'll work on hands-on projects that will challenge you to apply your knowledge to real-world scenarios. By the end, you'll be able to develop computer vision applications that can extract meaningful information from visual data. Whether you're interested in robotics, autonomous vehicles, or image recognition, this course will equip you with the skills to tackle complex computer vision tasks using Python.",
           "description": "Learn how to use Python and libraries like OpenCV to analyze and manipulate images and videos.",
           "difficulty": "Advanced",
@@ -3194,6 +3293,8 @@
           ]
         },
         {
+          "category":"python",
+          
           "about": "Take your natural language processing skills to the next level with Python! In this course, you'll delve into the fascinating field of natural language generation (NLG) and learn how to generate human-like text using Python. You'll explore state-of-the-art techniques like GPT-3 (Generative Pre-trained Transformer 3) and LSTM (Long Short-Term Memory) neural networks to create text that can mimic human speech patterns, generate stories, write code snippets, and much more. Throughout the course, you'll work on hands-on projects that will allow you to apply NLG techniques to real-world scenarios. By the end, you'll have a solid understanding of NLG algorithms and the ability to generate high-quality text in various domains. Whether you're interested in chatbots, content generation, or creative writing, this course will equip you with the skills to excel in the exciting field of natural language generation using Python.",
           "description": "Learn how to use Python to generate human-like text using techniques like GPT-3 and LSTM.",
           "difficulty": "Advanced",
@@ -3291,6 +3392,8 @@
           ]
         },
         {
+          "category":"python",
+          
           "about": "In the era of big data, Python has emerged as a powerful tool for processing and analyzing large datasets. In this course, you'll dive deep into the world of big data and learn how to harness the full potential of Python for data processing at scale. You'll explore popular big data processing frameworks like Apache Spark and Dask and understand how they integrate with Python to provide efficient and distributed data processing capabilities. Through hands-on exercises and projects, you'll gain practical experience in working with massive datasets, performing complex data transformations, and running advanced analytics using Python. Whether you're dealing with structured or unstructured data, this course will equip you with the skills to handle big data challenges and unlock valuable insights from your datasets using Python.",
           "description": "Learn how to use Python to process and analyze large datasets using tools like Apache Spark and Dask.",
           "difficulty": "Advanced",
@@ -3372,6 +3475,8 @@
           ]
         },
         {
+          "category":"python",
+          
           "about": "DevOps practices have become essential for modern software development, and Python is a versatile language that plays a crucial role in this domain. In this course, you'll explore how Python can empower your DevOps workflows and enable efficient automation, infrastructure management, and application deployment. You'll learn how to leverage Python libraries and frameworks to create robust pipelines, provision and configure infrastructure resources, and monitor and troubleshoot applications. Through real-world examples and hands-on projects, you'll gain practical skills in using Python for continuous integration and delivery (CI/CD), configuration management, and cloud orchestration. By the end of the course, you'll be equipped with the knowledge and tools to streamline your DevOps processes, improve collaboration between development and operations teams, and enhance the reliability and scalability of your software deployments.",
           "description": "Learn how to use Python to automate and manage infrastructure, build pipelines, and deploy applications.",
           "difficulty": "Advanced",
