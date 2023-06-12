@@ -81,7 +81,7 @@ export default function About() {
               key={topic.lessonID}
               className="text-d-text py-4 border-b-[1px] border-d-secondary md:py-8">
               <h2 className="text-lg text-gray-400 md:text-xl">Lesson {index + 1}</h2>
-              <h1 className="text-xl font-bold uppercase md:text-2xl">{topic.title}</h1>
+              <h1 className="text-xl font-bold capitalize md:text-2xl">{topic.title}</h1>
             </div>
           );
         })}
