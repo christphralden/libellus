@@ -17,7 +17,7 @@ export default function Footer() {
             <a
               href="/error"
               className=" hover:text-d-accent mx-4">
-              LC095
+              Kelompok 1
             </a>
           </div>
           <div className="mt-8 md:mt-0 md:order-1">
