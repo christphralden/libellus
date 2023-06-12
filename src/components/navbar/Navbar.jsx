@@ -116,7 +116,7 @@ export default function Navbar() {
                 { label: 'Practice', value: '/practice' },
               ]}
               handleChange={toggleDropdown}
-              change={isDropdownOpen}>
+              change={IsNavbarScrolled}>
               <div className="my-auto"></div>
             </Dropdown>
           </div>

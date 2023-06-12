@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className=" mt-6 py-10 md:py-10 bg-d-secondary text-d-text relative md:mt-12 lg:mt-16 xl:mt-40">
+    <footer className=" mt-12 py-10 md:py-10 bg-d-secondary text-d-text relative lg:mt-16 xl:mt-40">
       <div className="w-full px-6 md:px-12 lg:px-16 xl:px-40">
         <div className="md:flex md:items-center md:justify-between">
           <div className="flex justify-center md:order-2 ">
@@ -20,7 +20,7 @@ export default function Footer() {
               Kelompok 1
             </a>
           </div>
-          <div className="mt-8 md:mt-0 md:order-1">
+          <div className="mt-8 justify-center flex flex-col items-center md:mt-0 md:order-1 md:items-start">
             <a
               href="/"
               className=" font-bold text-3xl prompt">

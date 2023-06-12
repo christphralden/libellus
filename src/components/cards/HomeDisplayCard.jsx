@@ -15,10 +15,10 @@ export default function HomeDisplayCard({ course }) {
           alt={course.title}
           className="w-full h-full rounded-xl object-cover z-10 opacity-75"
         />
-        <div className="absolute bottom-0 left-0 p-4 z-30 flex flex-col gap-2 md:p-8 lg:p-16">
+        <div className="absolute bottom-0 left-0 p-6 z-30 flex flex-col gap-2 md:p-12 lg:p-16">
           {fadeTransitions((style, course) => (
             <animated.div
-              className="text-xl text-d-text font-bold line-clamp-2 md:text-2xl lg:text-3xl"
+              className="text-2xl text-d-text font-bold line-clamp-2 md:text-3xl lg:text-3xl"
               style={style}
               key={course.id}>
               {course.title}
@@ -26,7 +26,7 @@ export default function HomeDisplayCard({ course }) {
           ))}
           {fadeTransitions((style, course) => (
             <animated.div
-              className="text-sm text-d-text line-clamp-1 md:text-md lg:text-lg"
+              className="text-md text-d-text line-clamp-1 md:text-lg lg:text-lg"
               style={style}
               key={course.id}>
               {course.description}
@@ -40,7 +40,7 @@ export default function HomeDisplayCard({ course }) {
               {course.tags.slice(0, window.innerWidth < 768 ? 3 : 6).map((tag) => (
                 <div
                   key={tag}
-                  className="px-2 py-1 text-d-text border-d-text border-2 rounded-xl text-xs lg:text-sm">
+                  className="px-2 py-1 text-d-text border-d-text border-2 rounded-lg text-sm">
                   {tag}
                 </div>
               ))}

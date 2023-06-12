@@ -15,7 +15,7 @@ export default function Home() {
         <div className="h-fit w-full">
           <HomeSlider courses={sliders}></HomeSlider>
         </div>
-        <div className="flex-col space-y-12">
+        <div className="flex flex-col gap-12">
           <ContentSlider title="Python 101" courses={python} category="python"></ContentSlider>
           <ContentSlider title="C Mastery" courses={c} category="c"></ContentSlider>
           <ContentSlider title="Complete Java Course" courses={java} category="java"></ContentSlider>

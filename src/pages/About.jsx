@@ -46,17 +46,17 @@ export default function About() {
   return (
     <div className="flex flex-col gap-12">
       <div
-        className={`w-screen h-[500px] ${bgColor} flex flex-col justify-between items-start text-d-text font-bold gap-8 px-6 md:px-12 lg:px-16 xl:px-40 pt-36`}>
-        <div className="flex flex-col gap-4 relative">
+        className={`w-screen h-[550px] ${bgColor} flex flex-col justify-between items-start text-d-text font-bold gap-8 px-6 md:px-12 lg:px-16 xl:px-40 pt-36`}>
+        <div className="flex flex-col w-full gap-4 relative">
           <div className="uppercase text-2xl text-d-text px-4 py-1 rounded-lg border-2 w-fit font-normal">
             {category}
           </div>
           <div className="text-4xl w-full md:text-6xl">{course.title}</div>
           <div className="font-light text-lg w-full line-clamp-2 md:text-xl">{course.description}</div>
-          <div className="h-fit flex text-lg rounded-xl flex-col justify-start md:text-xl">
-            <div className="flex gap-4 ">
+          <div className="h-fit flex text-lg rounded-xl flex-col justify-start md:text-xl ">
+            <div className="flex gap-4 overflow-x-scroll">
               {course.tags.map((tag, index) => {
-                return <div className="font-normal py-1 px-2 border-2 rounded-lg md:px-4">{tag}</div>;
+                return <div key={index} className="font-normal text-sm py-1 px-2 border-2 rounded-lg md:px-4 w-fit whitespace-nowrap">{tag}</div>;
               })}
             </div>
           </div>
