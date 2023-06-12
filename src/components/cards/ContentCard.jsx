@@ -16,7 +16,7 @@ export default function ContentCard({ courses, category }) {
 
   return (
     <Link to={`/details/${category}/${courses.id}`}>
-      <div className={`text-d-text bg-d-secondary w-60 h-64 rounded-md ${brColor} border-2 flex-col shadow-md mx-auto justify-between xl:w-80 relative`}>
+      <div className={`text-d-text bg-d-secondary w-60 h-60 rounded-md ${brColor} border-2 flex-col shadow-md mx-auto justify-between md:h-64 md:w-80 relative`}>
         <div className={`w-full ${bgColor} bg-d-easy px-4 py-2 rounded-t-sm  text-md font-medium`}>
           {courses.difficulty}
         </div>

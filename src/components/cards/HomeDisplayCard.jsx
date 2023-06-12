@@ -15,7 +15,7 @@ export default function HomeDisplayCard({ course }) {
           alt={course.title}
           className="w-full h-full rounded-xl object-cover z-10 opacity-75"
         />
-        <div className="absolute bottom-0 left-0 p-4 z-30 flex flex-col gap-2 md:p-8 lg:p-12">
+        <div className="absolute bottom-0 left-0 p-4 z-30 flex flex-col gap-2 md:p-8 lg:p-16">
           {fadeTransitions((style, course) => (
             <animated.div
               className="text-xl text-d-text font-bold line-clamp-2 md:text-2xl lg:text-3xl"

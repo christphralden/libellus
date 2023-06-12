@@ -4,6 +4,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { ProfileIcon } from '../ui/ProfileIcon';
 
 
+
 export default function Navbar() {
 
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -30,20 +31,22 @@ export default function Navbar() {
   }, []);
 
   const navbarColor = IsNavbarScrolled ? '#1a1c2299' : '#1a1c22';
+  const navbarHeight = IsNavbarScrolled ? '5rem' : '4rem';
   const navbarTransition = "all 0.5s"
 
   if(!shouldShowNavbar)return null;
   return (
-    <div className="fixed w-full flex justify-center z-50 backdrop-blur-md">
+    <div className="fixed w-full flex justify-center z-50 backdrop-blur-md items-center">
       <nav
         id="navbarid"
         className="w-full"
         style={{
           backgroundColor: navbarColor,
+          height:navbarHeight,
           transition: navbarTransition
         }}>
-        <div className="flex items-center justify-around h-20">
-          <div className="flex items-center gap-6 w-48 justify-center ">
+        <div className="flex items-center justify-between h-full px-6 md:px-12 lg:px-16 xl:px-40">
+          <div className="flex items-center gap-6 w-48 justify-start ">
             <button
               className="block lg:hidden text-3xl text-white focus:outline-none"
               onClick={toggleDropdown}>
@@ -92,7 +95,7 @@ export default function Navbar() {
               </div>
             )}
           </div>
-          <div className="flex gap-4 items-center w-fit justify-center lg:w-48">
+          <div className="flex gap-4 items-center w-fit justify-end lg:w-48">
             <img
               width="28"
               height="28"

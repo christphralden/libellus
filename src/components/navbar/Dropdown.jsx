@@ -10,7 +10,7 @@ export function Dropdown({ options, handleChange, change, children }) {
   });
 
   return (
-    <div className="dropdown border-t-2 border-d-accent lg:hidden w-full px-8 py-4">
+    <div className="dropdown border-t-2 border-d-accent lg:hidden w-full px-8 py-4 bg-d-primary">
       <animated.div
         style={spring}
         className=" text-lg">
