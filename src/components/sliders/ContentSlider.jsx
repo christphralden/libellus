@@ -30,8 +30,8 @@ export default function ContentSlider({ title, courses, category }) {
         </div> */}
 
         <div className='overflow-x-scroll w-full h-fit gap-6 flex px-6 md:px-12 md:gap-10 lg:px-16 xl:pl-40 xl:pr-10'>
-          {courses.map((course)=>{
-            return <ContentCard category={category} courses={course}/>
+          {courses.map((course, index)=>{
+            return <ContentCard key={index} category={category} courses={course}/>
           })}
         </div>
       </div>

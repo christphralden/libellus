@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className=" mt-20 py-10 md:py-10 bg-d-secondary text-d-text">
+    <footer className=" mt-40 py-10 md:py-10 bg-d-secondary text-d-text relative">
       <div className="w-full px-6 md:px-12 lg:px-16 xl:px-40">
         <div className="md:flex md:items-center md:justify-between">
           <div className="flex justify-center md:order-2 ">
