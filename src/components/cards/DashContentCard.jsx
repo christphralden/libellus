@@ -18,11 +18,11 @@ export default function DashContentCard({ courses, category, state }) {
       <Link to={`/details/${category}/${courses.id}`}>
         <div
           className={`text-d-text bg-d-secondary w-full aspect-square rounded-md ${brColor} border-2 flex-col shadow-md mx-auto justify-between max-h-64 max-w-80 relative`}>
-          <div className={`w-full ${bgColor} bg-d-easy px-4 py-1 rounded-t-sm  text-sm font-medium capitalize`}>
+          <div className={`w-full ${bgColor} bg-d-easy px-4 py-1 rounded-t-sm text-sm font-medium capitalize`}>
             {courses.category}
           </div>
           <div className="p-4">
-            <div className=" text-sm font-bold mb-2 line line-clamp-2">{courses.title}</div>
+            <div className=" text-sm font-bold mb-2 line line-clamp-2 md:text-md gi">{courses.title}</div>
             <div className="text-xs text-gray-300 line-clamp-1 hidden md:block">{courses.description}</div>
           </div>
           <div className="absolute text-d-text text-xs font-bold p-4 bottom-0 flex flex-col">

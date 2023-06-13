@@ -48,13 +48,13 @@ export default function Dashboard() {
             </button>
           </div>
           <div className="flex-col gap-2 flex">
-            <h1 className="text-lg text-d-text">
+            <h1 className="text-lg text-d-text md:text-xl">
               Welcome back, <span className="font-bold text-d-accent">{user}</span>
             </h1>
-            <div className="text-d-text text-md bg-d-secondary p-4 rounded-lg gap-2 flex flex-col">
+            <div className="text-d-text bg-d-secondary p-4 rounded-lg gap-2 flex flex-col">
               {/* BUAT SEMENTARA PAKE CAMOUNT DULU, NANTI GANTI JADI COMPLETED */}
-              <h1 className="px-2 py-1 rounded-lg text-xs border-2 w-fit">{level(coursesAmount)}</h1>
-              <div className="flex flex-col gap-1 text-sm">
+              <h1 className="px-2 py-1 rounded-lg text-xs border-2 w-fit md:text-sm">{level(coursesAmount)}</h1>
+              <div className="flex flex-col gap-1 text-sm md:text-base">
                 <h1>
                   <span className="font-bold">{coursesAmount}</span> Enrolled Courses
                 </h1>
@@ -66,7 +66,7 @@ export default function Dashboard() {
           </div>
         </div>
         <div className="flex flex-col gap-2">
-          <h1 className="text-d-text text-2xl font-bold">My Courses</h1>
+          <h1 className="text-d-text text-2xl font-bold md:text-3xl">My Courses</h1>
           {isToggled && (
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 gap-6 md:gap-8 overflow-hidden overflow-x-scroll">
               {enrolled.map((don) => (
