@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Footer from "./components/footer/Footer";
 import Dashboard from "./pages/Dashboard";
+import SignUp from "./pages/SignUp";
 // import Landing from "./pages/Landing";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route exact path="/details/:category/:id" element={<About/>}/>
         <Route exact path="/dashboard" element={<Dashboard/>}/>
+        <Route exact path="/signup" element={<SignUp/>}/>
       </Routes>
       <Footer/>
     </Router>

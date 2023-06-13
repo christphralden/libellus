@@ -102,7 +102,9 @@ export default function Navbar() {
               src="https://img.icons8.com/ios-filled/50/5f7adb/search--v1.png"
               alt="search--v1"
             />
-            <ProfileIcon />
+            <Link to="/signup">
+              <ProfileIcon />
+            </Link>
           </div>
         </div>
         {isDropdownOpen && (

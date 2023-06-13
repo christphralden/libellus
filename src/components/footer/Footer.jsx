@@ -26,11 +26,11 @@ export default function Footer() {
               className=" font-bold text-3xl prompt">
               LIBELLUS
             </a>
-            <p className="my-4">
+            <p className="my-4 text-center">
               Created By
               <span className="text-d-accent"> Alden, Albert, Ervan, Jose, Michael</span>
             </p>
-            <p className="text-base">Copyright ©️ 2023 Libellus. All rights reserved.</p>
+            <p className="text-base text-center">Copyright ©️ 2023 Libellus. All rights reserved.</p>
           </div>
         </div>
       </div>

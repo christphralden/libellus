@@ -11,7 +11,7 @@ export function Dropdown({ options, handleChange, change, children }) {
   const navbarColor = change ? '#1a1c2299' : '#1a1c22';
   const navbarTransition = "all 0.5s"
   return (
-    <div className="dropdown border-t-2 border-d-accent lg:hidden w-full px-8 py-4"
+    <div className="dropdown border-t-2 border-d-accent lg:hidden w-full px-8 py-4 "
     style={{
       backgroundColor: navbarColor,
       transition: navbarTransition
@@ -25,7 +25,7 @@ export function Dropdown({ options, handleChange, change, children }) {
             style={spring}>
             <Link
               to={option.value}
-              className="block py-1 text-white mb-2 hover:text-d-accent">
+              className="block py-2 text-white hover:text-d-accent">
               {option.label}
             </Link>
           </animated.div>

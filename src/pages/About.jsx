@@ -52,7 +52,7 @@ export default function About() {
             {category}
           </div>
           <div className="text-4xl w-full md:text-6xl">{course.title}</div>
-          <div className="font-light text-lg w-full line-clamp-2 md:text-xl">{course.description}</div>
+          <div className="font-light text-md w-full line-clamp-3 md:text-xl">{course.description}</div>
           <div className="h-fit flex text-lg rounded-xl flex-col justify-start md:text-xl ">
             <div className="flex gap-4 overflow-x-scroll">
               {course.tags.map((tag, index) => {
@@ -68,9 +68,9 @@ export default function About() {
         </button>
       </div>
       <div className="text-d-text flex justify-between px-6 md:px-12 lg:px-16 xl:px-40">
-        <div className=" flex flex-col gap-4 w-full">
-          <h1 className="text-3xl font-bold md:text-4xl">About this course</h1>
-          <h2 className="text-lg text-gray-400 md:text-xl">{course.about}</h2>
+        <div className=" flex flex-col gap-2 w-full">
+          <h1 className="text-2xl font-bold md:text-3xl">What you will learn</h1>
+          <h2 className="text-md text-gray-400 md:text-xl">{course.about}</h2>
         </div>
       </div>
 
@@ -80,8 +80,8 @@ export default function About() {
             <div
               key={topic.lessonID}
               className="text-d-text py-4 border-b-[1px] border-d-secondary md:py-8">
-              <h2 className="text-lg text-gray-400 md:text-xl">Lesson {index + 1}</h2>
-              <h1 className="text-xl font-bold capitalize md:text-2xl">{topic.title}</h1>
+              <h2 className="text-md text-gray-400 md:text-lg">Lesson {index + 1}</h2>
+              <h1 className="text-xl font-bold capitalize md:text-xl">{topic.title}</h1>
             </div>
           );
         })}

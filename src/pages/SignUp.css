@@ -1,0 +1,267 @@
+
+
+.logo {
+    display: flex;
+    gap: 40px;
+    justify-content: start;
+    z-index: 2;
+}
+
+.banner {
+    padding-top: 10vh;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.rectangle {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    z-index: 11;
+    transform: translate(-50%, -50%);
+    width: 35%;
+    opacity: 0.7;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.register {
+    text-align: center;
+}
+
+.register-title {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 2vw;
+    color: #1a1c22;
+}
+
+.register-item {
+    margin-bottom: 16px;
+}
+
+.inputod {
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5vw;
+}
+
+select {
+    width: 27vw;
+    height: 2.4vw;
+    border-radius: 10px;
+    font-family: "Reem Kufi Ink";
+    align-items: center;
+    justify-items: center;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vw;
+}
+
+.register-form input {
+  width: 130%;
+  border-radius: 10px;
+  padding: 8px;
+  margin-bottom: 8px;
+  font-family: "Reem Kufi Ink";
+}
+
+.register-form button {
+    width: 50%;
+    border-radius: 10px;
+    padding: 8px;
+    background-color: #5f7adb;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: "Reem Kufi Ink";
+}
+
+label {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+label input[type="checkbox"] {
+    width: 1vw;
+    height: 1vw;
+    align-items: center;
+}
+
+.checkbox-input {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 1vw;
+    height: 1vw;
+    position: relative;
+    border: 2px solid #1a1c22;
+    outline: none;
+    border-radius: 2px;
+    margin-right: 8px;
+}
+
+.checkbox-input:checked::before {
+    content: "\f00c";
+    font-family: "Font Awesome 5 Free";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8vw;
+    font-weight: bold;
+    color: #2e3239;
+}
+
+.checkbox-input:checked {
+    background-color: #2e3239;
+}
+
+.msg {
+    font-size: 1.2vw;
+    margin-top: 2vw;
+    color: #1a1c22;
+    font-weight: bold;
+}
+
+.checkbox-text {
+    width: 20vw;
+    color: black;
+    height: 1vw;
+    align-self: flex-start;
+}
+
+
+
+
+@media (max-width: 768px) {
+
+    .register-title {
+      margin-top: -10vw;
+    }
+
+    .logos {
+        font-size: 5vw;
+        top: 5%;
+        left: 40%;
+        z-index: 999;
+    }
+
+    .msg {
+        font-size: 2.2vw;
+        margin-top: 2.3vw;
+        color: #1a1c22;
+        font-weight: bold;
+    }    
+
+    .banner {
+        height: 100vw;
+    }
+
+    .rectangle {
+        left: 50%;
+        width: 100%;
+    }
+
+    .inputod {
+        width: 100%;
+    }
+
+    select {
+        width: 106%;
+        height: 40px;
+    }
+
+    .register-form input {
+        width: 100%;
+    }
+
+    .register-form button {
+        width: 80%;
+    }
+
+    .checkbox-text {
+      width: 40vw;
+    }
+}
+
+@media (max-width: 420px) {
+    .register-title {
+        margin-top: -5vw;
+    }
+
+    .logos {
+        font-size: 10vw;
+        width: 100vw;
+        margin-top: -3vw;
+        justify-content: center;
+        margin-left: -40vw;
+        background-color: black;
+        z-index: 999;
+    }
+
+    .banner {
+        height: 50vw;
+    }
+
+    .msg {
+        font-size: 4vw;
+        margin-top: 2.3vw;
+        color: #1a1c22;
+        font-weight: bold;
+    }    
+
+    .video-banner {
+        object-position: center;
+        height: 200vw;
+    }
+
+    .rectangle {
+        margin-top: 80%;
+        left: 50%;
+        width: 100%;
+        height: 400%;
+    }
+
+    .inputod {
+        width: 90%;
+    }
+
+    label {
+        width: 50vw;
+        margin-left: -6vw;
+        margin-bottom: 12vw;
+    }
+
+    select {
+        width: 96%;
+        height: 30px;
+    }
+    
+    .register-form input {
+        width: 90%;
+    }
+
+    .register-form button {
+        width: 70%;
+    }
+
+    .footer {
+        margin-top: 150vw;
+    }
+
+    .checkbox-text {
+        width: 60vw;
+    }
+}
