@@ -15,20 +15,21 @@ export default function About() {
     if (isEnrolled) {
       const confirmDrop = window.confirm('Are you sure you want to drop this course?');
       if (confirmDrop) {
-        setIsEnrolled(!isEnrolled);
         const enrolled = JSON.parse(localStorage.getItem('LIBELLUS_ENROLLED')) || [];
         const index = enrolled.findIndex((enroll) => enroll.id === id);
-  
-        if (index > -1) enrolled.splice(index, 1);
-        else enrolled.push(course);
-  
-        localStorage.setItem('LIBELLUS_ENROLLED', JSON.stringify(enrolled));
+        if (index > -1) {
+          enrolled.splice(index, 1);
+          setIsEnrolled(false);
+          localStorage.setItem('LIBELLUS_ENROLLED', JSON.stringify(enrolled));
+        }
       }
     } else {
-      setIsEnrolled(!isEnrolled);
+      setIsEnrolled(true);
+      const enrolled = JSON.parse(localStorage.getItem('LIBELLUS_ENROLLED')) || [];
+      enrolled.push(course);
+      localStorage.setItem('LIBELLUS_ENROLLED', JSON.stringify(enrolled));
     }
   };
-  
 
   useEffect(() => {
     const data = require('../lib/data/CoursesData.json');

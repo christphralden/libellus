@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
 import { useSpring, animated } from 'react-spring';
-import coursesData from '../lib/data/CoursesData.json';
-import ContentCard from '../components/cards/ContentCard';
+import data from '../lib/data/CoursesData.json';
 import DashContentCard from '../components/cards/DashContentCard';
 
 export default function ExplorePage() {
@@ -17,12 +15,10 @@ export default function ExplorePage() {
     setSidebarOpen(!sidebarOpen);
   };
 
-  const categories = Object.keys(coursesData.courses);
+  const categories = Object.keys(data.courses);
 
-  const filteredCourses =
-    selectedCategory !== '' ? coursesData.courses[selectedCategory] : Object.values(coursesData.courses).flat();
+  const filteredCourses = selectedCategory !== '' ? data.courses[selectedCategory] : Object.values(data.courses).flat();
 
-  // React Spring animation
   const sidebarAnimation = useSpring({
     transform: sidebarOpen ? 'translateX(0%)' : 'translateX(-100%)',
   });
@@ -84,7 +80,7 @@ export default function ExplorePage() {
         </button>
         <div className="flex">
           <div className="w-full flex flex-col gap-8">
-            <h1 className="text-d-text text-3xl font-bold">Courses</h1>
+            <h1 className="text-d-text text-3xl font-bold">Courses </h1>
             <div className="grid-rows-1 auto-rows-auto gap-y-4 gap-12 overflow-hidden overflow-x-scroll">
               {filteredCourses.map((course) => (
                 <DashContentCard
