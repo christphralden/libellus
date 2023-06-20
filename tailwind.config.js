@@ -10,7 +10,7 @@ module.exports = {
         'd-easy' : '#159f91',
         'd-med' : '#849bce',
         'd-hard' : '#5f7adb',
-        'd-text': '#f1f1f1',
+        'd-text': '#fdfeff',
       }
     },
   },

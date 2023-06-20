@@ -6,6 +6,7 @@ import About from "./pages/About";
 import Footer from "./components/footer/Footer";
 import Dashboard from "./pages/Dashboard";
 import SignUp from "./pages/SignUp";
+import Courses from "./pages/Courses";
 // import Landing from "./pages/Landing";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route exact path="/details/:category/:id" element={<About/>}/>
         <Route exact path="/dashboard" element={<Dashboard/>}/>
         <Route exact path="/signup" element={<SignUp/>}/>
+        <Route exact path="/courses" element={<Courses/>}/>
       </Routes>
       <Footer/>
     </Router>

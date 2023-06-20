@@ -12,15 +12,23 @@ export default function About() {
   }, [id]);
 
   const toggleEnrolled = () => {
-    setIsEnrolled(!isEnrolled);
-    const enrolled = JSON.parse(localStorage.getItem('LIBELLUS_ENROLLED')) || [];
-    const index = enrolled.findIndex((enroll) => enroll.id === id);
-
-    if (index > -1) enrolled.splice(index, 1);
-    else enrolled.push(course);
-
-    localStorage.setItem('LIBELLUS_ENROLLED', JSON.stringify(enrolled));
+    if (isEnrolled) {
+      const confirmDrop = window.confirm('Are you sure you want to drop this course?');
+      if (confirmDrop) {
+        setIsEnrolled(!isEnrolled);
+        const enrolled = JSON.parse(localStorage.getItem('LIBELLUS_ENROLLED')) || [];
+        const index = enrolled.findIndex((enroll) => enroll.id === id);
+  
+        if (index > -1) enrolled.splice(index, 1);
+        else enrolled.push(course);
+  
+        localStorage.setItem('LIBELLUS_ENROLLED', JSON.stringify(enrolled));
+      }
+    } else {
+      setIsEnrolled(!isEnrolled);
+    }
   };
+  
 
   useEffect(() => {
     const data = require('../lib/data/CoursesData.json');
@@ -31,16 +39,13 @@ export default function About() {
 
   if (!course) return <div>Loading...</div>;
 
-  let bgColor, brColor;
+  let bgColor;
   if (course.difficulty === 'Beginner') {
     bgColor = 'bg-gradient-to-b from-d-easy';
-    brColor = 'border-d-easy';
   } else if (course.difficulty === 'Intermediate') {
     bgColor = 'bg-gradient-to-b from-d-med';
-    brColor = 'border-d-med';
   } else if (course.difficulty === 'Advanced') {
     bgColor = 'bg-gradient-to-b from-d-hard';
-    brColor = 'border-d-hard';
   }
 
   return (
@@ -56,19 +61,27 @@ export default function About() {
           <div className="h-fit flex text-lg rounded-xl flex-col justify-start md:text-xl ">
             <div className="flex gap-4 overflow-x-scroll">
               {course.tags.map((tag, index) => {
-                return <div key={index} className="font-normal text-sm py-1 px-2 border-2 rounded-lg md:px-4 w-fit whitespace-nowrap">{tag}</div>;
+                return (
+                  <div
+                    key={index}
+                    className="font-normal text-sm py-1 px-2 border-2 rounded-lg md:px-4 w-fit whitespace-nowrap">
+                    {tag}
+                  </div>
+                );
               })}
             </div>
           </div>
         </div>
         <button
           onClick={toggleEnrolled}
-          className={`bg-d-accent py-4 px-8 text-xl rounded-lg relative md:text-2xl`}>
+          className={`py-4 px-8 text-xl rounded-lg relative md:text-2xl ${
+            isEnrolled ? 'bg-d-secondary text-d-text' : 'bg-d-accent'
+          }`}>
           {isEnrolled ? 'Drop Course' : 'Enroll Course'}
         </button>
       </div>
       <div className="text-d-text flex justify-between px-6 md:px-12 lg:px-16 xl:px-40">
-        <div className=" flex flex-col gap-2 w-full">
+        <div className="flex flex-col gap-2 w-full">
           <h1 className="text-2xl font-bold md:text-3xl">What you will learn</h1>
           <h2 className="text-md text-gray-400 md:text-xl">{course.about}</h2>
         </div>

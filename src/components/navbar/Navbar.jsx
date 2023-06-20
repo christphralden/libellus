@@ -29,14 +29,17 @@ export default function Navbar() {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
+  useEffect(() => {
+    setIsDropdownOpen(false);
+  }, [location.pathname]);
 
-  const navbarColor = IsNavbarScrolled ? '#1a1c2299' : '#1a1c22';
+  const navbarColor = IsNavbarScrolled ? '#1a1c22' : '#1a1c22';
   const navbarHeight = IsNavbarScrolled ? '5rem' : '4rem';
   const navbarTransition = "all 0.5s"
 
   if(!shouldShowNavbar)return null;
   return (
-    <div className="fixed w-full flex justify-center z-50 backdrop-blur-md items-center">
+    <div className="fixed w-full flex justify-center z-50 items-center">
       <nav
         id="navbarid"
         className="w-full"

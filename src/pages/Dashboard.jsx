@@ -24,7 +24,7 @@ export default function Dashboard() {
 
   if (!enrolled || enrolled.length === 0) {
     return (
-      <div className="w-full p-20 px-6 pt-26 flex gap-8 flex-col min-h-[100vh] md:px-12 lg:px-16 xl:px-40">
+      <div className="w-full p-20 pt-24 px-6  flex gap-8 flex-col min-h-[100vh] md:px-12 lg:px-16 xl:px-40">
         <div className="flex flex-col gap-4">
           <div className="flex justify-between items-center">
             <h1 className="text-d-text text-3xl font-bold">Dashboard</h1>
@@ -71,7 +71,7 @@ export default function Dashboard() {
     );
   } else {
     return (
-      <div className="w-full p-20 px-6 pt-26 flex gap-8 flex-col min-h-[100vh] md:px-12 lg:px-16 xl:px-40">
+      <div className="w-full px-6 pt-24 flex gap-8 flex-col min-h-[100vh] md:px-12 lg:px-16 xl:px-40">
         <div className="flex flex-col gap-4">
           <div className="flex justify-between items-center">
             <h1 className="text-d-text text-3xl font-bold">Dashboard</h1>
