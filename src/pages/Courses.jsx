@@ -72,7 +72,7 @@ export default function ExplorePage() {
           </ul>
         </div>
       </animated.div>
-      <div className="flex flex-col p-20 pt-24 px-6 gap-8">
+      <div className="flex flex-col p-20 pt-24 px-6 gap-8  md:px-12 lg:px-16 xl:px-40">
         <button
           className="text-d-text text-xl font-bold text-center border-2 border-d-accent rounded-lg py-2"
           onClick={toggleSidebar}>
